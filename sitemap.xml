@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2018/07/31/%E5%86%99%E7%BB%99%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%80%E5%B0%81%E4%BF%A1/</loc>
+    
+    <lastmod>2018-08-09T13:12:23.511Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/categories/index.html</loc>
     
-    <lastmod>2018-08-09T12:45:21.404Z</lastmod>
+    <lastmod>2018-08-09T13:07:07.387Z</lastmod>
     
   </url>
   
@@ -40,13 +47,6 @@
     <loc>http://yoursite.com/2016/11/27/2016-11-27-gans/</loc>
     
     <lastmod>2018-04-24T18:09:04.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/07/31/%E5%86%99%E7%BB%99%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%80%E5%B0%81%E4%BF%A1/</loc>
-    
-    <lastmod>2018-04-24T04:13:28.000Z</lastmod>
     
   </url>
   
