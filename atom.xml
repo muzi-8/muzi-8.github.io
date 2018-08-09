@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-08-31T01:30:38.000Z</updated>
+  <updated>2018-08-09T12:19:46.953Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CSAPP课程（Computer Systems A Programmer&#39;s Perspective)</title>
+    <link href="http://yoursite.com/2018/08/09/CSAPP%E8%AF%BE%E7%A8%8B/"/>
+    <id>http://yoursite.com/2018/08/09/CSAPP课程/</id>
+    <published>2018-08-09T12:19:46.943Z</published>
+    <updated>2018-08-09T12:19:46.953Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Project" scheme="http://yoursite.com/categories/Project/"/>
+    
+    
+      <category term="Computer Systems" scheme="http://yoursite.com/tags/Computer-Systems/"/>
+    
+  </entry>
   
   <entry>
     <title>机器学习的可解译性</title>
