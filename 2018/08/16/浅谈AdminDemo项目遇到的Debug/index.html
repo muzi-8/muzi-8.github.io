@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="全栈," />
 
 
 
@@ -81,17 +81,29 @@
 
 
 
-<meta name="description" content="# -*- coding: utf-8 -*- # from __future__ import print_function import sys reload(sys) sys.setdefaultencoding(&amp;apos;utf-8&amp;apos;)  import win32com from win32com.client import Dispatch, constants w = wi">
+<meta name="description" content="作为一个工程师，或者一个程序员，可能最讨厌遇到的问题就是：程序出现bug，而作为一个全栈工程师，尤其是前端界面一直不能出现自己想要的效果，此时更是产生焦虑，深深地怀疑“人生”，最糟糕的情况可能会将工程搁置一旁，挫败感增强。 自己7月末参加了北京大学的可视化暑期学校，在8月上旬借着高温假的时间自己学习了安晓辉老师的全栈开发入门课程(MEAN.js)，是一门手把手教学怎么完成一个全后端的工程项目线上课">
+<meta name="keywords" content="全栈">
 <meta property="og:type" content="article">
-<meta property="og:title" content="解析word文档表格">
-<meta property="og:url" content="http://yoursite.com/2018/07/31/解析word文档/index.html">
+<meta property="og:title" content="浅谈AdminDemo项目遇到的Debug">
+<meta property="og:url" content="http://yoursite.com/2018/08/16/浅谈AdminDemo项目遇到的Debug/index.html">
 <meta property="og:site_name" content="muzi-8">
-<meta property="og:description" content="# -*- coding: utf-8 -*- # from __future__ import print_function import sys reload(sys) sys.setdefaultencoding(&amp;apos;utf-8&amp;apos;)  import win32com from win32com.client import Dispatch, constants w = wi">
+<meta property="og:description" content="作为一个工程师，或者一个程序员，可能最讨厌遇到的问题就是：程序出现bug，而作为一个全栈工程师，尤其是前端界面一直不能出现自己想要的效果，此时更是产生焦虑，深深地怀疑“人生”，最糟糕的情况可能会将工程搁置一旁，挫败感增强。 自己7月末参加了北京大学的可视化暑期学校，在8月上旬借着高温假的时间自己学习了安晓辉老师的全栈开发入门课程(MEAN.js)，是一门手把手教学怎么完成一个全后端的工程项目线上课">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-14T15:15:10.000Z">
+<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-16/10591553.jpg">
+<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-16/56627235.jpg">
+<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-16/3148652.jpg">
+<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-16/22700203.jpg">
+<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-16/71961703.jpg">
+<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-16/24318593.jpg">
+<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-16/68736671.jpg">
+<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-16/25667278.jpg">
+<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-16/24082741.jpg">
+<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-16/54100499.jpg">
+<meta property="og:updated_time" content="2018-08-16T15:46:02.420Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="解析word文档表格">
-<meta name="twitter:description" content="# -*- coding: utf-8 -*- # from __future__ import print_function import sys reload(sys) sys.setdefaultencoding(&amp;apos;utf-8&amp;apos;)  import win32com from win32com.client import Dispatch, constants w = wi">
+<meta name="twitter:title" content="浅谈AdminDemo项目遇到的Debug">
+<meta name="twitter:description" content="作为一个工程师，或者一个程序员，可能最讨厌遇到的问题就是：程序出现bug，而作为一个全栈工程师，尤其是前端界面一直不能出现自己想要的效果，此时更是产生焦虑，深深地怀疑“人生”，最糟糕的情况可能会将工程搁置一旁，挫败感增强。 自己7月末参加了北京大学的可视化暑期学校，在8月上旬借着高温假的时间自己学习了安晓辉老师的全栈开发入门课程(MEAN.js)，是一门手把手教学怎么完成一个全后端的工程项目线上课">
+<meta name="twitter:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-16/10591553.jpg">
 
 
 
@@ -121,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/07/31/解析word文档/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/08/16/浅谈AdminDemo项目遇到的Debug/"/>
 
 
 
 
 
-  <title>解析word文档表格 | muzi-8</title>
+  <title>浅谈AdminDemo项目遇到的Debug | muzi-8</title>
   
 
 
@@ -265,7 +277,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/31/解析word文档/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/16/浅谈AdminDemo项目遇到的Debug/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="muzi">
@@ -282,7 +294,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">解析word文档表格</h1>
+          <h1 class="post-title" itemprop="name headline">浅谈AdminDemo项目遇到的Debug</h1>
         
 
         <div class="post-meta">
@@ -294,8 +306,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-31T17:09:12+08:00">
-                2018-07-31
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-16T20:25:32+08:00">
+                2018-08-16
               </time>
             
 
@@ -304,6 +316,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/可视化/" itemprop="url" rel="index">
+                    <span itemprop="name">可视化</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -332,35 +366,39 @@
       
 
       
-        <pre><code># -*- coding: utf-8 -*-
-# from __future__ import print_function
-import sys
-reload(sys)
-sys.setdefaultencoding(&apos;utf-8&apos;)
+        <p>作为一个工程师，或者一个程序员，可能最讨厌遇到的问题就是：程序出现bug，而作为一个全栈工程师，尤其是前端界面一直不能出现自己想要的效果，此时更是产生焦虑，深深地怀疑“人生”，最糟糕的情况可能会将工程搁置一旁，挫败感增强。</p>
+<p>自己7月末参加了北京大学的可视化暑期学校，在8月上旬借着高温假的时间自己学习了<a href="https://www.zaih.com/mentor/84779110/" target="_blank" rel="noopener">安晓辉老师</a>的<a href="https://edu.csdn.net/course/play/1425/22488" target="_blank" rel="noopener">全栈开发入门课程</a>(MEAN.js)，是一门手把手教学怎么完成一个全后端的工程项目线上课程。每一节过后都有一个实践的实例，最后集成一个大的工程项目:WEB管控系统，此项目开源代码托管于安晓辉老师的github的<a href="https://github.com/foruok/XAdmin" target="_blank" rel="noopener">xdmin</a>项目中。<br><a id="more"></a><br>自己在课程项目当中有两节课就陷入了调试debug过程当中，在实现AdminDemo的作业当中，代码也是跟着视频进行全程敲写的，但是最终运行的前端界面一直出现不了自己的想要结果，查找原因，最终调试查找，记录如下：</p>
+<p>（注：以下两处都是自己在解决bug之后，重现bug，并以记录）</p>
+<p>##Debug1：左侧条目一直不能成功显示<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/10591553.jpg" alt=""></p>
+<p><div align="center">BUG显示界面</div><br>出现上述情况原因如下：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/56627235.jpg" alt=""></p>
+<p><div align="center">code工程界面</div><br>代码：</p>
+<pre><code>$scope.menus =[];
+</code></pre><p>语句的分号使用了<strong>中文分号“；”</strong>，使得前端出现莫名其妙的问题，这个问题之前在使用百度开源的Echarts前端可视化工具也曾遇到过，如此一个小的中英文问题使得前端效果一直出现不了。最终显示界面如下所示：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/3148652.jpg" alt=""></p>
+<p><div align="center">正常前端界面</div></p>
+<p>##Debug2：左侧条目“手风琴折叠样式”不能成功显示<br>当使用手风琴折叠样式的前端效果，课程提到需要引入以下几个新的js类库：</p>
+<ul>
+<li><p>angular-1.4.3.min.js</p>
+</li>
+<li><p>angular-animate.js</p>
+</li>
+<li><p>ui-bootstrap-tpls-0.13.3.min.js</p>
+</li>
+</ul>
+<p>正如作者提到下载UI组件的“ui-bootstrap-tpls-0.13.3.min.js”库使用github项目中的gh-pages分支<sup>[1]</sup><br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/22700203.jpg" alt=""><sup>[2]</sup></p>
+<p>运行之后前端显示如下：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/71961703.jpg" alt=""></p>
+<p><div align="center">BUG显示界面</div><br>debug信息如下：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/24318593.jpg" alt=""></p>
+<p><div align="center">终端运行信息与浏览器调试信息</div><br>运行浏览器调试信息第一行显示如下：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/68736671.jpg" alt=""></p>
+<p><div align="center">accordion-group.html信息</div><br>由于自己第一次接触ui-bootstrap组件的类库，当时并不清楚出现这个bug的原因所在，然后google此错误，大部分说在自己创建的js中没有使用’ui.bootstrap’,但是自己确实是按照视频当中的语句：</p>
+<pre><code>angular.module(x-admin,[&apos;ui.bootstrap&apos;,&apos;ngAnimate&apos;])
+</code></pre><p>最后自己的解决方案是将<a href="https://github.com/foruok/XAdmin" target="_blank" rel="noopener">xdmin</a>项目的相关js库替换自己的js库文件，然后再次运行程序，前端界面图下：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/25667278.jpg" alt=""></p>
+<p><div align="center">正常显示“手风琴折叠样式”界面</div><br>当看到前端界面能够如愿以偿的展示自己的想要结果，顿时感觉生活还是那么得美好！最终找到出现bug原因在于自己下载使用的“ui-bootstrap-tpls-0.13.3.min.js”库有问题：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/24082741.jpg" alt=""><br>正常的“ui-bootstrap-tpls-0.13.3.min.js”库如下所示：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/54100499.jpg" alt=""><br>对比可以发现确实是少了一些代码片段，导致前端报错：<strong>Failed to load resource</strong>.当自己再次查找下载源得时候发现原始类库是有相应得代码片段，也不知道自己为什么下载的ui-bootstrap-tpls-0.13.3.min.js竟然少<strong>手风琴折叠样式</strong>代码。</p>
+<p>##总结：<br>作为全栈的一个初学者，上述两个bug错误可能是每一个入门者难免遇到的问题，遂记录下来，若能够对后入坑的同学能够起到帮助作用，甚是欣慰。深刻体会到前端界面不能如愿以偿的显示想要自己的结果，有可能就是自己的一个很小的错误，然后花费大量的时间去找此问题，过程是多么地令人揪心与烦躁。不妨在遇到bug问题，暂时解决不了可以先放放，比如去跑个步，回来再理清思路，可能就解决了。</p>
+<p>Reference：</p>
+<ol>
+<li><a href="https://www.cnblogs.com/MuYunyun/p/6082359.html" target="_blank" rel="noopener">github的gh-pages分支展示自己的项目</a></li>
+<li><a href="https://blog.csdn.net/foruok/article/details/48173377" target="_blank" rel="noopener">Node.js开发入门-引入UIbootstrap</a></li>
+</ol>
 
-import win32com
-from win32com.client import Dispatch, constants
-w = win32com.client.Dispatch(&apos;Word.Application&apos;)
-w.Visible = 1
-w.Documents.Open( FileName = &apos;D:\muzi\\37.docx&apos;)  #路径不能存在中文
-doc = w.ActiveDocument
-count = doc.Tables.Count  #统计整个word文档有多少个表
-a = doc.Tables(1).rows.Count # 返回表格的行数
-b = doc.Tables(1).columns.Count # 返回表格的列数
-
-import collections
-Content = collections.OrderedDict()
-for num in range (count):
-    for i in range (doc.Tables(num+1).rows.Count):
-        key = re.sub(r&apos;\r\x07&apos;,&apos;&apos;,doc.Tables(num+1).Cell(Row= i+1,Column = 1).Range.Text) //正则化去除特殊符号
-        value = re.sub(r&apos;\r\07&apos;,&apos;&apos;,doc.Tables(num+1).Cell(Row=i+1,Column = 2).Range.Text) 
-        Content[key] = value
-    filename = &apos;D:\muzi\m&apos;  
-    import json
-    with open(filename+&apos;.json&apos;,&apos;a&apos;) as outfile:    //打开已存在的文件
-        json.dump(Content,outfile,ensure_ascii = False) //字典内容写入json文件中
-        outfile.write(&apos;\n&apos;)
-</code></pre>
       
     </div>
     
@@ -375,6 +413,12 @@ for num in range (count):
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/全栈/" rel="tag"># 全栈</a>
+          
+        </div>
+      
 
       
       
@@ -384,8 +428,8 @@ for num in range (count):
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/07/31/opencv安装问题/" rel="next" title="opencv离线安装问题">
-                <i class="fa fa-chevron-left"></i> opencv离线安装问题
+              <a href="/2018/08/09/CSAPP课程/" rel="next" title="CSAPP课程（Computer Systems A Programmer's Perspective)">
+                <i class="fa fa-chevron-left"></i> CSAPP课程（Computer Systems A Programmer's Perspective)
               </a>
             
           </div>
@@ -393,10 +437,6 @@ for num in range (count):
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/07/31/机器学习的可解释性/" rel="prev" title="机器学习的可解译性">
-                机器学习的可解译性 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
