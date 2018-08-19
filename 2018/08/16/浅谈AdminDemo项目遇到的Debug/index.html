@@ -99,7 +99,7 @@
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-16/25667278.jpg">
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-16/24082741.jpg">
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-16/54100499.jpg">
-<meta property="og:updated_time" content="2018-08-17T01:44:01.078Z">
+<meta property="og:updated_time" content="2018-08-17T06:01:13.317Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="浅谈AdminDemo项目遇到的Debug">
 <meta name="twitter:description" content="作为一个工程师，或者一个程序员，可能最讨厌遇到的问题就是：程序出现bug，而作为一个全栈工程师，尤其是前端界面一直不能出现自己想要的效果，此时更是产生焦虑，深深地怀疑“人生”，最糟糕的情况可能会将工程搁置一旁，挫败感增强。 自己7月末参加了北京大学的可视化暑期学校，在8月上旬借着高温假的时间自己学习了安晓辉老师的全栈开发入门课程(MEAN.js)，是一门手把手教学怎么完成一个全后端的工程项目线上课">
@@ -392,7 +392,7 @@
 <pre><code>angular.module(x-admin,[&apos;ui.bootstrap&apos;,&apos;ngAnimate&apos;])
 </code></pre><p>最后自己的解决方案是将<a href="https://github.com/foruok/XAdmin" target="_blank" rel="noopener">xdmin</a>项目的相关js库替换自己的js库文件，然后再次运行程序，前端界面图下：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/25667278.jpg" alt=""></p>
 <p><div align="center">正常显示“手风琴折叠样式”界面</div><br>当看到前端界面能够如愿以偿的展示自己的想要结果，顿时感觉生活还是那么得美好！最终找到出现bug原因在于自己下载使用的“ui-bootstrap-tpls-0.13.3.min.js”库有问题：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/24082741.jpg" alt=""><br>正常的“ui-bootstrap-tpls-0.13.3.min.js”库如下所示：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/54100499.jpg" alt=""><br>对比可以发现确实是少了一些代码片段，导致前端报错：<strong>Failed to load resource</strong>.当自己再次查找下载源得时候发现原始类库是有相应得代码片段，也不知道自己为什么下载的ui-bootstrap-tpls-0.13.3.min.js竟然少<strong>手风琴折叠样式</strong>代码。</p>
-<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p>作为全栈的一个初学者，上述两个bug错误可能是每一个入门者难免遇到的问题，遂记录下来，若能够对后入坑的同学能够起到帮助作用，甚是欣慰。深刻体会到前端界面不能如愿以偿的显示想要自己的结果，有可能就是自己的一个很小的错误，然后花费大量的时间去找此问题，过程是多么地令人揪心与烦躁。不妨在遇到bug问题，暂时解决不了可以先放放，比如去跑个步，回来再理清思路，可能就解决了。</p>
+<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p>作为全栈的一个初学者，上述两个bug错误可能是每一个入门者难免遇到的问题，遂记录下来，若能够对后入坑的同学起到帮助作用，甚是欣慰。深刻体会到前端界面不能如愿以偿的显示自己想要的结果，有可能就是自己的一个很小的错误，然后花费大量的时间去找此问题，过程是多么地令人揪心与烦躁。不妨在遇到bug问题，暂时解决不了可以先放放，比如去跑个步，回来再理清思路，可能就解决了。</p>
 <p>Reference：</p>
 <ol>
 <li><a href="https://www.cnblogs.com/MuYunyun/p/6082359.html" target="_blank" rel="noopener">github的gh-pages分支展示自己的项目</a></li>
@@ -437,6 +437,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/08/17/文献DeepTrackerVisualizing the Training Process of Convolutional Neural Networks解读/" rel="prev" title="文献DeepTracker:Visualizing the Training Process of Convolutional Neural Networks解读Ⅰ">
+                文献DeepTracker:Visualizing the Training Process of Convolutional Neural Networks解读Ⅰ <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -517,7 +521,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -528,7 +532,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -539,7 +543,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -613,6 +617,10 @@
                 
                   <li class="links-of-blogroll-item">
                     <a href="https://www.jianshu.com/u/ZQtGe6" title="北邮陈光(简书)" target="_blank">北邮陈光(简书)</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://github.com/fouber" title="云龙(全栈)" target="_blank">云龙(全栈)</a>
                   </li>
                 
               </ul>
