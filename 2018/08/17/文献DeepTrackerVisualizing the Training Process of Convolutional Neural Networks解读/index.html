@@ -81,22 +81,22 @@
 
 
 
-<meta name="description" content="这篇文章能够进入到我的视线，缘由也是在听屈老师介绍他们组的工作，这篇文章出自国内香港科技大学屈华民老师组的一篇大作，此文章收录在期刊TIST(ACM Transactions on Intelligent Systems and Technology),在自己博士课题方向的刚开始，接触此领域关注的第一篇文章是CNNvis，出自清华大学刘世霞老师组。 摘要/动机深度卷积网络已经在各个领域取得巨大成功">
+<meta name="description" content="这篇文章能够进入到我的视线，缘由也是在听屈老师介绍他们组的工作，这篇文章出自国内香港科技大学屈华民老师组的一篇大作，此文章收录在期刊TIST(ACM Transactions on Intelligent Systems and Technology),在自己博士课题方向的刚开始，接触此领域关注的第一篇文章是CNNvis，出自清华大学刘世霞老师组。">
 <meta name="keywords" content="可解释性AI">
 <meta property="og:type" content="article">
 <meta property="og:title" content="文献DeepTracker:Visualizing the Training Process of Convolutional Neural Networks解读Ⅰ">
 <meta property="og:url" content="http://yoursite.com/2018/08/17/文献DeepTrackerVisualizing the Training Process of Convolutional Neural Networks解读/index.html">
 <meta property="og:site_name" content="muzi-8">
-<meta property="og:description" content="这篇文章能够进入到我的视线，缘由也是在听屈老师介绍他们组的工作，这篇文章出自国内香港科技大学屈华民老师组的一篇大作，此文章收录在期刊TIST(ACM Transactions on Intelligent Systems and Technology),在自己博士课题方向的刚开始，接触此领域关注的第一篇文章是CNNvis，出自清华大学刘世霞老师组。 摘要/动机深度卷积网络已经在各个领域取得巨大成功">
+<meta property="og:description" content="这篇文章能够进入到我的视线，缘由也是在听屈老师介绍他们组的工作，这篇文章出自国内香港科技大学屈华民老师组的一篇大作，此文章收录在期刊TIST(ACM Transactions on Intelligent Systems and Technology),在自己博士课题方向的刚开始，接触此领域关注的第一篇文章是CNNvis，出自清华大学刘世霞老师组。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-18/97652655.jpg">
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-18/84688822.jpg">
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-18/81280187.jpg">
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-19/49672354.jpg">
-<meta property="og:updated_time" content="2018-08-19T14:55:51.245Z">
+<meta property="og:updated_time" content="2018-08-19T14:58:11.112Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="文献DeepTracker:Visualizing the Training Process of Convolutional Neural Networks解读Ⅰ">
-<meta name="twitter:description" content="这篇文章能够进入到我的视线，缘由也是在听屈老师介绍他们组的工作，这篇文章出自国内香港科技大学屈华民老师组的一篇大作，此文章收录在期刊TIST(ACM Transactions on Intelligent Systems and Technology),在自己博士课题方向的刚开始，接触此领域关注的第一篇文章是CNNvis，出自清华大学刘世霞老师组。 摘要/动机深度卷积网络已经在各个领域取得巨大成功">
+<meta name="twitter:description" content="这篇文章能够进入到我的视线，缘由也是在听屈老师介绍他们组的工作，这篇文章出自国内香港科技大学屈华民老师组的一篇大作，此文章收录在期刊TIST(ACM Transactions on Intelligent Systems and Technology),在自己博士课题方向的刚开始，接触此领域关注的第一篇文章是CNNvis，出自清华大学刘世霞老师组。">
 <meta name="twitter:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-18/97652655.jpg">
 
 
@@ -360,7 +360,7 @@
       
 
       
-        <p>这篇文章能够进入到我的视线，缘由也是在听屈老师介绍他们组的工作，这篇文章出自国内香港科技大学屈华民老师组的一篇大作，此文章收录在期刊<a href="https://tist.acm.org/#" target="_blank" rel="noopener">TIST</a>(ACM Transactions on Intelligent Systems and Technology),在自己博士课题方向的刚开始，接触此领域关注的第一篇文章是CNNvis，出自清华大学刘世霞老师组。</p>
+        <p>这篇文章能够进入到我的视线，缘由也是在听屈老师介绍他们组的工作，这篇文章出自国内香港科技大学屈华民老师组的一篇大作，此文章收录在期刊<a href="https://tist.acm.org/#" target="_blank" rel="noopener">TIST</a>(ACM Transactions on Intelligent Systems and Technology),在自己博士课题方向的刚开始，接触此领域关注的第一篇文章是CNNvis，出自清华大学刘世霞老师组。<br><a id="more"></a></p>
 <h2 id="摘要-动机"><a href="#摘要-动机" class="headerlink" title="摘要/动机"></a>摘要/动机</h2><p>深度卷积网络已经在各个领域取得巨大成功。为了加速训练过程，并且减少试错次数，专家们首先需要理解在训练过程中发生的事情和理解卷积网络的行为，虽然目前有Tensorboard训练可视化平台，但是这个平台只能提供少量的信息，比如训练集/验证集的loss值等。为了跨越此鸿沟，作者提出了一个可视分析系统，DeepTracker，对训练过程的动态信息进行探索和发现隐藏在大量训练日志的异常模式。</p>
 <h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>可视隐藏在动态训练过程中的信息对理解CNN网络至关重要（例如：损失值、正确率的变化；权重、梯度、激活值随时间的变化等），不幸地是CNNs网络通常不仅包含了许多相互制约与非线性部分，并且近来网络也变得越宽越深，这些都给专家在推断CNN训练行为带来了很多困难。</p>
 <p>有很多研究工作关注于CNN网络学习到的特征，或者网络训练过程的某些代表性快照(snapshots)。不过，很少有研究关注可视训练的整个动态过程（正是本文献所要进行的工作），目前存在的一些工具，比如：TensorBoard、Nvidia Digist、Deeplearning4j<strong>不能够解决工业级别（industry-level）的训练</strong>（在非常大的训练集Imagenet上训练大型网络），作者也提到现有的这些工作不能说明以下一些问题：</p>
