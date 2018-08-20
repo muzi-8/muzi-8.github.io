@@ -93,7 +93,7 @@
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-18/84688822.jpg">
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-18/81280187.jpg">
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-8-19/49672354.jpg">
-<meta property="og:updated_time" content="2018-08-19T15:04:55.871Z">
+<meta property="og:updated_time" content="2018-08-20T08:32:57.094Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="文献DeepTracker:Visualizing the Training Process of Convolutional Neural Networks解读Ⅰ">
 <meta name="twitter:description" content="这篇文章能够进入到我的视线，缘由也是在听屈老师介绍他们组的工作，这篇文章出自国内香港科技大学屈华民老师组的一篇大作，此文章收录在期刊TIST(ACM Transactions on Intelligent Systems and Technology),在自己博士课题方向的刚开始，接触此领域关注的第一篇文章是CNNvis，出自清华大学刘世霞老师组。">
@@ -471,9 +471,10 @@
 <li><p>类别统计索引：抽取所有迭代过程中每一类别的信息</p>
 </li>
 <li><p>类别图像索引：特定类别的特定图像数据信息</p>
-<h2 id="可视化分析"><a href="#可视化分析" class="headerlink" title="可视化分析"></a>可视化分析</h2><h3 id="1-Validation-View"><a href="#1-Validation-View" class="headerlink" title="1. Validation View"></a>1. Validation View</h3><h4 id="R3需求"><a href="#R3需求" class="headerlink" title="R3需求"></a>R3需求</h4><p>再进行可视化的设计的时候，需要说明一个很重要的概念就是：可视化代表的含义即可视编码（Visual Encoding）<br>为了解决需求R3,所有类别图像随着网络迭代的变化总情况。作者设计了如下的可视界面<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-18/81280187.jpg" alt=""><br><div align="center">分类不同类别图像的难易程度</div><br>横轴x: 表示网络训练过程的整个迭代次数，并且用红-&gt;绿的颜色渐变表示错误率情况</p>
 </li>
 </ul>
+<h2 id="可视化分析"><a href="#可视化分析" class="headerlink" title="可视化分析"></a>可视化分析</h2><h3 id="1-Validation-View"><a href="#1-Validation-View" class="headerlink" title="1. Validation View"></a>1. Validation View</h3><h4 id="R3需求"><a href="#R3需求" class="headerlink" title="R3需求"></a>R3需求</h4><p>再进行可视化的设计的时候，需要说明一个很重要的概念就是：可视化代表的含义即可视编码（Visual Encoding）<br>为了解决需求R3,所有类别图像随着网络迭代的变化总情况。作者设计了如下的可视界面<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-18/81280187.jpg" alt=""></p>
+<p><div align="center">分类不同类别图像的难易程度</div><br>横轴x: 表示网络训练过程的整个迭代次数，并且用红-&gt;绿的颜色渐变表示错误率情况</p>
 <p>纵轴y： 依据不同类别图像的分类趋势变化情况，利用k-mean聚类算法，将1000种类其分为4个簇，每个簇下方的每次迭代错误率是所有簇类的平均值，采用heatmap这种可视形式展现（一种有效的时间序列可视化方法）</p>
 <h4 id="R5需求"><a href="#R5需求" class="headerlink" title="R5需求"></a>R5需求</h4><p>针对具体某一簇的所有类别图像的分类情况。</p>
 <h4 id="R4异常迭代的发现"><a href="#R4异常迭代的发现" class="headerlink" title="R4异常迭代的发现"></a>R4异常迭代的发现</h4><p>作者提出了<strong>一种检测异常迭代的算法</strong>，并且用倒三角与正三角的可视编码形式表示异常与正常情况。</p>
@@ -527,6 +528,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/08/20/文献Evaluating 'Graphical Perception'with CNNs解读/" rel="prev" title="文献Evaluating 'Graphical Perception'with CNNs解读">
+                文献Evaluating 'Graphical Perception'with CNNs解读 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -597,7 +602,7 @@
                 alt="muzi" />
             
               <p class="site-author-name" itemprop="name">muzi</p>
-              <p class="site-description motion-element" itemprop="description">路漫漫求修远兮，吾将上下而求索</p>
+              <p class="site-description motion-element" itemprop="description">路漫漫其修远兮，我将上下而求索；铁肩担道义，妙手著文章</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -607,7 +612,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
