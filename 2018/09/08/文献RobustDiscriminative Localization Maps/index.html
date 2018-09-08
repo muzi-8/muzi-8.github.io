@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="思考," />
+  <meta name="keywords" content="可解释性AI," />
 
 
 
@@ -81,20 +81,23 @@
 
 
 
-<meta name="description" content="十年饮冰, 难凉热血, 梦还在,黄苍终会眷顾.         –梁启超  北京的周五依旧是行人匆匆,夹杂着兮兮小雨,更是显得匆忙与急促.打着雨伞赶着去实验室,继续完成自己调不完的bug,写不完的程序.真是应了实验室同学的调侃”沐风栉雨搞科研”.惯例周五的实验室必定是空空荡荡,无意在微信朋友圈看到好友江转发了一篇关于NBA比赛报道的文章,若不是他配有文字描述”如果足够努力,最差的结果不就是大器晚">
-<meta name="keywords" content="思考">
+<meta name="description" content="摘要激活图（Activation maps）已经被用来可视化深度学习模型，并且用来提升网络模型的性能。但是呢，网络模型又特别容易受对抗攻击的影响。虽然复原出分类器原本预测的结果是较难的，经常需要复杂的变换，但是呢，在对抗样本复原出原本的激活图是轻而易举的，既不需要修改分类器，也不需要对输入样本做出变化。">
+<meta name="keywords" content="可解释性AI">
 <meta property="og:type" content="article">
-<meta property="og:title" content="写给自己的一封信">
-<meta property="og:url" content="http://yoursite.com/2018/07/31/写给自己的一封信/index.html">
+<meta property="og:title" content="解读 Robust Discriminative Localization Maps">
+<meta property="og:url" content="http://yoursite.com/2018/09/08/文献RobustDiscriminative Localization Maps/index.html">
 <meta property="og:site_name" content="muzi-8">
-<meta property="og:description" content="十年饮冰, 难凉热血, 梦还在,黄苍终会眷顾.         –梁启超  北京的周五依旧是行人匆匆,夹杂着兮兮小雨,更是显得匆忙与急促.打着雨伞赶着去实验室,继续完成自己调不完的bug,写不完的程序.真是应了实验室同学的调侃”沐风栉雨搞科研”.惯例周五的实验室必定是空空荡荡,无意在微信朋友圈看到好友江转发了一篇关于NBA比赛报道的文章,若不是他配有文字描述”如果足够努力,最差的结果不就是大器晚">
+<meta property="og:description" content="摘要激活图（Activation maps）已经被用来可视化深度学习模型，并且用来提升网络模型的性能。但是呢，网络模型又特别容易受对抗攻击的影响。虽然复原出分类器原本预测的结果是较难的，经常需要复杂的变换，但是呢，在对抗样本复原出原本的激活图是轻而易举的，既不需要修改分类器，也不需要对输入样本做出变化。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-4-13/81508159.jpg">
-<meta property="og:updated_time" content="2018-08-09T13:12:23.511Z">
+<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-9-8/15252831.jpg">
+<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-9-8/21770878.jpg">
+<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-9-8/64573881.jpg">
+<meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-9-8/52753441.jpg">
+<meta property="og:updated_time" content="2018-09-08T09:00:53.487Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="写给自己的一封信">
-<meta name="twitter:description" content="十年饮冰, 难凉热血, 梦还在,黄苍终会眷顾.         –梁启超  北京的周五依旧是行人匆匆,夹杂着兮兮小雨,更是显得匆忙与急促.打着雨伞赶着去实验室,继续完成自己调不完的bug,写不完的程序.真是应了实验室同学的调侃”沐风栉雨搞科研”.惯例周五的实验室必定是空空荡荡,无意在微信朋友圈看到好友江转发了一篇关于NBA比赛报道的文章,若不是他配有文字描述”如果足够努力,最差的结果不就是大器晚">
-<meta name="twitter:image" content="http://od2s78ez3.bkt.clouddn.com/18-4-13/81508159.jpg">
+<meta name="twitter:title" content="解读 Robust Discriminative Localization Maps">
+<meta name="twitter:description" content="摘要激活图（Activation maps）已经被用来可视化深度学习模型，并且用来提升网络模型的性能。但是呢，网络模型又特别容易受对抗攻击的影响。虽然复原出分类器原本预测的结果是较难的，经常需要复杂的变换，但是呢，在对抗样本复原出原本的激活图是轻而易举的，既不需要修改分类器，也不需要对输入样本做出变化。">
+<meta name="twitter:image" content="http://od2s78ez3.bkt.clouddn.com/18-9-8/15252831.jpg">
 
 
 
@@ -124,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/07/31/写给自己的一封信/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/09/08/文献RobustDiscriminative Localization Maps/"/>
 
 
 
 
 
-  <title>写给自己的一封信 | muzi-8</title>
+  <title>解读 Robust Discriminative Localization Maps | muzi-8</title>
   
 
 
@@ -268,7 +271,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/31/写给自己的一封信/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/08/文献RobustDiscriminative Localization Maps/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="muzi">
@@ -285,7 +288,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">写给自己的一封信</h1>
+          <h1 class="post-title" itemprop="name headline">解读 Robust Discriminative Localization Maps</h1>
         
 
         <div class="post-meta">
@@ -297,8 +300,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-31T17:09:11+08:00">
-                2018-07-31
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-08T15:34:22+08:00">
+                2018-09-08
               </time>
             
 
@@ -320,8 +323,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/人生/" itemprop="url" rel="index">
-                    <span itemprop="name">人生</span>
+                  <a href="/categories/文献解读/" itemprop="url" rel="index">
+                    <span itemprop="name">文献解读</span>
                   </a>
                 </span>
 
@@ -357,23 +360,40 @@
       
 
       
-        <blockquote>
-<p>十年饮冰, 难凉热血, 梦还在,黄苍终会眷顾.         –梁启超</p>
-</blockquote>
-<p>北京的周五依旧是行人匆匆,夹杂着兮兮小雨,更是显得匆忙与急促.打着雨伞赶着去实验室,继续完成自己调不完的bug,写不完的程序.真是应了实验室同学的调侃”沐风栉雨搞科研”.<br>惯例周五的实验室必定是空空荡荡,无意在微信朋友圈看到好友江转发了一篇关于NBA比赛报道的文章,若不是他配有文字描述”如果足够努力,最差的结果不就是大器晚成”, 还以为又是司空见惯的NBA球场上那些”飞禽猛兽”不可思议的表现.充满着疑问点开了由”虎扑体育”公众号推送的题为”你生涯最高光的时刻是总决赛MVP吗?而我,就是现在了”.看完文章之后,已然哭成一个傻逼样,心情久久不能平复.<br><a id="more"></a><br>文章讲述了一个主人公名叫”安德烈-英格拉姆”在发展联盟打了整整10年球,度过了长达10年之久的每年领着卑微的2.6W的年薪,同时兼职当家教补贴两个女儿的生活费,终于在自己32岁时迎来了NBA生涯首秀.他在赛后回忆说<strong>“这里的球场看起来更加明亮一些,太出乎意料了,我就是感觉到了一股电流流遍全身,太美妙了热情的观众,耀眼的灯光,这真的是一辈子一次的景象</strong><br>这不就是电影”当幸福来敲门”的克里斯活生生的例子啊!吓得我虎躯一震,生活中真有为梦想而坚持的人? 赶紧打开百度浏览器搜索了关键词<strong>“安德烈-英格拉姆”</strong>,有一篇知乎名为”如何评价「湖人与后卫安德烈-英格拉姆签约至本赛季结束」?”这个鲜活有生命力的运动员形象慢慢在我的脑海中丰富起来,认真看完了网友的所有评论,”大道至简”网友评论道</p>
-<blockquote>
-<p>我很尊重为了梦想在打拼的人们,看到魔术师和沃顿他们轻松的笑说”祝贺”,他激动的只会说”感谢”,我会想到千千万万个他们,像他一样,每天默默努力,终于有朝一日成功的那种激动带点傻呵呵的笑和不知所措,真心尊敬与祝福你,祝贺你的梦想实现,就像你的T恤上的一样”always in pursuit”! ,当你认真踏上球场的那一刻,请相信,全世界都在为你骄傲,加油!<br><img src="http://od2s78ez3.bkt.clouddn.com/18-4-13/81508159.jpg" alt=""></p>
-</blockquote>
-<p>正如毛姆小说”月亮与六便士”中的查尔斯先生,在追逐梦想的路上,他过得穷困潦倒,并且一再遭受命运的摧残,不同的是查尔斯先生到死都没有亲眼看到自己的一幅画能够价值连城,而安德烈-英格拉姆在自己32岁终于踏入了斯台普斯中心(Staples Center).实现了属于自己追逐了十年的梦想.正如书中所说:</p>
-<blockquote>
-<p>难道做自己最想做的事,生活在让你感到舒服的环境里,让你的内心得到安宁是糟践自己吗?难道成为年入上万英镑的外科医生,娶得如花美眷就算是成功吗?</p>
-</blockquote>
-<p>至于自己为什么会哭的一塌糊涂,或许只有相同经历的人才能深深的感受到安德烈的那种无奈与坚毅,对于自己而言,求学之路仍未结束,应该是到了深水区与艰难区,高中因为自己的后知后觉,虽然无心插柳考上了市重点中学,但依旧没能鲤鱼跃龙门,选择了fu读之路,就靠着”黑曼巴”精神顺利步入大学之门,进入大学的第一天目标就非常明确,一定要借着”西北农林科技大学”985这个平台跳出去,完成自己”梦想”,正如我所愿,4年的奋斗换来”中科院电子所”的直博入学书.<br>本科的专业是EE,如今要转向CS,其中的自卑与不知所措,让我一下子失去了方向,没有了曾经的优秀感,还好自己已经行动起来,凭借着自学能力与领悟能力,全方位的去弥补自己知识的不足与能力的欠缺,一切都还在路上,正如 吴军老师在”浪潮之巅”所讲:处在这个”Deep Learning”浪潮之中,要有所作为,不要再次成为观潮者. 不忘初心,砥砺前行!<br>最后以习总书记2018年在亚洲博鳌经济论坛的警句结束啰啰嗦嗦的文章</p>
-<blockquote>
-<p>积土而为山, 积水而为海,幸福和美好的未来不会自己出现,成功属于勇毅而笃行的人</p>
-</blockquote>
-<p>这不正好印证了我的两所大学的校训了嘛,不说了,赶紧去写程序…<br>注:<br>西北农林科技大学 校训 : 诚朴勇毅<br>中国科学院大学 校训: 博学笃志, 格物明德</p>
-<p>Reference:<br><a href="https://www.washingtonpost.com/news/dc-sports-bog/wp/2018/04/10/after-a-decade-in-the-minors-this-32-year-old-finally-got-called-up-by-the-lakers/?noredirect=on&amp;utm_term=.77ed308caff9" target="_blank" rel="noopener">This gray-haired 32-year-old rookie spent 10 years in the minors. His NBA debut was too good to believe</a></p>
+        <p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-8/15252831.jpg" alt=""></center></p>
+<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>激活图（Activation maps）已经被用来可视化深度学习模型，并且用来提升网络模型的性能。但是呢，网络模型又特别容易受对抗攻击的影响。虽然复原出分类器原本预测的结果是较难的，经常需要复杂的变换，但是呢，在对抗样本复原出原本的激活图是轻而易举的，既不需要修改分类器，也不需要对输入样本做出变化。<br><a id="more"></a></p>
+<h2 id="激活映射图"><a href="#激活映射图" class="headerlink" title="激活映射图"></a>激活映射图</h2><p>Activation Maps这个概念出自MIT周博磊发表于2016年CVPR上面的一篇论文<sup>[1]</sup>。</p>
+<p>从自然图像中学到的卷积滤波器对于训练集中的1000个类别是敏感的，换句话说就是图像中包含相关类别的区域与卷积核进行卷积操作之后得到较高的激活值，而不包含类别的区域得到较小的激活值。Class Activation Maps(CAM)概念也就在此先验知识下应运而生，并且也验证了此想法。</p>
+<p>Class Activation Maps的应用</p>
+<ul>
+<li><p>物体定位的有效工具</p>
+</li>
+<li><p>提升图像分类网络</p>
+</li>
+<li><p>Visual question answering（VQA）</p>
+</li>
+<li><p>语义图像压缩</p>
+</li>
+<li><p>图像检索</p>
+</li>
+<li><p><strong>注意网路(attention networks)<sup>[2]</sup></strong></p>
+</li>
+</ul>
+<h2 id="对抗的影响"><a href="#对抗的影响" class="headerlink" title="对抗的影响"></a>对抗的影响</h2><p>分类网络已证明容易被“愚弄”<sup>[3]、[4]</sup>，例如白盒攻击（white-box attacks)。 因为对抗的影响，所以根据模型的预测结果即最高概率的类别也就是错误的，对应生成的激活映射图也就是错误的。如下图所示，左侧两张图代表的是由原始图像的预测结果得到的激活映射图，右侧两张图像代表的是由对抗样本图像的网络预测结果得到的激活映射图。可以发现得到的激活图是错的，这是为什么呢？原因就是网络的预测值（最高概率值所属的类别）在起着决定性作用。</p>
+<p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-8/21770878.jpg" alt=""></center></p>
+<h2 id="Imagnet数据集的特性"><a href="#Imagnet数据集的特性" class="headerlink" title="Imagnet数据集的特性"></a>Imagnet数据集的特性</h2><p>ImageNet包含1000个类别。这1000个类别中的许多都是细粒度（fine-grained）。在Top-5中预测的类别中，第二个预测的类别很有可能与第一个类别是相近关系(<strong>作者原文提到说也有可能是synonym，但是我认为这是不对的</strong>，依据介绍数据集（ImageNet）的论文<sup>[5]</sup>3.1.1小节提到1000个synsets no overlap each other）。</p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>为了使激活映射图对于对抗样本也具有适应性，作者选取了的方法叫做前top-K的映射图指数加权求和（exponentially weighted average of the maps of the top-k classes）。</p>
+<h2 id="结果展示"><a href="#结果展示" class="headerlink" title="结果展示"></a>结果展示</h2><p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-8/64573881.jpg" alt=""><br></center><br>最右侧是通过作者提出的方法的到的激活映射图，可以发现基本和最左侧得到的结果一致。</p>
+<h2 id="疑惑"><a href="#疑惑" class="headerlink" title="疑惑"></a>疑惑</h2><p>本文最大的困扰点是:作者通过实验证明对抗样本的预测类别与自然图像的预测类别关系介绍。</p>
+<p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-8/52753441.jpg" alt=""></center></p>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>这篇文章应该是站在别人经典工作的一小步探索，正验证了科研的一种方法。从施引文献中去发现可以改进的工作。</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><ol>
+<li><a href="chrome-extension://ihgdgpjankaehldoaimdlekdidkjfghe/viewer.html#http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf" target="_blank" rel="noopener">Learning deep features for discriminative localization</a></li>
+<li><a href="chrome-extension://ihgdgpjankaehldoaimdlekdidkjfghe/viewer.html#https://arxiv.org/pdf/1802.10171.pdf" target="_blank" rel="noopener">Tell me where to look: Guided attention inference network</a></li>
+<li><a href="https://arxiv.org/abs/1312.6199" target="_blank" rel="noopener">Intriguing properties of neural networks</a></li>
+<li><a href="https://arxiv.org/abs/1412.6572" target="_blank" rel="noopener">Explaining and harnessing adversarial examples</a></li>
+<li>ImageNet Large Scale Visual Recognition Challenge</li>
+</ol>
 
       
     </div>
@@ -391,7 +411,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/思考/" rel="tag"># 思考</a>
+            <a href="/tags/可解释性AI/" rel="tag"># 可解释性AI</a>
           
         </div>
       
@@ -404,8 +424,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/07/31/Pytorch教程(一)/" rel="next" title="">
-                <i class="fa fa-chevron-left"></i> 
+              <a href="/2018/09/05/文献TOWARDS BETTER UNDERSTANDING OF GRADIENT-BASED ATTRIBUTION METHODS FOR DEEP NEURAL NETWORKS解读/" rel="next" title="文献TOWARDS BETTER UNDERSTANDING OF GRADIENT-BASED ATTRIBUTION METHODS FOR DEEP NEURAL NETWORKS解读">
+                <i class="fa fa-chevron-left"></i> 文献TOWARDS BETTER UNDERSTANDING OF GRADIENT-BASED ATTRIBUTION METHODS FOR DEEP NEURAL NETWORKS解读
               </a>
             
           </div>
@@ -413,10 +433,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/07/31/opencv安装问题/" rel="prev" title="opencv离线安装问题">
-                opencv离线安装问题 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -468,8 +484,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -603,6 +628,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#摘要"><span class="nav-number">1.</span> <span class="nav-text">摘要</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#激活映射图"><span class="nav-number">2.</span> <span class="nav-text">激活映射图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#对抗的影响"><span class="nav-number">3.</span> <span class="nav-text">对抗的影响</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Imagnet数据集的特性"><span class="nav-number">4.</span> <span class="nav-text">Imagnet数据集的特性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#方法"><span class="nav-number">5.</span> <span class="nav-text">方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结果展示"><span class="nav-number">6.</span> <span class="nav-text">结果展示</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#疑惑"><span class="nav-number">7.</span> <span class="nav-text">疑惑</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#后记"><span class="nav-number">8.</span> <span class="nav-text">后记</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-number">9.</span> <span class="nav-text">Reference:</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
