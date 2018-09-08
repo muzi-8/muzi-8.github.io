@@ -93,7 +93,7 @@
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-9-8/21770878.jpg">
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-9-8/64573881.jpg">
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-9-8/52753441.jpg">
-<meta property="og:updated_time" content="2018-09-08T09:00:53.487Z">
+<meta property="og:updated_time" content="2018-09-08T09:05:08.430Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="解读 Robust Discriminative Localization Maps">
 <meta name="twitter:description" content="摘要激活图（Activation maps）已经被用来可视化深度学习模型，并且用来提升网络模型的性能。但是呢，网络模型又特别容易受对抗攻击的影响。虽然复原出分类器原本预测的结果是较难的，经常需要复杂的变换，但是呢，在对抗样本复原出原本的激活图是轻而易举的，既不需要修改分类器，也不需要对输入样本做出变化。">
@@ -384,6 +384,7 @@
 <h2 id="Imagnet数据集的特性"><a href="#Imagnet数据集的特性" class="headerlink" title="Imagnet数据集的特性"></a>Imagnet数据集的特性</h2><p>ImageNet包含1000个类别。这1000个类别中的许多都是细粒度（fine-grained）。在Top-5中预测的类别中，第二个预测的类别很有可能与第一个类别是相近关系(<strong>作者原文提到说也有可能是synonym，但是我认为这是不对的</strong>，依据介绍数据集（ImageNet）的论文<sup>[5]</sup>3.1.1小节提到1000个synsets no overlap each other）。</p>
 <h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>为了使激活映射图对于对抗样本也具有适应性，作者选取了的方法叫做前top-K的映射图指数加权求和（exponentially weighted average of the maps of the top-k classes）。</p>
 <h2 id="结果展示"><a href="#结果展示" class="headerlink" title="结果展示"></a>结果展示</h2><p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-8/64573881.jpg" alt=""><br></center><br>最右侧是通过作者提出的方法的到的激活映射图，可以发现基本和最左侧得到的结果一致。</p>
+<p>源码 <a href="https://github.com/iamaaditya/robust-activation-maps" target="_blank" rel="noopener">code</a></p>
 <h2 id="疑惑"><a href="#疑惑" class="headerlink" title="疑惑"></a>疑惑</h2><p>本文最大的困扰点是:作者通过实验证明对抗样本的预测类别与自然图像的预测类别关系介绍。</p>
 <p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-8/52753441.jpg" alt=""></center></p>
 <h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>这篇文章应该是站在别人经典工作的一小步探索，正验证了科研的一种方法。从施引文献中去发现可以改进的工作。</p>
