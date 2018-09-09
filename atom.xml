@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-08T09:05:08.430Z</updated>
+  <updated>2018-09-09T13:41:00.760Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,18 +17,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>解读 Robust Discriminative Localization Maps</title>
-    <link href="http://yoursite.com/2018/09/08/%E6%96%87%E7%8C%AERobustDiscriminative%20Localization%20Maps/"/>
-    <id>http://yoursite.com/2018/09/08/文献RobustDiscriminative Localization Maps/</id>
-    <published>2018-09-08T07:34:22.000Z</published>
-    <updated>2018-09-08T09:05:08.430Z</updated>
+    <title>伦敦地铁可视化</title>
+    <link href="http://yoursite.com/2018/09/09/%E7%BD%91%E7%BB%9C%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B9%8B%E5%9C%B0%E5%9B%BE%E5%8F%AF%E8%A7%86%E5%8C%96%E6%A1%88%E4%BE%8B/"/>
+    <id>http://yoursite.com/2018/09/09/网络可视化之地图可视化案例/</id>
+    <published>2018-09-09T12:55:20.000Z</published>
+    <updated>2018-09-09T13:41:00.760Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-8/15252831.jpg" alt=""></center></p><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>激活图（Activation maps）已经被用来可视化深度学习模型，并且用来提升网络模型的性能。但是呢，网络模型又特别容易受对抗攻击的影响。虽然复原出分类器原本预测的结果是较难的，经常需要复杂的变换，但是呢，在对抗样本复原出原本的激活图是轻而易举的，既不需要修改分类器，也不需要对输入样本做出变化。<br><a id="more"></a></p><h2 id="激活映射图"><a href="#激活映射图" class="headerlink" title="激活映射图"></a>激活映射图</h2><p>Activation Maps这个概念出自MIT周博磊发表于2016年CVPR上面的一篇论文<sup>[1]</sup>。</p><p>从自然图像中学到的卷积滤波器对于训练集中的1000个类别是敏感的，换句话说就是图像中包含相关类别的区域与卷积核进行卷积操作之后得到较高的激活值，而不包含类别的区域得到较小的激活值。Class Activation Maps(CAM)概念也就在此先验知识下应运而生，并且也验证了此想法。</p><p>Class Activation Maps的应用</p><ul><li><p>物体定位的有效工具</p></li><li><p>提升图像分类网络</p></li><li><p>Visual question answering（VQA）</p></li><li><p>语义图像压缩</p></li><li><p>图像检索</p></li><li><p><strong>注意网路(attention networks)<sup>[2]</sup></strong></p></li></ul><h2 id="对抗的影响"><a href="#对抗的影响" class="headerlink" title="对抗的影响"></a>对抗的影响</h2><p>分类网络已证明容易被“愚弄”<sup>[3]、[4]</sup>，例如白盒攻击（white-box attacks)。 因为对抗的影响，所以根据模型的预测结果即最高概率的类别也就是错误的，对应生成的激活映射图也就是错误的。如下图所示，左侧两张图代表的是由原始图像的预测结果得到的激活映射图，右侧两张图像代表的是由对抗样本图像的网络预测结果得到的激活映射图。可以发现得到的激活图是错的，这是为什么呢？原因就是网络的预测值（最高概率值所属的类别）在起着决定性作用。</p><p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-8/21770878.jpg" alt=""></center></p><h2 id="Imagnet数据集的特性"><a href="#Imagnet数据集的特性" class="headerlink" title="Imagnet数据集的特性"></a>Imagnet数据集的特性</h2><p>ImageNet包含1000个类别。这1000个类别中的许多都是细粒度（fine-grained）。在Top-5中预测的类别中，第二个预测的类别很有可能与第一个类别是相近关系(<strong>作者原文提到说也有可能是synonym，但是我认为这是不对的</strong>，依据介绍数据集（ImageNet）的论文<sup>[5]</sup>3.1.1小节提到1000个synsets no overlap each other）。</p><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>为了使激活映射图对于对抗样本也具有适应性，作者选取了的方法叫做前top-K的映射图指数加权求和（exponentially weighted average of the maps of the top-k classes）。</p><h2 id="结果展示"><a href="#结果展示" class="headerlink" title="结果展示"></a>结果展示</h2><p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-8/64573881.jpg" alt=""><br></center><br>最右侧是通过作者提出的方法的到的激活映射图，可以发现基本和最左侧得到的结果一致。</p><p>源码 <a href="https://github.com/iamaaditya/robust-activation-maps" target="_blank" rel="noopener">code</a></p><h2 id="疑惑"><a href="#疑惑" class="headerlink" title="疑惑"></a>疑惑</h2><p>本文最大的困扰点是:作者通过实验证明对抗样本的预测类别与自然图像的预测类别关系介绍。</p><p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-8/52753441.jpg" alt=""></center></p><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>这篇文章应该是站在别人经典工作的一小步探索，正验证了科研的一种方法。从施引文献中去发现可以改进的工作。</p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><ol><li><a href="chrome-extension://ihgdgpjankaehldoaimdlekdidkjfghe/viewer.html#http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf" target="_blank" rel="noopener">Learning deep features for discriminative localization</a></li><li><a href="chrome-extension://ihgdgpjankaehldoaimdlekdidkjfghe/viewer.html#https://arxiv.org/pdf/1802.10171.pdf" target="_blank" rel="noopener">Tell me where to look: Guided attention inference network</a></li><li><a href="https://arxiv.org/abs/1312.6199" target="_blank" rel="noopener">Intriguing properties of neural networks</a></li><li><a href="https://arxiv.org/abs/1412.6572" target="_blank" rel="noopener">Explaining and harnessing adversarial examples</a></li><li>ImageNet Large Scale Visual Recognition Challenge</li></ol>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol><li><a href="https://mp.weixin.qq.com/s?__biz=MjM5MTQzNzU2NA==&amp;mid=2651662886&amp;idx=1&amp;sn=2aad76ca76216685f37f817d4453f340&amp;chksm=bd4c0db58a3b84a33598b2ef4237be7f3ab40fb7b55aef968591062b812b0befa22683d2c8c2&amp;mpshare=1&amp;scene=1&amp;srcid=0909XeyheKuTqGAKlwYyvsvB&amp;pass_ticket=HeGMx%2FX9jo7rvml1EcZSI9PrBO4zzB4soYyAnpy%2BuHXpX1dPEj%2FW6RoEl%2FsePG6Q#rd" target="_blank" rel="noopener">大数据文摘：如果伦敦地铁图是数据科学家画的</a></li><li><a href="https://towardsdatascience.com/what-would-the-london-tube-map-look-like-if-data-scientists-designed-it-cfcc38bf2c76" target="_blank" rel="noopener">What would the London Tube Map look like if Data Scientists designed it?</a></li><li><a href="https://www.zhihu.com/question/57224094" target="_blank" rel="noopener">北京地铁里贴的线路图的平面设计是谁，为什么这么业余？</a></li><li><a href="http://demo.servasoft.com/bjMetro/" target="_blank" rel="noopener">北京市地铁线路示意图</a></li><li>Twaver软件</li></ol>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;center&gt;&lt;img src=&quot;http://od2s78ez3.bkt.clouddn.com/18-9-8/15252831.jpg&quot; alt=&quot;&quot;&gt;&lt;/center&gt;&lt;/p&gt;
-&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;激活图（Activation maps）已经被用来可视化深度学习模型，并且用来提升网络模型的性能。但是呢，网络模型又特别容易受对抗攻击的影响。虽然复原出分类器原本预测的结果是较难的，经常需要复杂的变换，但是呢，在对抗样本复原出原本的激活图是轻而易举的，既不需要修改分类器，也不需要对输入样本做出变化。&lt;br&gt;
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="可视化" scheme="http://yoursite.com/categories/%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文献UnderstandingtheErrorStructureasaKeytoRegularize ConvolutionalNeuralNetworks解读</title>
+    <link href="http://yoursite.com/2018/09/09/%E6%96%87%E7%8C%AEUnderstandingtheErrorStructureasaKeytoRegularize%20ConvolutionalNeuralNetworks%E8%A7%A3%E8%AF%BB/"/>
+    <id>http://yoursite.com/2018/09/09/文献UnderstandingtheErrorStructureasaKeytoRegularize ConvolutionalNeuralNetworks解读/</id>
+    <published>2018-09-09T04:33:32.000Z</published>
+    <updated>2018-09-09T12:10:04.800Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>在分类任务中，由于样本之间具有高度相似性，导致类别之间经常相互混淆。这种相似性使得类别之间存在粗细(coarse-to-fine)粒度(granularity、fine-grained)的层次结构。作者开发了一个可视分析系统用来揭示这种结构，并且分析了此结构现象是怎么出现在模型的训练过程当中。</p><p>作者发现：</p><ul><li><p>在训练的过程当中，少量的epoch，网络就可以将物体大致分到宽泛地类别组当中，后续的epoch，就是使得物体分为更细粒度的类别中。</p></li><li><p>对应到网络结构当中，就是网络模型的前几层学到的特征能够实现粗分类（coarse classification），网络后面的几层就是学到更专业特征然后实现细粒度的分类。</p></li></ul><p>作者进一步扩展了Alexnet网络，在网络的不同层引入了额外损失函数去较快实现分类任务。最终作者通过可视分析手段发现的一些insight,能够起到加速收敛的作用，并且使得在ALexnet分类器提升了网络的性能，Imagenet数据集的Top-1错误提升了20%，Top-5的错误提升了30%</p><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><h3 id="相关工作"><a href="#相关工作" class="headerlink" title="相关工作"></a>相关工作</h3><p>理解卷积网络的行为模式已经有大量地工作，大部分工作聚焦于<strong>可视化</strong>网络学习到的特征，利用的手段与途径大致分为以下几类：</p><ul><li><p>perturbation</p></li><li><p>deconvolution</p></li><li><p>code inversion</p></li><li><p>activation maximization   </p></li></ul><p>这些可视化出来的图像作用：</p><ul><li>明确训练集中存在的偏差(biases)，例如:哑铃图像总包含着手臂。</li><li>帮助选择卷积核参数（filter parameters）</li><li>评估滤波器的冗余性</li></ul><p>不足：可视化的特征图像不能够提供模型的行为概览。</p><h3 id="本文焦点"><a href="#本文焦点" class="headerlink" title="本文焦点"></a>本文焦点</h3><p><strong>很少有工作关注分类错误</strong>这个问题，典型的方式就是通过“线图（Line Graph）”去监控某个分类器训练过程中的错误率或者去比较多个分类器的性能, 通过“直方图（Histogram）”的方式表示预测得分之间错误的相关性<strong><sup>[1,2,3]</sup></strong>。</p><p>“混淆矩阵（confusion matrices）”这种形式能够提供更多的误分类信息。所以作者的整个可视分析系统工作也是基于混淆矩阵展开的。</p><h2 id="错误信息"><a href="#错误信息" class="headerlink" title="错误信息"></a>错误信息</h2><p>作者发现了一些模式（pattern/insight）：</p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-9/15965833.jpg" alt=""></center><p>Visual analytics system <a href="https://vimeo.com/228263798" target="_blank" rel="noopener">video</a></p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol><li>Visual methods for analyzing probabilistic classification data</li><li>Prediction Scores as a Window into Classifier Behavior</li><li>Squares: Supporting interactive performance analysis for multiclass classifiers</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
     
     </summary>
     
@@ -40,17 +67,17 @@
   </entry>
   
   <entry>
-    <title>文献TOWARDS BETTER UNDERSTANDING OF GRADIENT-BASED ATTRIBUTION METHODS FOR DEEP NEURAL NETWORKS解读</title>
-    <link href="http://yoursite.com/2018/09/05/%E6%96%87%E7%8C%AETOWARDS%20BETTER%20UNDERSTANDING%20OF%20GRADIENT-BASED%20ATTRIBUTION%20METHODS%20FOR%20DEEP%20NEURAL%20NETWORKS%E8%A7%A3%E8%AF%BB/"/>
-    <id>http://yoursite.com/2018/09/05/文献TOWARDS BETTER UNDERSTANDING OF GRADIENT-BASED ATTRIBUTION METHODS FOR DEEP NEURAL NETWORKS解读/</id>
-    <published>2018-09-05T13:30:11.000Z</published>
-    <updated>2018-09-06T01:58:34.685Z</updated>
+    <title>解读 Robust Discriminative Localization Maps</title>
+    <link href="http://yoursite.com/2018/09/08/%E6%96%87%E7%8C%AERobustDiscriminative%20Localization%20Maps/"/>
+    <id>http://yoursite.com/2018/09/08/文献RobustDiscriminative Localization Maps/</id>
+    <published>2018-09-08T07:34:22.000Z</published>
+    <updated>2018-09-09T01:53:48.992Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>近些年来，理解深度神经网络的信息流成为一个逐渐受关注的挑战问题。虽然已经提出了几种解释神经网络预测原因的方法，但是由于这几种方法<strong>孰优孰劣</strong>并没有成为体系去比较，该论文作者比较了4种基于梯度（gradient-based）的贡献方法。<br>主要工作：<br>1） 提出并且开源了统一分析比较工具DeepExplain<br>2） 提出了一种称之为“Sensitivity-n”方法的评价标准<br><a id="more"></a></p><h2 id="引言-amp-动机"><a href="#引言-amp-动机" class="headerlink" title="引言&amp;动机"></a>引言&amp;动机</h2><p>对深度学习模型的预测行为做出可解释性仍具有很大挑战，缺乏试探“黑盒子”模型的工具，使得模型做出的预测结果更透明与更可信任。作者主要研究的问题是输入图像像素对预测结果的“贡献值分配”的问题。</p><p>输入x = [x<sub>1</sub>,…,x<sub>N</sub>],输出S(x) = [S1(x),…,SC(x)]，给定特定神经元C，通过“贡献方法”就可以计算出每一个输入特征X<sub>1</sub>的相关贡献值R<sup>c</sup>=[R<sup>c</sup><sub>1</sub>,…,R<sup>c</sup><sub>N</sub>]。对于分类任务，神经元就是与输入样本相关的正确类。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>激活图（Activation maps）已经被用来可视化深度学习模型，并且用来提升网络模型的性能。但是呢，网络模型又特别容易受对抗攻击的影响。虽然复原出分类器原本预测的结果是较难的，经常需要复杂的变换，但是呢，在对抗样本复原出原本的激活图是轻而易举的，既不需要修改分类器，也不需要对输入样本做出变化。<br><a id="more"></a></p><h2 id="激活映射图"><a href="#激活映射图" class="headerlink" title="激活映射图"></a>激活映射图</h2><p>Activation Maps这个概念出自MIT周博磊发表于2016年CVPR上面的一篇论文<sup>[1]</sup>。</p><p>从自然图像中学到的卷积滤波器对于训练集中的1000个类别是敏感的，换句话说就是图像中包含相关类别的区域与卷积核进行卷积操作之后得到较高的激活值，而不包含类别的区域得到较小的激活值。Class Activation Maps(CAM)概念也就在此先验知识下应运而生，并且也验证了此想法。</p><p>Class Activation Maps的应用</p><ul><li><p>物体定位的有效工具</p></li><li><p>提升图像分类网络</p></li><li><p>Visual question answering（VQA）</p></li><li><p>语义图像压缩</p></li><li><p>图像检索</p></li><li><p><strong>注意网路(attention networks)<sup>[2]</sup></strong></p></li></ul><h2 id="对抗的影响"><a href="#对抗的影响" class="headerlink" title="对抗的影响"></a>对抗的影响</h2><p>分类网络已证明容易被“愚弄”<sup>[3]、[4]</sup>，例如白盒攻击（white-box attacks)。 因为对抗的影响，所以根据模型的预测结果即最高概率的类别也就是错误的，对应生成的激活映射图也就是错误的。如下图所示，左侧两张图代表的是由原始图像的预测结果得到的激活映射图，右侧两张图像代表的是由对抗样本图像的网络预测结果得到的激活映射图。可以发现得到的激活图是错的，这是为什么呢？原因就是网络的预测值（最高概率值所属的类别）在起着决定性作用。</p><p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-8/21770878.jpg" alt=""></center></p><h2 id="Imagnet数据集的特性"><a href="#Imagnet数据集的特性" class="headerlink" title="Imagnet数据集的特性"></a>Imagnet数据集的特性</h2><p>ImageNet包含1000个类别。这1000个类别中的许多都是细粒度（fine-grained）。在Top-5中预测的类别中，第二个预测的类别很有可能与第一个类别是相近关系(<strong>作者原文提到说也有可能是synonym，但是我认为这是不对的</strong>，依据介绍数据集（ImageNet）的论文<sup>[5]</sup>3.1.1小节提到1000个synsets no overlap each other）。</p><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>为了使激活映射图对于对抗样本也具有适应性，作者选取了的方法叫做前top-K的映射图指数加权求和（exponentially weighted average of the maps of the top-k classes）。</p><h2 id="结果展示"><a href="#结果展示" class="headerlink" title="结果展示"></a>结果展示</h2><p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-8/64573881.jpg" alt=""><br></center><br>最右侧是通过作者提出的方法的到的激活映射图，可以发现基本和最左侧得到的结果一致。</p><p>源码 <a href="https://github.com/iamaaditya/robust-activation-maps" target="_blank" rel="noopener">code</a></p><h2 id="疑惑"><a href="#疑惑" class="headerlink" title="疑惑"></a>疑惑</h2><p>本文最大的困扰点是:作者通过实验证明对抗样本的预测类别与自然图像的预测类别关系介绍。</p><p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-8/52753441.jpg" alt=""></center></p><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>这篇文章应该是站在别人经典工作的一小步探索，正验证了科研的一种方法。从施引文献中去发现可以改进的工作。</p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><ol><li><a href="chrome-extension://ihgdgpjankaehldoaimdlekdidkjfghe/viewer.html#http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf" target="_blank" rel="noopener">Learning deep features for discriminative localization</a></li><li><a href="chrome-extension://ihgdgpjankaehldoaimdlekdidkjfghe/viewer.html#https://arxiv.org/pdf/1802.10171.pdf" target="_blank" rel="noopener">Tell me where to look: Guided attention inference network</a></li><li><a href="https://arxiv.org/abs/1312.6199" target="_blank" rel="noopener">Intriguing properties of neural networks</a></li><li><a href="https://arxiv.org/abs/1412.6572" target="_blank" rel="noopener">Explaining and harnessing adversarial examples</a></li><li>ImageNet Large Scale Visual Recognition Challenge</li></ol>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;近些年来，理解深度神经网络的信息流成为一个逐渐受关注的挑战问题。虽然已经提出了几种解释神经网络预测原因的方法，但是由于这几种方法&lt;strong&gt;孰优孰劣&lt;/strong&gt;并没有成为体系去比较，该论文作者比较了4种基于梯度（gradient-based）的贡献方法。&lt;br&gt;主要工作：&lt;br&gt;1） 提出并且开源了统一分析比较工具DeepExplain&lt;br&gt;2） 提出了一种称之为“Sensitivity-n”方法的评价标准&lt;br&gt;
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;激活图（Activation maps）已经被用来可视化深度学习模型，并且用来提升网络模型的性能。但是呢，网络模型又特别容易受对抗攻击的影响。虽然复原出分类器原本预测的结果是较难的，经常需要复杂的变换，但是呢，在对抗样本复原出原本的激活图是轻而易举的，既不需要修改分类器，也不需要对输入样本做出变化。&lt;br&gt;
     
     </summary>
     
