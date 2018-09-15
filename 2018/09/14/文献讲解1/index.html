@@ -95,7 +95,7 @@
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-9-15/53253924.jpg">
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-9-15/48782617.jpg">
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-9-15/27525217.jpg">
-<meta property="og:updated_time" content="2018-09-15T05:21:29.663Z">
+<meta property="og:updated_time" content="2018-09-15T05:29:58.761Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="图布局与图链接预测">
 <meta name="twitter:description" content="现状最近师弟师妹的加入，使得我们小组越来越壮大，然后频繁召开的组会次数越来越多，基本上一周一次，那么对于我们学生而言，压力也是挺大的，需要做大量的调研，讲清楚一篇论文。但是这也是好事，不仅能够让讲得人成长很快，而且也能让听得人“优化一下大脑”。不亦乐乎，故现做一下分享与记录。 本次主要分享师弟、师妹的两篇文献讲解 《Revisiting Stress Majorization as a Unifi">
@@ -366,12 +366,12 @@
 <p>本次主要分享师弟、师妹的两篇文献讲解</p>
 <p>《Revisiting Stress Majorization as a Unified Framework for<br>Interactive Constrained Graph Visualization》</p>
 <p>《weisfeiler-lehman neural machine for link prediction》<br><a id="more"></a></p>
-<h1 id="Part-1"><a href="#Part-1" class="headerlink" title="Part 1"></a>Part 1</h1><p>第一篇文献应该属于图可视化的范畴，关于图可视化这个领域，我们可以查阅A Survey on Graph Visualization<sup>[1]</sup>,也可以直接阅读作者潘嘉铖<sup>[2]</sup>对此综述的理解。</p>
+<h2 id="Part-1"><a href="#Part-1" class="headerlink" title="Part 1"></a>Part 1</h2><p>第一篇文献应该属于图可视化的范畴，关于图可视化这个领域，我们可以查阅A Survey on Graph Visualization<sup>[1]</sup>,也可以直接阅读作者潘嘉铖<sup>[2]</sup>对此综述的理解。</p>
 <p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-14/75999373.jpg" alt=""></center><sup>[3]</sup></p>
 <p>此论文就是典型的<strong>旧问题，新方法</strong>。最大创新之处如上图所示，将Strees Majorization的’距离标量’改变为’距离矢量’，然后就有了作者接下来的一系列数学论证，运用到的数学工具是<strong>矩阵</strong>，编程是通过<strong>c++</strong>语言实现的，值得一提的是此论文的实验确实<strong>详实</strong>。</p>
 <p>意义：<br>虽然自己并不是专门研究图可视化领域，但是此论文给我的启发就是顶会上的文章首先写得很<strong>漂亮<sup>[4]</sup></strong>，然后就是作者的<strong>大会视频<sup>[3]</sup></strong>可以借鉴。</p>
 <p>疑惑： D3.js or Three.js的库是怎样引入约束的？</p>
-<h1 id="Part-2"><a href="#Part-2" class="headerlink" title="Part 2"></a>Part 2</h1><p>第二篇文献属于社交网络当中的“边链接（Link Prediction）”预测工作。</p>
+<h2 id="Part-2"><a href="#Part-2" class="headerlink" title="Part 2"></a>Part 2</h2><p>第二篇文献属于社交网络当中的“边链接（Link Prediction）”预测工作。</p>
 <p>作者提出了一种Wlnm（Weisfeiler-Lehman Neural Machine）方法进行“边链接”预测，对于网络中的每一个边，这种方法首先抽取了一个子图(一个边连接的封闭子图）,紧接着将封闭子图进行图编码转换为连接矩阵形式，然后将连接矩阵输入给神将网络进行一个边链接预测模型的学习。对于此任务的整个流程图如下所示：</p>
 <p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-15/21767435.jpg" alt=""></center><br>作者提到自己两大工作就是这个<strong>框架</strong>流程对各种现实中的网络都具有普适性(great generality)、自己提出了一种新的<strong>Graph labeling方法</strong>。</p>
 <ol>
@@ -398,7 +398,7 @@
 <p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-15/48782617.jpg" alt=""></center></p>
 <h4 id="嵌入为什么能够进行可视化呢？"><a href="#嵌入为什么能够进行可视化呢？" class="headerlink" title="嵌入为什么能够进行可视化呢？"></a>嵌入为什么能够进行可视化呢？</h4><p>node2vector<sup>[9]</sup>作为一种图嵌入（图表示）的方法，因为其遵循了两大原则：homolphily（同质性）；structural equivalence（结构等价性）。那么实际用途可以进行网络的分析。比如对于小说《悲惨世界》人物关系的分析，总共有77个人物，即77个节点。人物之间总共有254个关系，即254个边存在。</p>
 <p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-15/27525217.jpg" alt=""></center><br>上图是通过词嵌入可视化之后得到的社区图，下图是通过词嵌入可视化得到<strong>人物角色等价</strong>（有点不好理解）可视化图</p>
-<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ol>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
 <li>Weiwei Cui: A Survey on Graph Visualization</li>
 <li><a href="http://jackieanxis.coding.me/2017/10/03/WeiweiCui%E7%9A%84%E5%9B%BE%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%BC%E8%BF%B0%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/" target="_blank" rel="noopener">WeiweiCui的图可视化综述阅读笔记</a></li>
 <li><a href="https://vimeo.com/238502264" target="_blank" rel="noopener">论文大会oral video</a></li>
@@ -657,7 +657,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#现状"><span class="nav-number">1.</span> <span class="nav-text">现状</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Part-1"><span class="nav-number"></span> <span class="nav-text">Part 1</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Part-2"><span class="nav-number"></span> <span class="nav-text">Part 2</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Part-3"><span class="nav-number">1.</span> <span class="nav-text">Part 3</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#图"><span class="nav-number">1.1.</span> <span class="nav-text">图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#图嵌入（Network-Embedding）"><span class="nav-number">1.2.</span> <span class="nav-text">图嵌入（Network Embedding）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#node-to-vector"><span class="nav-number">1.2.1.</span> <span class="nav-text">node to vector</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#嵌入为什么能够进行可视化呢？"><span class="nav-number">1.2.2.</span> <span class="nav-text">嵌入为什么能够进行可视化呢？</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Reference"><span class="nav-number"></span> <span class="nav-text">Reference</span></a></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#现状"><span class="nav-number">1.</span> <span class="nav-text">现状</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Part-1"><span class="nav-number">2.</span> <span class="nav-text">Part 1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Part-2"><span class="nav-number">3.</span> <span class="nav-text">Part 2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Part-3"><span class="nav-number">4.</span> <span class="nav-text">Part 3</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#图"><span class="nav-number">4.1.</span> <span class="nav-text">图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#图嵌入（Network-Embedding）"><span class="nav-number">4.2.</span> <span class="nav-text">图嵌入（Network Embedding）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#node-to-vector"><span class="nav-number">4.2.1.</span> <span class="nav-text">node to vector</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#嵌入为什么能够进行可视化呢？"><span class="nav-number">4.2.2.</span> <span class="nav-text">嵌入为什么能够进行可视化呢？</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-number">5.</span> <span class="nav-text">Reference</span></a></li></ol></div>
             
 
           </div>
