@@ -357,64 +357,14 @@
 
       
         
-          
-            <h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>在自己的学生生涯中，参与实际项目的开发是必不可少的一个环节。在2016年进入实验室的时候，就被分配到了参与“国产化”项目当中，当时（2016年9-10月份）主要在小马哥(现已入职京东)的带领下一起进行<strong>工程插件</strong>的开发与学习。之后自己懵懵懂懂地开始带着师弟师妹一起进行工程开发，2018年3月份与2016级师妹一起参与过“数字地球”的<strong>插件开发</strong>,2018年8月份与2017级师弟师妹进行过国产化的<br><strong>平台适配</strong></p>
-<p>&lt;! – more –&gt;</p>
-<h2 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h2><p>由于自己之前开发都是至今进行插件的编写与调试，并不会涉及到工程项目在各个平台的适配工作，故最近一直在折腾平台适配问题。</p>
-<h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><p>国产化项目主要的一块要求就是实现“跨平台”。</p>
-<p>国产化硬件平台有：</p>
-<ul>
-<li><p><a href="https://zh.wikipedia.org/wiki/%E9%A3%9E%E8%85%BE%E5%A4%84%E7%90%86%E5%99%A8" target="_blank" rel="noopener">飞腾系列</a> ：国防科大研制的芯片</p>
-</li>
-<li><p><a href="https://zh.wikipedia.org/wiki/%E9%BE%99%E8%8A%AF" target="_blank" rel="noopener">龙芯系列</a>：中国科学院计算技术研究所研制的芯片</p>
-</li>
-<li><p><a href="https://zh.wikipedia.org/wiki/%E7%94%B3%E5%A8%81%E5%A4%84%E7%90%86%E5%99%A8" target="_blank" rel="noopener">申威系列</a>：中国人民解放军总参谋部第五十六研究所（江南计算技术研究所）研制的芯片</p>
-</li>
-</ul>
-<p>国产化操作系统有：</p>
-<ul>
-<li><p><a href="http://www.kylinos.cn/" target="_blank" rel="noopener">银河麒麟</a></p>
-</li>
-<li><p><a href="http://www.cs2c.com.cn/" target="_blank" rel="noopener">中标麒麟 </a></p>
-</li>
-</ul>
-<h2 id="适配"><a href="#适配" class="headerlink" title="适配"></a>适配</h2><p>国产化机器的购置主要来源是<a href="http://www.wfdz.com.cn/" target="_blank" rel="noopener">扬州万方</a>，平台的适配是一项很考验计算机技术的基本功的工程工作。当自己亲自接手了此任务，在实际操作的工程中，主要遇到的问题有：</p>
-<p>1）整个项目工程的流程框架 </p>
-<p>2）内网如何快速传输文件，如何备份文件</p>
-<p>3）工程编译、链接问题</p>
-<h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>自己在进行适配的过程中，遇到一些莫名其妙的问题，主要是靠万方单位的远程协助，虽然会有成就感，但大大降低了效率。今天万方单位的外协人员亲自过来，进行各个平台的适配与调试，自己再一旁观看，感觉老师傅就是厉害，linux平台下面的各种命令用得特别娴熟，并且能够准确地定位到问题出处，并且给出解决方案。对于实际的项目工程开发又有了新的感悟。</p>
-<p>##linux平台命令</p>
-<h3 id="data-命令"><a href="#data-命令" class="headerlink" title="data 命令"></a>data 命令</h3><p>data -s ：设定系统时间<sup>[1]</sup></p>
-<p>hwclock -w ：将系统时钟同步到硬件时钟<sup>[2]</sup></p>
-<h3 id="tar-命令"><a href="#tar-命令" class="headerlink" title="tar 命令"></a>tar 命令</h3><p>通过ssh访问服务器，难免会用到压缩、解压缩、打包、解包问题。tar命令可以为Linux的文件和目录创建档案。利用tar命令，可以把一大堆的文件和目录全部打包成一个文件，这对于备份文件或者将几个文件组合成为一个文件以便于网络传输是非常有用的<sup>[3]</sup>。</p>
-<h4 id="打包与压缩区别"><a href="#打包与压缩区别" class="headerlink" title="打包与压缩区别"></a>打包与压缩区别</h4><p>打包：是指将一大堆文件或目录变成一个总的文件；压缩则是将一个大的文件通过一些压缩算法变成一个小文件。linux中很多压缩程序只能针对一个文件进行压缩，所以进行压缩一大堆文件之前，首先将一大堆文件进行打包成一个包，即tar命令。然后再利用压缩程序进行压缩，比如gzip命令。</p>
-<h4 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h4><pre><code>tar -cvf log.tar log2012.log    仅打包，不压缩！ 
-tar -zcvf log.tar.gz log2012.log   打包后，以 gzip 压缩 
-tar -jcvf log.tar.bz2 log2012.log  打包后，以 bzip2 压缩 
-</code></pre><h3 id="mv-命令"><a href="#mv-命令" class="headerlink" title="mv 命令"></a>mv 命令</h3><p>mv命令的两个作用就是对文件或者目录重新命名，或者将文件移至另一个目录当中<sup>[4]</sup></p>
-<h4 id="实例-1"><a href="#实例-1" class="headerlink" title="实例"></a>实例</h4><pre><code>mv ex3 new1 将文件名ex3改名为new1
-mv /usr/men/* .将目录/usr/men 中的所有文件移到当前目录中
-</code></pre><h3 id="find-命令"><a href="#find-命令" class="headerlink" title="find 命令"></a>find 命令</h3><p>find命令用来在指定目录下面查找文件<sup>[5]</sup>。</p>
-<h4 id="实例-2"><a href="#实例-2" class="headerlink" title="实例"></a>实例</h4><pre><code>find . 列出当前目录及子目录下所有文件和文件夹
-find /home -name &quot;*.txt&quot; 在/home目录下面查找以.txt结尾的文件名。
-</code></pre><h3 id="dpkg-命令"><a href="#dpkg-命令" class="headerlink" title="dpkg 命令"></a>dpkg 命令</h3><p>dpkg命令是linux系统用来安装、创建和管理软件包的实用工具<sup>[6]</sup></p>
-<h4 id="实例-3"><a href="#实例-3" class="headerlink" title="实例"></a>实例</h4><pre><code>dpkg -i package.deb 安装包
-dpkg -L package 列出与该包关联的文件
-dpkg -S keyword 搜索所属的包内容
-</code></pre><h3 id="rsync-命令"><a href="#rsync-命令" class="headerlink" title="rsync 命令"></a>rsync 命令</h3><p>一个远程数据同步工具，可通过LAN/WAN快速同步多台主机间的文件<sup>[7]</sup>。</p>
-<h4 id="实例-4"><a href="#实例-4" class="headerlink" title="实例"></a>实例</h4><pre><code>语法：rsync [OPTION]... [USER@]HOST:SRC DEST
-含义：使用一个远程shell程序(如rsh、ssh)来实现将远程机器的内容拷贝到本地机器。当SRC地址路径包含单个冒号&quot;:&quot;分隔符时启动该模式。如：rsync -avz foo:src/bar /data
-</code></pre><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
-<li><a href="https://www.kancloud.cn/louis1986/linuxcommand/499526" target="_blank" rel="noopener">data命令</a></li>
-<li><a href="https://blog.csdn.net/Jerry_1126/article/details/54563845" target="_blank" rel="noopener">图解Linux命令之–hwclock命令</a></li>
-<li><a href="http://man.linuxde.net/tar" target="_blank" rel="noopener">tar命令</a></li>
-<li><a href="http://man.linuxde.net/mv" target="_blank" rel="noopener">mv命令</a></li>
-<li><a href="http://man.linuxde.net/find" target="_blank" rel="noopener">find命令</a></li>
-<li><a href="http://man.linuxde.net/dpkg" target="_blank" rel="noopener">dpkg命令</a></li>
-<li><a href="http://man.linuxde.net/rsync" target="_blank" rel="noopener">rsync命令</a></li>
-</ol>
-
-          
+          <h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>在自己的学生生涯中，参与实际项目的开发是必不可少的一个环节。在2016年进入实验室的时候，就被分配到了参与“国产化”项目当中，当时（2016年9-10月份）主要在小马哥(现已入职京东)的带领下一起进行<strong>工程插件</strong>的开发与学习。之后自己懵懵懂懂地开始带着师弟师妹一起进行工程开发，2018年3月份与2016级师妹一起参与过“数字地球”的<strong>插件开发</strong>,2018年8月份与2017级师弟师妹进行过国产化的<br><strong>平台适配</strong><br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/09/18/国产化工程项目/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
