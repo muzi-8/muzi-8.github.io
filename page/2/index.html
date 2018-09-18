@@ -265,6 +265,153 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/31/解析word文档/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="muzi">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="muzi-8">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/31/解析word文档/" itemprop="url">解析word文档表格</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-31T17:09:12+08:00">
+                2018-07-31
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <pre><code># -*- coding: utf-8 -*-
+# from __future__ import print_function
+import sys
+reload(sys)
+sys.setdefaultencoding(&apos;utf-8&apos;)
+
+import win32com
+from win32com.client import Dispatch, constants
+w = win32com.client.Dispatch(&apos;Word.Application&apos;)
+w.Visible = 1
+w.Documents.Open( FileName = &apos;D:\muzi\\37.docx&apos;)  #路径不能存在中文
+doc = w.ActiveDocument
+count = doc.Tables.Count  #统计整个word文档有多少个表
+a = doc.Tables(1).rows.Count # 返回表格的行数
+b = doc.Tables(1).columns.Count # 返回表格的列数
+
+import collections
+Content = collections.OrderedDict()
+for num in range (count):
+    for i in range (doc.Tables(num+1).rows.Count):
+        key = re.sub(r&apos;\r\x07&apos;,&apos;&apos;,doc.Tables(num+1).Cell(Row= i+1,Column = 1).Range.Text) //正则化去除特殊符号
+        value = re.sub(r&apos;\r\07&apos;,&apos;&apos;,doc.Tables(num+1).Cell(Row=i+1,Column = 2).Range.Text) 
+        Content[key] = value
+    filename = &apos;D:\muzi\m&apos;  
+    import json
+    with open(filename+&apos;.json&apos;,&apos;a&apos;) as outfile:    //打开已存在的文件
+        json.dump(Content,outfile,ensure_ascii = False) //字典内容写入json文件中
+        outfile.write(&apos;\n&apos;)
+</code></pre>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/31/opencv安装问题/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1044,7 +1191,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">15</span>
+                  <span class="site-state-item-count">16</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -1055,7 +1202,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -1066,7 +1213,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
