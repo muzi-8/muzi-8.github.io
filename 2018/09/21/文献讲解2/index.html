@@ -93,7 +93,7 @@
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-9-22/93392333.jpg">
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-9-22/73344948.jpg">
 <meta property="og:image" content="http://od2s78ez3.bkt.clouddn.com/18-9-22/71161204.jpg">
-<meta property="og:updated_time" content="2018-09-22T05:46:28.558Z">
+<meta property="og:updated_time" content="2018-09-22T05:54:56.132Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="t-sne图布局与图节点关系预测">
 <meta name="twitter:description" content="本次主要分享师弟讲解的两篇文献：《Graph Layouts byt-SNE》、《TransNet: Translation-Based Network Representation Learning for Social Relation Extraction 》">
@@ -383,11 +383,14 @@
 <li><p>ISOMAP算法具有拓扑不稳定性、计算复杂性大等缺点</p>
 </li>
 <li><p>LLE算法具有有解析的整体解、计算复杂度小等优点，但是对于噪声敏感。 </p>
-<h3 id="T-sne"><a href="#T-sne" class="headerlink" title="T-sne"></a>T-sne</h3><p>T-sne是目前流形降维中最受欢迎方法之一，在机器学习的可解释性范畴当中，经常用作高维数据可视化的一种手段，用来辅助理解各种分类器模型的有效性与透明性<sup>[6]</sup>。</p>
-<h4 id="算法本质"><a href="#算法本质" class="headerlink" title="算法本质"></a>算法本质</h4><p>sne技术是将高维数据间的欧式距离转化为<strong>数据点相似性的条件概率</strong>，根据这种点与点之间的概率关系非线性降维。t-sne<strong>解决</strong>了在降维过程中的拥挤问题，数据在低维空间表示下，同类样本聚集性更好，不同样本具有分离性<sup>[6]</sup>。<br><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-22/37264169.jpg" alt=""></center><sup>[4]</sup></p>
-<h3 id="layout-amp-t-sne"><a href="#layout-amp-t-sne" class="headerlink" title="layout &amp; t-sne"></a>layout &amp; t-sne</h3><p>在《Graph layout by t-sne》这篇文献中，作者将图布局与降维方式这两种概念联系在一起，如下图所示：<br><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-22/93392333.jpg" alt=""></center><sup>[1]</sup><br><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-22/73344948.jpg" alt=""></center><sup>[1]</sup></p>
 </li>
 </ul>
+<h3 id="T-sne"><a href="#T-sne" class="headerlink" title="T-sne"></a>T-sne</h3><p>T-sne是目前流形降维中最受欢迎方法之一，在机器学习的可解释性范畴当中，经常用作高维数据可视化的一种手段，用来辅助理解各种分类器模型的有效性与透明性<sup>[6]</sup>。</p>
+<h4 id="算法本质"><a href="#算法本质" class="headerlink" title="算法本质"></a>算法本质</h4><p>sne技术是将高维数据间的欧式距离转化为<strong>数据点相似性的条件概率</strong>，根据这种点与点之间的概率关系非线性降维。t-sne<strong>解决</strong>了在降维过程中的拥挤问题，数据在低维空间表示下，同类样本聚集性更好，不同样本具有分离性<sup>[6]</sup>。</p>
+<p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-22/37264169.jpg" alt=""></center><sup>[4]</sup></p>
+<h3 id="layout-amp-t-sne"><a href="#layout-amp-t-sne" class="headerlink" title="layout &amp; t-sne"></a>layout &amp; t-sne</h3><p>在《Graph layout by t-sne》这篇文献中，作者将图布局与降维方式这两种概念联系在一起，如下图所示：</p>
+<p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-22/93392333.jpg" alt=""></center><sup>[1]</sup></p>
+<p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-22/73344948.jpg" alt=""></center><sup>[1]</sup></p>
 <h4 id="联系"><a href="#联系" class="headerlink" title="联系"></a>联系</h4><p>作者是通过怎样的方式将两者联系在一起呢？在t-sne的算法基础上提出了适应图布局的算法t-snet算法。tsnet算法首先计算节点之间的最短路径长度<sup>[7]</sup>（<strong>图论经典问题</strong>），然后将其类比为t-sne算法中的高维向量之间的距离，然后，tsnet采用了原先tsne的目标函数，并且额外增加了两个惩罚项。具体过程如下图所示：</p>
 <p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-22/71161204.jpg" alt=""></center><sup>[1]</sup></p>
 <h4 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h4><p>作者通过定量评估方法与定性评估方法对自己的布局算法进行了评估验证。</p>
@@ -395,10 +398,10 @@
 <li><p>定量方法：1）Normalized stress metric：图上距离与实际布局距离的误差、2）Neighborhood preservation metric：局部邻居的保持率，两个节点原本在图中是邻居，希望在空间布局也是邻居。</p>
 </li>
 <li><p>定性方法：  布局结果的可读性</p>
-<h2 id="Part2"><a href="#Part2" class="headerlink" title="Part2"></a>Part2</h2><p>第二篇文献主要解决了现存的网络表示模型不能够充分表示节点之间边的特征信息，作者借鉴NLP中的翻译机制，提出了自己的TransNet模型，为了验证自己模型抽取节点之间边的交互信息性能，作者设计了一个社交关系提取（Social Relation Extraction SRE）任务。在ArnetMiner<sup>[9]</sup>数据集上面做了相应实验进行验证。详细信息可参考<sup>[8]</sup>。</p>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2></li>
+</li>
 </ul>
-<ol>
+<h2 id="Part2"><a href="#Part2" class="headerlink" title="Part2"></a>Part2</h2><p>第二篇文献主要解决了现存的网络表示模型不能够充分表示节点之间边的特征信息，作者借鉴NLP中的翻译机制，提出了自己的TransNet模型，为了验证自己模型抽取节点之间边的交互信息性能，作者设计了一个社交关系提取（Social Relation Extraction SRE）任务。在ArnetMiner<sup>[9]</sup>数据集上面做了相应实验进行验证。详细信息可参考<sup>[8]</sup>。</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
 <li><a href="https://vimeo.com/232088158" target="_blank" rel="noopener">Graph Layout by t-sne： video</a></li>
 <li><a href="http://hdc.cs.arizona.edu/" target="_blank" rel="noopener">The Humans, Data, and Computers Lab</a></li>
 <li>文献：面向大规模图数据的并行图布局算法</li>
