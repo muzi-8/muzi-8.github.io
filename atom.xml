@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-22T05:54:56.132Z</updated>
+  <updated>2018-09-25T02:57:14.445Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>工程实践：Imagenet数据集</title>
+    <link href="http://yoursite.com/2018/09/25/%E6%B5%85%E8%81%8AImagenet%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
+    <id>http://yoursite.com/2018/09/25/浅聊Imagenet数据集/</id>
+    <published>2018-09-25T01:23:55.000Z</published>
+    <updated>2018-09-25T02:57:14.445Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>图像识别模式挑战赛(ImageNet Large Scale Visual Recognition Challenge)简称为ILSVRC，自2010年开始，成为计算机视觉领域图像分类、检测算法性能评估参考标准，使用的数据集是ImageNet Database的子集。<br><a id="more"></a></p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>训练集：ILSVRC2012_ img_train.tar</p><p>验证集：ILSVRC2012_ img_val.tar</p><p>主要是想要下载上述两个tar包文件，查看其tar包文件大小可使用命令：</p><pre><code>du -h *.tar</code></pre><p>下载过程推荐使用断点续传工具 aria2<sup>[1]</sup></p><h2 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h2><h3 id="训练集"><a href="#训练集" class="headerlink" title="训练集"></a>训练集</h3><p>训练集的所有图像数据都是位于各自类别下面的文件夹里面，总共1000个类别，也就包含1000个文件夹。各自文件夹是由对应的ID命名<br>创建目录命令</p><pre><code>mkdir train</code></pre><p>拷贝tar包至train目录中</p><pre><code>cp ILSVRC2012_ img_train.tar train/</code></pre><p>进入train目录中</p><pre><code>cd  train/</code></pre><p>显示此目录内容</p><pre><code>ls</code></pre><p>解压相应tar包</p><pre><code>tar -xvf ILSVRC2012_ img_train.tar 注： -x 从压缩的文件中提取文件-v 显示操作过程-f 指定压缩文件</code></pre><p>查看目录下面文件个数</p><pre><code>ls -1 | wc -l</code></pre><p>可以选择删除解压之前的tar包文件</p><pre><code>rm ILSVRC2012_ img_train.tar </code></pre><h3 id="验证集"><a href="#验证集" class="headerlink" title="验证集"></a>验证集</h3><p>总共50000张图像，是混乱放在一个目录下面的，需要使用脚本文件进行处理，最后形式应该与训练集目录一致，每一个文件夹下面存放相应需要识别的图像文件。</p><p>脚本文件可在<a href="https://github.com/pytorch/examples/tree/master/imagenet" target="_blank" rel="noopener">pytorch github</a>中找到，如下所示</p><p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-25/50774724.jpg" alt=""></center><br>查找当前路径下面的所有目录命令</p><pre><code>find . -type d</code></pre><h2 id="评估"><a href="#评估" class="headerlink" title="评估"></a>评估</h2><p>后续可采用tf或者pytorch框架下面的预训练模型对验证集进行测试，查看其TOP-1/TOP-5正确率是否与官网一致。</p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol><li><a href="https://www.jianshu.com/p/bb9490ea1c4d" target="_blank" rel="noopener">Aria2-不限速全平台下载利器</a></li><li><a href="https://www.bilibili.com/video/av20115403?from=search&amp;seid=1525466752797960325" target="_blank" rel="noopener">bilibili:ImageNet数据集的说明</a></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;图像识别模式挑战赛(ImageNet Large Scale Visual Recognition Challenge)简称为ILSVRC，自2010年开始，成为计算机视觉领域图像分类、检测算法性能评估参考标准，使用的数据集是ImageNet Database的子集。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="深度学习" scheme="http://yoursite.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="数据集" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
+    
+  </entry>
   
   <entry>
     <title>t-sne图布局与图节点关系预测</title>
