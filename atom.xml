@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-23T06:10:27.226Z</updated>
+  <updated>2019-04-19T09:18:55.672Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Google TPU 线下分享交流会</title>
+    <link href="http://yoursite.com/2019/04/19/Google%20Tpu%20%E7%BA%BF%E4%B8%8B%E5%88%86%E4%BA%AB%E4%BA%A4%E6%B5%81%E4%BC%9A/"/>
+    <id>http://yoursite.com/2019/04/19/Google Tpu 线下分享交流会/</id>
+    <published>2019-04-19T07:50:26.000Z</published>
+    <updated>2019-04-19T09:18:55.672Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>此时的实验室静悄悄，只能听见键盘的敲击声，而我内心确是汹涌澎湃，激动之情难以言表</p><p>上周五到这周五，整整一周的时间，基本上每天都是只休息5个小时，然后就高负荷“工作”，修改paper，做实验写代码跑代码，获得paper数据，做自己的开题PPT，写自己的开题报告，阅读最新文献，刷课（李宏毅机器学习2017、严蔚敏数据结构），每天早上第一个到实验室，凌晨最后一个离开实验室，仿佛又回到了自己本科二年级的状态，回到了自己中学二年级的状态。 虽然很累，但是却很充实。<br><a id="more"></a></p><h1 id="TPU分享交流"><a href="#TPU分享交流" class="headerlink" title="TPU分享交流"></a>TPU分享交流</h1><p>忙里偷闲，参加了线下TPU分享交流，实际上自己对于TPU之前一无所知，因为对于我们而言，无需太关注硬件设计，只要用好硬件资源即可。现对TPU做一简单的科普介绍</p><ul><li>TPU（tensor processing unit）专门为Google的深度学习框架tensorflow框架而设计。<h2 id="Google的AI芯片"><a href="#Google的AI芯片" class="headerlink" title="Google的AI芯片"></a>Google的AI芯片</h2></li><li><p>cpu 包括运算器（ALU，Arithmetic and Logic Unit）和控制器（CU,Control Unit）两大部件。CPU从程序计数器取到指令，通过指令总线将指令送至译码器，将转译后的指令交给时序发生器与操作控制器，然后运算器对数据进行计算，通过数据总线将数据存至数据缓存寄存器。CPU遵循的是冯诺依曼架构，核心就是：存储程序，顺序执行。但是不足之处在于效率不是很高，能否将多个处理器放在同一块芯片上呢？</p></li><li><p>GPU（Graphics Processing Unit）图形处理器，当前最顶级的CPU只有4核或者6核，模拟出8个或者12个处理线程来进行运算，但是普通级别的GPU就包含了成百上千个处理单元。虽然GPU是为了图像处理而生的，但是它还被用来进行科学计算、数值分析等任务，因此被认为是一种较通用的芯片。</p></li><li><p>FRGA（Field Programmable Gate Array）运用硬件描述语言描述逻辑电路，即一种可以编程的芯片。</p></li><li><p>TPU(Tensor processing unit)一种ASIC(专用集成电路)，一款专用机器学习算法的专用芯片。TPU的核心是脉动阵列，如下图所示：</p></li></ul><p><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/Google%20Tpu/%E8%84%89%E5%8A%A8%E9%98%B5%E5%88%97.PNG" alt=""></p><h2 id="分享成果"><a href="#分享成果" class="headerlink" title="分享成果"></a>分享成果</h2><p><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/Google%20Tpu/result.jpg" alt=""></p><p><center>项目成员</center><br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/Google%20Tpu/webwxgetmsgimg.jpg" alt=""></p><h2 id="分享感想"><a href="#分享感想" class="headerlink" title="分享感想"></a>分享感想</h2><ol><li>tensorflow编程自己应该也需要熟练，因为要使用TPU，必须要会TF，但是目前tf2.0并不支持TPU</li><li>自己应该尝试用一下TPU，涉及到colab（谷歌内部类 Jupyter Notebook 的交互式 Python 环境，属于云服务的一种）、GCP（Google Cloud Platform）使用等</li></ol><h2 id="意外收获"><a href="#意外收获" class="headerlink" title="意外收获"></a>意外收获</h2><p>认识了SIGAI公司的雷明先生，了解了彩云科技公司等，但是最让我兴奋与激动的是得知<a href="https://realai.ai/" target="_blank" rel="noopener">瑞莱智慧（RealAI）</a> ：是由自己一直关注的清华朱军团队创立的一个初创公司，目标在于打造可理解的新一代人工智能，与自己的博士课题完全契合。自己的心中终于有了一个意向公司，终于有了一个目标，维有努力。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;此时的实验室静悄悄，只能听见键盘的敲击声，而我内心确是汹涌澎湃，激动之情难以言表&lt;/p&gt;
+&lt;p&gt;上周五到这周五，整整一周的时间，基本上每天都是只休息5个小时，然后就高负荷“工作”，修改paper，做实验写代码跑代码，获得paper数据，做自己的开题PPT，写自己的开题报告，阅读最新文献，刷课（李宏毅机器学习2017、严蔚敏数据结构），每天早上第一个到实验室，凌晨最后一个离开实验室，仿佛又回到了自己本科二年级的状态，回到了自己中学二年级的状态。 虽然很累，但是却很充实。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="硬件资源" scheme="http://yoursite.com/categories/%E7%A1%AC%E4%BB%B6%E8%B5%84%E6%BA%90/"/>
+    
+    
+      <category term="Network Inference" scheme="http://yoursite.com/tags/Network-Inference/"/>
+    
+  </entry>
   
   <entry>
     <title>生日</title>
@@ -434,27 +457,6 @@
     <updated>2017-10-18T21:01:52.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><h2 id="PYTORCH-系列教程（一）"><a href="#PYTORCH-系列教程（一）" class="headerlink" title="PYTORCH 系列教程（一）"></a>PYTORCH 系列教程（一）</h2><p>Author：muzi</p><p><title><center>201_torch_numpy</center></title><br><img src="http://od2s78ez3.bkt.clouddn.com/17-10-19/33138087.jpg" alt=""><br><img src="http://od2s78ez3.bkt.clouddn.com/17-10-19/36291573.jpg" alt=""></p><ol><li><p>将numpy数组转换为张量，或者张量转换为数组<br>(convert numpy to tensor or vise versa 反之亦然)</p><p> code<br> import torch<br> import numpy as np<br> np_data = np.arange(6).reshape((2, 3))<br> print np_data<br> torch_data = torch.from_numpy(np_data)<br> print torch_data<br> tensor2array = torch_data.numpy()<br> print tensor2array<br>结果：</p><p> [[0 1 2]<br>  [3 4 5]]</p><p>  0  1  2<br>  3  4  5<br> [torch.LongTensor of size 2x3]</p><p> [[0 1 2]<br>  [3 4 5]]</p></li><li><p>元素取绝对值</p><p> code<br> data = [-1, -2, 1, 2]<br> print data<br> tensor = torch.FloatTensor(data)<br> print tensor<br> print np.abs(data)<br> print torch.abs(tensor)<br>结果：</p><p> [-1, -2, 1, 2]</p><p> -1<br> -2<br>  1<br>  2<br> [torch.FloatTensor of size 4]</p><p> [1 2 1 2]</p><p>  1<br>  2<br>  1<br>  2<br> [torch.FloatTensor of size 4]</p></li><li><p>元素取sin值</p><p> code<br> print np.sin(data)<br> print torch.sin(tensor)<br>结果：</p><p> [-0.84147098 -0.90929743  0.84147098  0.90929743]</p><p> -0.8415<br> -0.9093<br>  0.8415<br>  0.9093<br> [torch.FloatTensor of size 4]</p></li><li><p>张量元素取sigmoid值</p><p> code<br> print tensor.sigmoid()<br>结果</p><p>  0.2689<br>  0.1192<br>  0.7311<br>  0.8808<br> [torch.FloatTensor of size 4]</p></li><li><p>张量元素取指数值</p><p> code<br> print tensor.exp()<br>结果：</p><p> 0.3679<br> 0.1353<br> 2.7183<br> 7.3891<br>  [torch.FloatTensor of size 4]</p></li><li><p>元素取平均值</p><p> code<br> print np.mean(data)<br> print torch.mean(tensor)<br>结果：</p><p> 0.0<br> 0.0<br>7.列表，张量的矩阵运算</p><p> data = [[1,2], [3,4]]<br> print data<br> print type(data)<br> tensor = torch.FloatTensor(data)<br> print np.matmul(data,data)<br> print type(np.matmul(data,data))<br> print torch.mm(tensor,tensor)<br>结果：</p><p> [[1, 2], [3, 4]]<br> <type 'list'=""></type></p><h1 id="数据类型是list，可以通过matmul计算list的矩阵运算。"><a href="#数据类型是list，可以通过matmul计算list的矩阵运算。" class="headerlink" title="数据类型是list，可以通过matmul计算list的矩阵运算。"></a>数据类型是list，可以通过matmul计算list的矩阵运算。</h1><p> [[ 7 10]<br>  [15 22]]<br> <type 'numpy.ndarray'=""><br>   7  10<br>  15  22<br> [torch.FloatTensor of size 2x2]</type></p></li><li><p>数组的矩阵乘法操作；张量的內积运算</p><p> code<br> data = np.array(data)<br> print data<br> print type(data) #数据类型是数组，可以通过dot操作计算矩阵运算<br> print data.dot(data)<br> tensor = torch.FloatTensor(data)<br> print tensor<br> #print tensor.dot(tensor) #不正确的操作，因为维度不匹配<br> data1 = [1,2,3,4]<br> print type(data1)<br> print type(data1)<br> tensor = torch.FloatTensor(data1)<br> print tensor<br> print tensor.dot(tensor) #正确的操作 进行內积运算<br>结果：</p><p> [[1 2]<br>  [3 4]]<br> <type 'numpy.ndarray'=""><br> [[ 7 10]<br>  [15 22]]</type></p><p>  1  2<br>  3  4<br> [torch.FloatTensor of size 2x2]</p><p> [1, 2, 3, 4]</p> <type 'list'=""><p>  1<br>  2<br>  3<br>  4<br> [torch.FloatTensor of size 4]</p><p> 30.0</p></type></li><li><p>张量对应元素相乘</p><p> data =[[1,2],[3,4]]<br> print data<br> print type(data)<br> data = np.array(data)<br> print data        # 数据类型：列表与数组区别<br> print type(data)<br> tensor = torch.FloatTensor(data)<br> print tensor.mm(tensor)<br> print tensor*tensor          # 张量元素的对应乘积<br> data1 = np.arange(1,5)<br> data2 = np.array([1,2,3,4])  # 两种方式 产生(n,)的数组<br> print data1<br> print data2<br> print type(data1)<br> print data1.shape<br> tensor_1D = torch.FloatTensor(data1)<br> tensor_1D_ = torch.from_numpy(data2)   #两种方式 将（n,）的数组转换为 1-D张量<br> print tensor_1D<br> print tensor_1D.dot(tensor_1D)         # 1-D张量类型数据的內积：对应元素相乘求和<br>结果：</p><p> [[1, 2], [3, 4]]<br> <type 'list'=""><br> [[1 2]<br>  [3 4]]<br> <type 'numpy.ndarray'="">    #列表与数组的区别</type></type></p><p>   7  10<br>  15  22<br> [torch.FloatTensor of size 2x2]   #张量矩阵乘法</p></li></ol><pre><code>  1   4  9  16[torch.FloatTensor of size 2x2]  #张量对应元素相乘[1 2 3 4][1 2 3 4]&lt;type &apos;numpy.ndarray&apos;&gt;(4,) 1 2 3 4[torch.FloatTensor of size 4]&lt;class &apos;torch.FloatTensor&apos;&gt;30.0</code></pre><p>Reference :<br><a href="https://github.com/MorvanZhou/PyTorch-Tutorial" target="_blank" rel="noopener">莫烦：pytorch教程</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/07/31/hello-world/"/>
-    <id>http://yoursite.com/2018/07/31/hello-world/</id>
-    <published>2018-07-31T08:25:38.829Z</published>
-    <updated>2018-07-31T08:25:38.829Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
     <summary type="html">
     
