@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-19T12:57:53.997Z</updated>
+  <updated>2019-05-27T15:32:42.348Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博士生涯第一阶段</title>
+    <link href="http://yoursite.com/2019/05/27/%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%B6%AF%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
+    <id>http://yoursite.com/2019/05/27/博士生涯第一阶段/</id>
+    <published>2019-05-27T08:13:27.000Z</published>
+    <updated>2019-05-27T15:32:42.348Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>所有的经历都是那么刻骨铭心</p><p>自己选择的路怎么也得给走完<br><a id="more"></a></p><h1 id="博士课题"><a href="#博士课题" class="headerlink" title="博士课题"></a>博士课题</h1><p>选题是一个即将独立自主要做研究的博士生必须要面临的一个问题，对于自己而言，同样面临这个问题。然而自己在选题与立题方面确实花了太多的精力，并且比同龄人多花费了一年时间。</p><p><center><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/PHD_ONE_STAGE/%E9%80%89%E9%A2%98.PNG" alt=""><sup>[1]</sup><br></center></p><h2 id="选题经历"><a href="#选题经历" class="headerlink" title="选题经历"></a>选题经历</h2><p>简单记录一下自己的选题经历</p><ul><li>2015.3-2015.6 本科毕设：基于深度置信网络的遥感图像飞机目标检测</li></ul><blockquote><p>第一次接触深度学习概念，主要工作是阅读并调试 <a href="https://github.com/rasmusbergpalm/DeepLearnToolbox" target="_blank" rel="noopener">DeepLearnToolbox</a></p></blockquote><ul><li><p>2015.9-2016.6 集中教学一年，主要学习机器学习、数据挖掘、深度学习的相关理论</p></li><li><p>2016.6-2016.12 自己的博士课题为可视化与可视分析，主要调研可视分析领域三大会议IEEE vis、Info vis、Pacific vis</p></li></ul><blockquote><p>在此期间精读一篇文献：Towards Better Analysis of Deep Convolutional Neural Networks</p></blockquote><blockquote><p>Follow的研究组有：清华刘世霞、北大袁晓茹、香港科技大学屈华民、浙江大学陈为</p></blockquote><ul><li><p>2016.12-2017.5 主要围绕着卷积神经网络可视分析系统做一些文献阅读与了解工作</p><blockquote><p>在此期间主要学习cs231n课程</p></blockquote></li><li><p>2017.5-2017.12 主要精读了三篇文章：LRP算法、Grad-cam算法、CAM算法</p><blockquote><p>在此期间主要follow的研究者有：MIT周博磊（现香港中文大学）、上交张拳石</p></blockquote></li><li><p>2017.12-2018.1 阅读香港科技大学Haipeng Zeng与MingYao两篇综述</p><blockquote><p><a href="http://vis.cse.ust.hk/groups/xai-vis/" target="_blank" rel="noopener">Explainable AI + VIS</a>: 第一次得知可解释性AI（XAI）概念</p></blockquote></li><li><p>2017.12-2018.3 主要涉猎模型压缩的paper，希望能够通过提出掉冗余的滤波器进行模型的解释以及压缩</p><blockquote><p>Interpreting Convolutional Neural Networks Through Compression</p></blockquote></li></ul><blockquote><p>主要研究的code：<a href="https://github.com/jacobgil/pytorch-pruning" target="_blank" rel="noopener">jacobgil/pytorch-pruning</a></p></blockquote><ul><li><p>2018.3-2018.5 主要进行前后端深度学习的可视分析尝试</p><blockquote><p>主要参考code：<a href="https://github.com/hareltake/ReactCNN/tree/master/reactcnn-backend" target="_blank" rel="noopener">hareltake/ReactCNN</a></p></blockquote></li><li><p>2018.5-2018.7 开始研究显著图（模型决策依据） </p><blockquote><p>主要阅读文献： CNN fixations: An unravelling approach to identify discriminative image regions<br>参加北大可视化暑期学校：进一步促进自己将要做可解释性AI的博士课题</p></blockquote></li><li><p>2018.8-2018.9 完成MEAN.ts（MongoDB, Express, AngularJs, Node, and Typescript）前后端项目练习</p></li><li><p>2018.9-2019.2 大量收集相关显著图研究文献</p></li><li><p>2019.3-2019.4 辅助完成光学遥感图像分类可解释性基金项目申请</p></li><li><p>2019.3-2019.6 完成自己的博士开题：面向卷积神经网络模型的视觉解释研究。主要框架如下图所示：<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/PHD_ONE_STAGE/%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7AI%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF.PNG" alt=""></p><h2 id="写作能力"><a href="#写作能力" class="headerlink" title="写作能力"></a>写作能力</h2></li><li>word报告书写</li><li>latex论文书写<h2 id="资料积累"><a href="#资料积累" class="headerlink" title="资料积累"></a>资料积累</h2></li><li><a href="https://github.com/muzi-8/Visual-analytics-and-Interpretability-in-Deep-Learning" target="_blank" rel="noopener">muzi-8/Visual-analytics-and-Interpretability-in-Deep-Learning</a><h1 id="Reference："><a href="#Reference：" class="headerlink" title="Reference："></a>Reference：</h1><h4 id="博士选题"><a href="#博士选题" class="headerlink" title="博士选题"></a>博士选题</h4></li></ul><ol><li><a href="https://www.zhihu.com/question/322567627/answer/670948050" target="_blank" rel="noopener">请问作为一个即将入学的PhD学生，怎么去发掘或者说判断出一个非常有潜力的领域呢?</a></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;所有的经历都是那么刻骨铭心&lt;/p&gt;
+&lt;p&gt;自己选择的路怎么也得给走完&lt;br&gt;
+    
+    </summary>
+    
+      <category term="深度学习" scheme="http://yoursite.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="可解释性AI" scheme="http://yoursite.com/tags/%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7AI/"/>
+    
+  </entry>
   
   <entry>
     <title>Google TPU 线下分享交流会</title>
@@ -446,27 +469,6 @@
     
     
       <category term="思考" scheme="http://yoursite.com/tags/%E6%80%9D%E8%80%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/07/31/Pytorch%E6%95%99%E7%A8%8B(%E4%B8%80)/"/>
-    <id>http://yoursite.com/2018/07/31/Pytorch教程(一)/</id>
-    <published>2018-07-31T09:09:11.975Z</published>
-    <updated>2017-10-18T21:01:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><h2 id="PYTORCH-系列教程（一）"><a href="#PYTORCH-系列教程（一）" class="headerlink" title="PYTORCH 系列教程（一）"></a>PYTORCH 系列教程（一）</h2><p>Author：muzi</p><p><title><center>201_torch_numpy</center></title><br><img src="http://od2s78ez3.bkt.clouddn.com/17-10-19/33138087.jpg" alt=""><br><img src="http://od2s78ez3.bkt.clouddn.com/17-10-19/36291573.jpg" alt=""></p><ol><li><p>将numpy数组转换为张量，或者张量转换为数组<br>(convert numpy to tensor or vise versa 反之亦然)</p><p> code<br> import torch<br> import numpy as np<br> np_data = np.arange(6).reshape((2, 3))<br> print np_data<br> torch_data = torch.from_numpy(np_data)<br> print torch_data<br> tensor2array = torch_data.numpy()<br> print tensor2array<br>结果：</p><p> [[0 1 2]<br>  [3 4 5]]</p><p>  0  1  2<br>  3  4  5<br> [torch.LongTensor of size 2x3]</p><p> [[0 1 2]<br>  [3 4 5]]</p></li><li><p>元素取绝对值</p><p> code<br> data = [-1, -2, 1, 2]<br> print data<br> tensor = torch.FloatTensor(data)<br> print tensor<br> print np.abs(data)<br> print torch.abs(tensor)<br>结果：</p><p> [-1, -2, 1, 2]</p><p> -1<br> -2<br>  1<br>  2<br> [torch.FloatTensor of size 4]</p><p> [1 2 1 2]</p><p>  1<br>  2<br>  1<br>  2<br> [torch.FloatTensor of size 4]</p></li><li><p>元素取sin值</p><p> code<br> print np.sin(data)<br> print torch.sin(tensor)<br>结果：</p><p> [-0.84147098 -0.90929743  0.84147098  0.90929743]</p><p> -0.8415<br> -0.9093<br>  0.8415<br>  0.9093<br> [torch.FloatTensor of size 4]</p></li><li><p>张量元素取sigmoid值</p><p> code<br> print tensor.sigmoid()<br>结果</p><p>  0.2689<br>  0.1192<br>  0.7311<br>  0.8808<br> [torch.FloatTensor of size 4]</p></li><li><p>张量元素取指数值</p><p> code<br> print tensor.exp()<br>结果：</p><p> 0.3679<br> 0.1353<br> 2.7183<br> 7.3891<br>  [torch.FloatTensor of size 4]</p></li><li><p>元素取平均值</p><p> code<br> print np.mean(data)<br> print torch.mean(tensor)<br>结果：</p><p> 0.0<br> 0.0<br>7.列表，张量的矩阵运算</p><p> data = [[1,2], [3,4]]<br> print data<br> print type(data)<br> tensor = torch.FloatTensor(data)<br> print np.matmul(data,data)<br> print type(np.matmul(data,data))<br> print torch.mm(tensor,tensor)<br>结果：</p><p> [[1, 2], [3, 4]]<br> <type 'list'=""></type></p><h1 id="数据类型是list，可以通过matmul计算list的矩阵运算。"><a href="#数据类型是list，可以通过matmul计算list的矩阵运算。" class="headerlink" title="数据类型是list，可以通过matmul计算list的矩阵运算。"></a>数据类型是list，可以通过matmul计算list的矩阵运算。</h1><p> [[ 7 10]<br>  [15 22]]<br> <type 'numpy.ndarray'=""><br>   7  10<br>  15  22<br> [torch.FloatTensor of size 2x2]</type></p></li><li><p>数组的矩阵乘法操作；张量的內积运算</p><p> code<br> data = np.array(data)<br> print data<br> print type(data) #数据类型是数组，可以通过dot操作计算矩阵运算<br> print data.dot(data)<br> tensor = torch.FloatTensor(data)<br> print tensor<br> #print tensor.dot(tensor) #不正确的操作，因为维度不匹配<br> data1 = [1,2,3,4]<br> print type(data1)<br> print type(data1)<br> tensor = torch.FloatTensor(data1)<br> print tensor<br> print tensor.dot(tensor) #正确的操作 进行內积运算<br>结果：</p><p> [[1 2]<br>  [3 4]]<br> <type 'numpy.ndarray'=""><br> [[ 7 10]<br>  [15 22]]</type></p><p>  1  2<br>  3  4<br> [torch.FloatTensor of size 2x2]</p><p> [1, 2, 3, 4]</p> <type 'list'=""><p>  1<br>  2<br>  3<br>  4<br> [torch.FloatTensor of size 4]</p><p> 30.0</p></type></li><li><p>张量对应元素相乘</p><p> data =[[1,2],[3,4]]<br> print data<br> print type(data)<br> data = np.array(data)<br> print data        # 数据类型：列表与数组区别<br> print type(data)<br> tensor = torch.FloatTensor(data)<br> print tensor.mm(tensor)<br> print tensor*tensor          # 张量元素的对应乘积<br> data1 = np.arange(1,5)<br> data2 = np.array([1,2,3,4])  # 两种方式 产生(n,)的数组<br> print data1<br> print data2<br> print type(data1)<br> print data1.shape<br> tensor_1D = torch.FloatTensor(data1)<br> tensor_1D_ = torch.from_numpy(data2)   #两种方式 将（n,）的数组转换为 1-D张量<br> print tensor_1D<br> print tensor_1D.dot(tensor_1D)         # 1-D张量类型数据的內积：对应元素相乘求和<br>结果：</p><p> [[1, 2], [3, 4]]<br> <type 'list'=""><br> [[1 2]<br>  [3 4]]<br> <type 'numpy.ndarray'="">    #列表与数组的区别</type></type></p><p>   7  10<br>  15  22<br> [torch.FloatTensor of size 2x2]   #张量矩阵乘法</p></li></ol><pre><code>  1   4  9  16[torch.FloatTensor of size 2x2]  #张量对应元素相乘[1 2 3 4][1 2 3 4]&lt;type &apos;numpy.ndarray&apos;&gt;(4,) 1 2 3 4[torch.FloatTensor of size 4]&lt;class &apos;torch.FloatTensor&apos;&gt;30.0</code></pre><p>Reference :<br><a href="https://github.com/MorvanZhou/PyTorch-Tutorial" target="_blank" rel="noopener">莫烦：pytorch教程</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
     
   </entry>
   
