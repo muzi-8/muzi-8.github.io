@@ -91,7 +91,7 @@
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/XML/tutorial.PNG">
 <meta property="og:image" content="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/XML/tool.PNG">
-<meta property="og:updated_time" content="2019-07-03T15:38:35.175Z">
+<meta property="og:updated_time" content="2019-07-04T02:21:59.695Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Explainable Machine Learning">
 <meta name="twitter:description" content="Understand How And Know Why">
@@ -382,16 +382,18 @@
 <li>General Understanding</li>
 <li>Architecture Assessment</li>
 <li>Model Quality Assessment</li>
-<li>User Feedback Integration<h1 id="Related-Work"><a href="#Related-Work" class="headerlink" title="Related Work"></a>Related Work</h1>To help end users better understand a deep CNN, researchs in the field of computer vision have made efforts to interpret their predictions and illustate the learned feature of each neuron. The available methods for interpreting CNNs can be broadly grouped into two categories, namely, attribution methods and visualization methods.</li>
+<li>User Feedback Integration</li>
 </ul>
+<h1 id="Related-Work"><a href="#Related-Work" class="headerlink" title="Related Work"></a>Related Work</h1><p>To help end users better understand a deep CNN, researchs in the field of computer vision have made efforts to interpret their predictions and illustate the learned feature of each neuron. The available methods for interpreting CNNs can be broadly grouped into two categories, namely, attribution methods and visualization methods.</p>
 <h2 id="Attribution-Methods"><a href="#Attribution-Methods" class="headerlink" title="Attribution Methods"></a>Attribution Methods</h2><p>Attribution methods attributes a classification result back to the input pixels, meanwhile, output is usually a heatmap over input pixels that indicates how much each pixel contributed to the classification outcome. Heatmap highlight the relative importance of areas of the input image for predictions. Furthermore, the mainstream approaches about attribution methods are divided into three types, such as perturbation based approaches, gradient based approaches and relevance score approaches.</p>
 <h2 id="Visualization-Methods"><a href="#Visualization-Methods" class="headerlink" title="Visualization Methods"></a>Visualization Methods</h2><p>Visualization methods aim to look at the learned parameters of the neural network and visualize the patterns that filters have learned. Existing methods can be classified into two categories.:code inversion and activation maximization. Code inversion methods synthesize an image from the activation vector of a specific layer, which is produced by a real image. Activation maximization methods aim to find an image that maximally activates a given neuron, which is modeled as an optimization problem over the image space.</p>
-<p>#Tutorial and Tool<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/XML/tutorial.PNG" alt=""><br> <img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/XML/tool.PNG" alt=""></p>
+<h1 id="Tutorial-and-Tool"><a href="#Tutorial-and-Tool" class="headerlink" title="Tutorial and Tool"></a>Tutorial and Tool</h1><p><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/XML/tutorial.PNG" alt=""><br> <img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/XML/tool.PNG" alt=""></p>
 <h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ol>
 <li>Visualizations of Deep Neural Networks in Computer Vision: A Survey</li>
 <li>Towards better analysis of deep convolutional neural networks</li>
 <li><a href="https://github.com/idealo/cnn-exposed" target="_blank" rel="noopener">idealo:Interpreting Convolutional Neural Network (CNN) Results</a></li>
-<li>Lecue-Thales-XAI-The-Story-So-Far</li>
+<li><a href="http://www-sop.inria.fr/members/Freddy.Lecue/" target="_blank" rel="noopener">Dr. Freddy Lecue : Homepage</a></li>
+<li><a href="http://openaccess.thecvf.com/CVPR2019_workshops/CVPR2019_Explainable_AI.py" target="_blank" rel="noopener">2019 CVPR Explainable AI</a></li>
 </ol>
 
       
@@ -645,7 +647,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Motivation"><span class="nav-number">1.</span> <span class="nav-text">Motivation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Interpretability-Goals"><span class="nav-number">2.</span> <span class="nav-text">Interpretability Goals</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Related-Work"><span class="nav-number">3.</span> <span class="nav-text">Related Work</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Attribution-Methods"><span class="nav-number">3.1.</span> <span class="nav-text">Attribution Methods</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Visualization-Methods"><span class="nav-number">3.2.</span> <span class="nav-text">Visualization Methods</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Reference"><span class="nav-number">4.</span> <span class="nav-text">Reference</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Motivation"><span class="nav-number">1.</span> <span class="nav-text">Motivation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Interpretability-Goals"><span class="nav-number">2.</span> <span class="nav-text">Interpretability Goals</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Related-Work"><span class="nav-number">3.</span> <span class="nav-text">Related Work</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Attribution-Methods"><span class="nav-number">3.1.</span> <span class="nav-text">Attribution Methods</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Visualization-Methods"><span class="nav-number">3.2.</span> <span class="nav-text">Visualization Methods</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Tutorial-and-Tool"><span class="nav-number">4.</span> <span class="nav-text">Tutorial and Tool</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Reference"><span class="nav-number">5.</span> <span class="nav-text">Reference</span></a></li></ol></div>
             
 
           </div>
