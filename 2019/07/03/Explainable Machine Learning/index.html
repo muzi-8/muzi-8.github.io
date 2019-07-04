@@ -81,20 +81,20 @@
 
 
 
-<meta name="description" content="Understand How And Know Why">
+<meta name="description" content="Understand How and Know Why">
 <meta name="keywords" content="可解释性AI">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Explainable Machine Learning">
 <meta property="og:url" content="http://yoursite.com/2019/07/03/Explainable Machine Learning/index.html">
 <meta property="og:site_name" content="muzi-8">
-<meta property="og:description" content="Understand How And Know Why">
+<meta property="og:description" content="Understand How and Know Why">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/XML/tutorial.PNG">
 <meta property="og:image" content="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/XML/tool.PNG">
-<meta property="og:updated_time" content="2019-07-04T02:21:59.695Z">
+<meta property="og:updated_time" content="2019-07-04T07:14:55.349Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Explainable Machine Learning">
-<meta name="twitter:description" content="Understand How And Know Why">
+<meta name="twitter:description" content="Understand How and Know Why">
 <meta name="twitter:image" content="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/XML/tutorial.PNG">
 
 
@@ -376,15 +376,17 @@
       
 
       
-        <p><center>Understand How And Know Why</center><br><a id="more"></a></p>
-<h1 id="Motivation"><a href="#Motivation" class="headerlink" title="Motivation"></a>Motivation</h1><p>In recent years, convolutional neural networks (CNN) are state of the art when it comes to computer vision tasks, sucn as image recognition and object detection. However, due to the high nonlinearity of these networks, it is <strong>notoriously</strong> difficult to understand predictions  made by these networks. The interpretability of CNN is problematic, what is more, there are at least three reasons. They are that understanding is just as important as performance; sensitive applications(medical or military) require a <strong>thorough understanding</strong> of its inner workings; CNNs can be improved if their predictions are <strong>properly</strong> understood.</p>
-<h1 id="Interpretability-Goals"><a href="#Interpretability-Goals" class="headerlink" title="Interpretability Goals"></a>Interpretability Goals</h1><ul>
+        <p><center>Understand How and Know Why</center><br><a id="more"></a></p>
+<h1 id="Motivation"><a href="#Motivation" class="headerlink" title="Motivation"></a>Motivation</h1><p>In recent years, convolutional neural networks (CNN) are state of the art when it comes to computer vision tasks, sucn as image recognition and object detection. However, due to the high nonlinearity of these networks, it is <strong>notoriously</strong> difficult to understand predictions  made by these networks. The most problematic issue of interpretability is to define explanable rules. </p>
+<h1 id="Interpretability-Goals"><a href="#Interpretability-Goals" class="headerlink" title="Interpretability Goals"></a>Interpretability Goals</h1><p>There are at least three reasons for why interpret CNN. They are that understanding is just as important as performance; sensitive applications(medical or military) require a <strong>thorough understanding</strong> of its inner workings; CNNs can be improved if their predictions are <strong>properly</strong> understood.</p>
+<p>Besides,  there are the following four main goals:</p>
+<ul>
 <li>General Understanding</li>
 <li>Architecture Assessment</li>
 <li>Model Quality Assessment</li>
 <li>User Feedback Integration</li>
 </ul>
-<h1 id="Related-Work"><a href="#Related-Work" class="headerlink" title="Related Work"></a>Related Work</h1><p>To help end users better understand a deep CNN, researchs in the field of computer vision have made efforts to interpret their predictions and illustate the learned feature of each neuron. The available methods for interpreting CNNs can be broadly grouped into two categories, namely, attribution methods and visualization methods.</p>
+<h1 id="Related-Work"><a href="#Related-Work" class="headerlink" title="Related Work"></a>Related Work</h1><p>To help end users better understand a deep CNN, researchers in the field of computer vision have made efforts to interpret their predictions and illustate the learned feature of each neuron. The available methods for interpreting CNNs can be broadly grouped into two categories, namely, attribution methods and visualization methods.</p>
 <h2 id="Attribution-Methods"><a href="#Attribution-Methods" class="headerlink" title="Attribution Methods"></a>Attribution Methods</h2><p>Attribution methods attributes a classification result back to the input pixels, meanwhile, output is usually a heatmap over input pixels that indicates how much each pixel contributed to the classification outcome. Heatmap highlight the relative importance of areas of the input image for predictions. Furthermore, the mainstream approaches about attribution methods are divided into three types, such as perturbation based approaches, gradient based approaches and relevance score approaches.</p>
 <h2 id="Visualization-Methods"><a href="#Visualization-Methods" class="headerlink" title="Visualization Methods"></a>Visualization Methods</h2><p>Visualization methods aim to look at the learned parameters of the neural network and visualize the patterns that filters have learned. Existing methods can be classified into two categories.:code inversion and activation maximization. Code inversion methods synthesize an image from the activation vector of a specific layer, which is produced by a real image. Activation maximization methods aim to find an image that maximally activates a given neuron, which is modeled as an optimization problem over the image space.</p>
 <h1 id="Tutorial-and-Tool"><a href="#Tutorial-and-Tool" class="headerlink" title="Tutorial and Tool"></a>Tutorial and Tool</h1><p><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/XML/tutorial.PNG" alt=""><br> <img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/XML/tool.PNG" alt=""></p>
