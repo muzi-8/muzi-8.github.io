@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-30T16:22:51.330Z</updated>
+  <updated>2019-08-11T08:12:44.919Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开题之后的第一个阶段</title>
+    <link href="http://yoursite.com/2019/08/11/%E5%BC%80%E9%A2%98%E4%B9%8B%E5%90%8E%E7%9A%84%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
+    <id>http://yoursite.com/2019/08/11/开题之后的第一阶段/</id>
+    <published>2019-08-11T04:42:49.000Z</published>
+    <updated>2019-08-11T08:12:44.919Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>开题到现在也有两个月之久(2019.6.11-2019.8.11)，原计划是要参加创新工场举办的Deecamp夏令营，研究一个对抗样本的课题，给指导老师说明情况之后，建议自己还是把重心放在自己的课题上面，所以就没有如期参加，现在回头想想，也没有遗憾。记录一下这两个月的工作进展以及不足之处。<br><a id="more"></a></p><p>###课题进展<br>深度学习作为现在主流的方法之一，但是其最大的诟病就是“black-box”，只给出用户最终结果，但是缺少了原因，着严重阻碍了以Deep-learning为基础的人工智能的发展。 </p><p>肯定之处：</p><ol><li><p>与指导老师讨论三次，推动课题的第一部分进行。（时间间隔：4周、6周、8周）</p></li><li><p>文献书写：参考书籍《Academic Phrasebank》，增强文献书写的逻辑性</p></li><li><p>课题补充：参考书籍《Interpretable Machine Learning 》， A guide for making black box models explainable</p></li><li><p>代码方面：对“解释器”Explainer开源代码的整理与实验。(注：所有的代码都是在pytorch框架下)</p></li></ol><p>1）  MASK 优化方法：<a href="https://github.com/jacobgil/pytorch-explain-black-box" target="_blank" rel="noopener">jacobgil/pytorch-explain-black-box</a></p><p>2）  根据网络激活值方法：<a href="https://github.com/kazuto1011/grad-cam-pytorch" target="_blank" rel="noopener">kazuto1011/grad-cam-pytorch</a> / <a href="https://github.com/1Konny/gradcam_plus_plus-pytorch" target="_blank" rel="noopener">Gradcam++</a></p><p>3）   依据梯度方法：<a href="https://github.com/yulongwang12/visual-attribution" target="_blank" rel="noopener">yulongwang12/visual-attribution</a> / <a href="https://github.com/kazuto1011/grad-cam-pytorch" target="_blank" rel="noopener">kazuto1011/grad-cam-pytorch</a> / <a href="https://github.com/utkuozbulak/pytorch-cnn-visualizations" target="_blank" rel="noopener">utkuozbulak/pytorch-cnn-visualizations</a></p><p>不足之处：实验整体进度慢。</p><p>###动力支撑<br>在课题研究的过程中，难免会出现疲惫与焦虑，这两个月给我动力的三大来源是：</p><p>1）实验室邀请的黄博士进行的科研内容分享与建议（参考：赛博智能公众号：新闻纪实|百度AI研究员黄家骥博士应邀报告ACL2019最新研究） </p><p>2）作为志愿者参与清华大学举办的线下交流分享活动“AI-Time”（详见本博客文章：Explainable Machine Learning）</p><p>3）(正在进行当中) 阅读吴军博士最新书籍《全球科技通史》，对于科学与技术有了一个全新的认识，对于自己的科研更有了敬畏之情。</p><p>###生活<br>与她相处三个月了，有快乐时刻，有拌嘴时刻，这大概就是爱情吧。（承诺给她写的code一直搁置）</p><p>不足之处：由于时间有限，与她相处的时间多了，搁置了自己的健身计划</p><p>###其他<br>1）申请Deecamp之前，刷了一半的《数据结构》并没有坚持下去。</p><p>2）线上花钱报名的流利英语说，也没有坚持给搁置了。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;开题到现在也有两个月之久(2019.6.11-2019.8.11)，原计划是要参加创新工场举办的Deecamp夏令营，研究一个对抗样本的课题，给指导老师说明情况之后，建议自己还是把重心放在自己的课题上面，所以就没有如期参加，现在回头想想，也没有遗憾。记录一下这两个月的工作进展以及不足之处。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="科研学术" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94%E5%AD%A6%E6%9C%AF/"/>
+    
+    
+      <category term="可解释性AI" scheme="http://yoursite.com/tags/%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7AI/"/>
+    
+  </entry>
   
   <entry>
     <title>知识智能高峰论坛</title>
@@ -65,7 +87,7 @@
     <link href="http://yoursite.com/2019/05/27/%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%B6%AF%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
     <id>http://yoursite.com/2019/05/27/博士生涯第一阶段/</id>
     <published>2019-05-27T08:13:27.000Z</published>
-    <updated>2019-07-04T07:38:03.206Z</updated>
+    <updated>2019-08-11T06:25:16.919Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>所有的经历都是那么刻骨铭心</p><p>自己选择的路怎么也得给走完<br><a id="more"></a></p><h1 id="博士课题"><a href="#博士课题" class="headerlink" title="博士课题"></a>博士课题</h1><p>选题是一个即将独立自主要做研究的博士生必须要面临的一个问题，对于自己而言，同样面临这个问题。然而自己在选题与立题方面确实花了太多的精力，并且比同龄人多花费了一年时间。</p><p><center><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/PHD_ONE_STAGE/%E9%80%89%E9%A2%98.PNG" alt=""><sup>[1]</sup><br></center></p><h2 id="选题经历"><a href="#选题经历" class="headerlink" title="选题经历"></a>选题经历</h2><p>简单记录一下自己的选题经历</p><ul><li><p>2015.3-2015.6 本科毕设：基于深度置信网络的遥感图像飞机目标检测</p><blockquote><p>第一次接触深度学习概念，主要工作是阅读并调试 <a href="https://github.com/rasmusbergpalm/DeepLearnToolbox" target="_blank" rel="noopener">DeepLearnToolbox</a></p></blockquote></li><li><p>2015.9-2016.6 集中教学一年，主要学习机器学习、数据挖掘、深度学习的相关理论</p></li><li><p>2016.6-2016.12 自己的博士课题为可视化与可视分析，主要调研可视分析领域三大会议IEEE vis、Info vis、Pacific vis</p><blockquote><p>在此期间精读一篇文献：Towards Better Analysis of Deep Convolutional Neural Networks</p><p>Follow的研究组有：清华刘世霞、北大袁晓茹、香港科技大学屈华民、浙江大学陈为</p></blockquote></li><li><p>2016.12-2017.5 主要围绕着卷积神经网络可视分析系统做一些文献阅读与了解工作</p><blockquote><p>在此期间主要学习cs231n课程</p></blockquote></li><li><p>2017.5-2017.12 主要精读了三篇文章：LRP算法、Grad-cam算法、CAM算法</p><blockquote><p>在此期间主要follow的研究者有：MIT周博磊（现香港中文大学）、上交张拳石</p></blockquote></li><li><p>2017.12-2018.1 阅读香港科技大学Haipeng Zeng与MingYao两篇综述</p><blockquote><p><a href="http://vis.cse.ust.hk/groups/xai-vis/" target="_blank" rel="noopener">Explainable AI + VIS</a>: 第一次得知可解释性AI（XAI）概念</p></blockquote></li><li><p>2017.12-2018.3 主要涉猎模型压缩的paper，希望能够通过提出掉冗余的滤波器进行模型的解释以及压缩</p><blockquote><p>Interpreting Convolutional Neural Networks Through Compression</p><p>主要研究的code：<a href="https://github.com/jacobgil/pytorch-pruning" target="_blank" rel="noopener">jacobgil/pytorch-pruning</a></p></blockquote></li><li><p>2018.3-2018.5 主要进行前后端深度学习的可视分析尝试</p><blockquote><p>主要参考code：<a href="https://github.com/hareltake/ReactCNN/tree/master/reactcnn-backend" target="_blank" rel="noopener">hareltake/ReactCNN</a></p></blockquote></li><li><p>2018.5-2018.7 开始研究显著图（模型决策依据） </p><blockquote><p>主要阅读文献： CNN fixations: An unravelling approach to identify discriminative image regions</p><p>参加北大可视化暑期学校：进一步促进自己将要做可解释性AI的博士课题</p></blockquote></li><li><p>2018.8-2018.9 完成MEAN.ts（MongoDB, Express, AngularJs, Node, and Typescript）前后端项目练习</p></li><li><p>2018.9-2019.2 大量收集相关显著图研究文献</p></li><li><p>2019.3-2019.4 辅助完成光学遥感图像分类可解释性基金项目申请</p></li><li><p>2019.3-2019.6 完成自己的博士开题：面向卷积神经网络模型的视觉解释研究。主要框架如下图所示：<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/PHD_ONE_STAGE/%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7AI%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF.PNG" alt=""></p></li></ul><blockquote><p>In short, to complete Phd thesis we pursued the following steps: we searched the main conferences, journals and workshops in the area of computer vision, machine learning and visualization, such as: IEEE International Conference on Computer Vision (ICCV), IEEE Conference on Computer Vision and Pattern Recognition (CVPR), IEEE Visualization Conference(VIS). Additionally, we collect the literature through social media channels like Zhihu, Weibo, Wechat official account and so on. </p></blockquote><h2 id="写作能力"><a href="#写作能力" class="headerlink" title="写作能力"></a>写作能力</h2><ul><li><a href="https://www.zhihu.com/question/28122209/answer/682114219" target="_blank" rel="noopener">word报告书写</a></li><li>latex论文书写<h2 id="资料积累"><a href="#资料积累" class="headerlink" title="资料积累"></a>资料积累</h2></li><li><p><a href="https://github.com/muzi-8/Visual-analytics-and-Interpretability-in-Deep-Learning" target="_blank" rel="noopener">muzi-8/Visual-analytics-and-Interpretability-in-Deep-Learning</a></p><h1 id="文献阅读"><a href="#文献阅读" class="headerlink" title="文献阅读"></a>文献阅读</h1><h2 id="基本范式"><a href="#基本范式" class="headerlink" title="基本范式"></a>基本范式</h2><p>当明确自己要解决的问题之后，那么看文章也就有了相应的目的性，一般需要如下几个逻辑去解读一篇文献。</p></li><li><p>此文章属于哪个领域？</p></li><li><p>该文章想要解决什么问题？</p></li><li><p>为什么要解决这个问题？</p></li><li><p>使用了什么方法和模型？</p></li><li><p>为什么这个方法可以解决这个问题？</p></li><li><p>该文章的核心结论是什么？下一步可以怎么做？</p><h1 id="终极目标"><a href="#终极目标" class="headerlink" title="终极目标"></a>终极目标</h1><p><center><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/PHD_ONE_STAGE/%E7%91%9E%E8%8E%B1%E6%99%BA%E6%85%A7.PNG" alt=""></center><sup>[2]</sup></p><h1 id="Reference："><a href="#Reference：" class="headerlink" title="Reference："></a>Reference：</h1></li></ul><ol><li><a href="https://www.zhihu.com/question/322567627/answer/670948050" target="_blank" rel="noopener">请问作为一个即将入学的PhD学生，怎么去发掘或者说判断出一个非常有潜力的领域呢?</a></li><li><a href="https://realai.ai/" target="_blank" rel="noopener">RealAI：打造可理解的新一代人工智能</a></li></ol>]]></content>
     
@@ -76,7 +98,7 @@
     
     </summary>
     
-      <category term="深度学习" scheme="http://yoursite.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+      <category term="科研学术" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94%E5%AD%A6%E6%9C%AF/"/>
     
     
       <category term="可解释性AI" scheme="http://yoursite.com/tags/%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7AI/"/>
@@ -434,27 +456,6 @@
     <updated>2017-08-31T01:30:38.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/2018/07/31/机器学习的可解释性/timg.jpg" title="Machine Learning"><blockquote><p>Interpretation is the process of giving<br>explanations<br>解译性指的是给出可解释的过程</p></blockquote><p>即三个问题</p><ol><li>为什么要给出解译性？</li><li>通过什么途径给出可解释性呢？</li><li>我们又如何去评价这是一种好的可解释方法？</li></ol><h5 id="可解释模型的分类（既不是互相排斥-mutually-exclusive-的分类，也不是文献的罗列-exhaustive-list-）"><a href="#可解释模型的分类（既不是互相排斥-mutually-exclusive-的分类，也不是文献的罗列-exhaustive-list-）" class="headerlink" title="可解释模型的分类（既不是互相排斥(mutually exclusive)的分类，也不是文献的罗列(exhaustive list)）"></a>可解释模型的分类（既不是互相排斥(mutually exclusive)的分类，也不是文献的罗列(exhaustive list)）</h5><p>方法：</p><ol><li><p>搭建模型之前</p><ul><li>数据探索的可视（KMeans KNN 等聚类算法）</li></ul></li><li><p>搭建模型过程当中</p><ul><li>基于规则/基于属性(特征)</li><li>基于实例</li><li>从稀疏角度</li><li>从单调角度（借助制定区间形式定义函数变化的趋势（user specified lattice))</li></ul></li><li><p>给定模型之后(比如深度学习)</p><ul><li>敏感性分析，基于梯度的方法（sensitivity analysis）此方法来自金融风险（自变量与因变量关系）领域</li><li>模型的替换</li><li>隐层、中间层的观察</li></ul><p>评价<br>从不同角度去评价！可参考原文</p><p>Reference：</p><ol><li><a href="https://link.zhihu.com/?target=http://people.csail.mit.edu/beenkim/icml_tutorial.html" target="_blank" rel="noopener">Tutorial on Interpretable Machine Learning by Been Kim</a></li><li><a href="https://www.zhihu.com/question/60374968" target="_blank" rel="noopener">ICML 2017上哪些论文值得关注</a></li></ol></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>解析word文档表格</title>
-    <link href="http://yoursite.com/2018/07/31/%E8%A7%A3%E6%9E%90word%E6%96%87%E6%A1%A3/"/>
-    <id>http://yoursite.com/2018/07/31/解析word文档/</id>
-    <published>2018-07-31T09:09:12.011Z</published>
-    <updated>2018-05-14T15:15:10.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><pre><code># -*- coding: utf-8 -*-# from __future__ import print_functionimport sysreload(sys)sys.setdefaultencoding(&apos;utf-8&apos;)import win32comfrom win32com.client import Dispatch, constantsw = win32com.client.Dispatch(&apos;Word.Application&apos;)w.Visible = 1w.Documents.Open( FileName = &apos;D:\muzi\\37.docx&apos;)  #路径不能存在中文doc = w.ActiveDocumentcount = doc.Tables.Count  #统计整个word文档有多少个表a = doc.Tables(1).rows.Count # 返回表格的行数b = doc.Tables(1).columns.Count # 返回表格的列数import collectionsContent = collections.OrderedDict()for num in range (count):    for i in range (doc.Tables(num+1).rows.Count):        key = re.sub(r&apos;\r\x07&apos;,&apos;&apos;,doc.Tables(num+1).Cell(Row= i+1,Column = 1).Range.Text) //正则化去除特殊符号        value = re.sub(r&apos;\r\07&apos;,&apos;&apos;,doc.Tables(num+1).Cell(Row=i+1,Column = 2).Range.Text)         Content[key] = value    filename = &apos;D:\muzi\m&apos;      import json    with open(filename+&apos;.json&apos;,&apos;a&apos;) as outfile:    //打开已存在的文件        json.dump(Content,outfile,ensure_ascii = False) //字典内容写入json文件中        outfile.write(&apos;\n&apos;)</code></pre>]]></content>
     
     <summary type="html">
     
