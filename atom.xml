@@ -61,28 +61,6 @@
   </entry>
   
   <entry>
-    <title>Explainable Machine Learning</title>
-    <link href="http://yoursite.com/2019/07/03/Explainable%20Machine%20Learning/"/>
-    <id>http://yoursite.com/2019/07/03/Explainable Machine Learning/</id>
-    <published>2019-07-03T13:13:32.000Z</published>
-    <updated>2019-10-11T03:44:48.770Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><center>Understand How and Know Why</center><br><a id="more"></a></p><h1 id="Motivation"><a href="#Motivation" class="headerlink" title="Motivation"></a>Motivation</h1><p>In recent years, convolutional neural networks (CNN) are state of the art when it comes to computer vision tasks, sucn as image recognition and object detection. However, due to the high nonlinearity of these networks, it is <strong>notoriously</strong> difficult to understand predictions  made by these networks. The most problematic issue of interpretability is to define explanable rules. </p><h1 id="Interpretability-Goals"><a href="#Interpretability-Goals" class="headerlink" title="Interpretability Goals"></a>Interpretability Goals</h1><p>There are at least three reasons for why interpret CNN. They are that understanding is just as important as performance; sensitive applications(medical or military) require a <strong>thorough understanding</strong> of its inner workings; CNNs can be improved if their predictions are <strong>properly</strong> understood.</p><p>Besides,  there are the following four main goals:</p><ul><li>General Understanding</li><li>Architecture Assessment</li><li>Model Quality Assessment</li><li>User Feedback Integration</li></ul><h1 id="Related-Work"><a href="#Related-Work" class="headerlink" title="Related Work"></a>Related Work</h1><p>To help end users better understand a deep CNN, researchers in the field of computer vision have made efforts to interpret their predictions and illustate the learned feature of each neuron. The available methods for interpreting CNNs can be broadly grouped into two categories, namely, attribution methods and visualization methods.</p><h2 id="Attribution-Methods"><a href="#Attribution-Methods" class="headerlink" title="Attribution Methods"></a>Attribution Methods</h2><p>Attribution methods attributes a classification result back to the input pixels, meanwhile, output is usually a heatmap over input pixels that indicates how much each pixel contributed to the classification outcome. Heatmap highlight the relative importance of areas of the input image for predictions. Furthermore, the mainstream approaches about attribution methods are divided into three types, such as perturbation based approaches, gradient based approaches and relevance score approaches.</p><h2 id="Visualization-Methods"><a href="#Visualization-Methods" class="headerlink" title="Visualization Methods"></a>Visualization Methods</h2><p>Visualization methods aim to look at the learned parameters of the neural network and visualize the patterns that filters have learned. Existing methods can be classified into two categories.:code inversion and activation maximization. Code inversion methods synthesize an image from the activation vector of a specific layer, which is produced by a real image. Activation maximization methods aim to find an image that maximally activates a given neuron, which is modeled as an optimization problem over the image space.</p><h1 id="Tutorial-and-Tool"><a href="#Tutorial-and-Tool" class="headerlink" title="Tutorial and Tool"></a>Tutorial and Tool</h1><p><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/XML/tutorial.PNG" alt=""><br> <img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/XML/tool.PNG" alt=""></p><h1 id="Latest-Tutorial-and-Tool"><a href="#Latest-Tutorial-and-Tool" class="headerlink" title="Latest Tutorial and Tool"></a>Latest Tutorial and Tool</h1><ol><li><a href="https://interpretable-ml-class.github.io/" target="_blank" rel="noopener">Interpretability and Explainability in Machine Learning Fall 2019</a> </li><li><a href="https://captum.ai/" target="_blank" rel="noopener">Model interpretability and understanding for PyTorch</a><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1></li><li>Visualizations of Deep Neural Networks in Computer Vision: A Survey</li><li>Towards better analysis of deep convolutional neural networks</li><li><a href="https://github.com/idealo/cnn-exposed" target="_blank" rel="noopener">idealo:Interpreting Convolutional Neural Network (CNN) Results</a></li><li><a href="http://www-sop.inria.fr/members/Freddy.Lecue/" target="_blank" rel="noopener">Dr. Freddy Lecue : Homepage</a></li><li><a href="http://openaccess.thecvf.com/CVPR2019_workshops/CVPR2019_Explainable_AI.py" target="_blank" rel="noopener">2019 CVPR Explainable AI</a></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;center&gt;Understand How and Know Why&lt;/center&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="深度学习" scheme="http://yoursite.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="可解释性AI" scheme="http://yoursite.com/tags/%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7AI/"/>
-    
-  </entry>
-  
-  <entry>
     <title>博士生涯第一阶段</title>
     <link href="http://yoursite.com/2019/05/27/%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%B6%AF%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
     <id>http://yoursite.com/2019/05/27/博士生涯第一阶段/</id>
@@ -456,6 +434,27 @@
     <updated>2017-08-31T01:30:38.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/2018/07/31/机器学习的可解释性/timg.jpg" title="Machine Learning"><blockquote><p>Interpretation is the process of giving<br>explanations<br>解译性指的是给出可解释的过程</p></blockquote><p>即三个问题</p><ol><li>为什么要给出解译性？</li><li>通过什么途径给出可解释性呢？</li><li>我们又如何去评价这是一种好的可解释方法？</li></ol><h5 id="可解释模型的分类（既不是互相排斥-mutually-exclusive-的分类，也不是文献的罗列-exhaustive-list-）"><a href="#可解释模型的分类（既不是互相排斥-mutually-exclusive-的分类，也不是文献的罗列-exhaustive-list-）" class="headerlink" title="可解释模型的分类（既不是互相排斥(mutually exclusive)的分类，也不是文献的罗列(exhaustive list)）"></a>可解释模型的分类（既不是互相排斥(mutually exclusive)的分类，也不是文献的罗列(exhaustive list)）</h5><p>方法：</p><ol><li><p>搭建模型之前</p><ul><li>数据探索的可视（KMeans KNN 等聚类算法）</li></ul></li><li><p>搭建模型过程当中</p><ul><li>基于规则/基于属性(特征)</li><li>基于实例</li><li>从稀疏角度</li><li>从单调角度（借助制定区间形式定义函数变化的趋势（user specified lattice))</li></ul></li><li><p>给定模型之后(比如深度学习)</p><ul><li>敏感性分析，基于梯度的方法（sensitivity analysis）此方法来自金融风险（自变量与因变量关系）领域</li><li>模型的替换</li><li>隐层、中间层的观察</li></ul><p>评价<br>从不同角度去评价！可参考原文</p><p>Reference：</p><ol><li><a href="https://link.zhihu.com/?target=http://people.csail.mit.edu/beenkim/icml_tutorial.html" target="_blank" rel="noopener">Tutorial on Interpretable Machine Learning by Been Kim</a></li><li><a href="https://www.zhihu.com/question/60374968" target="_blank" rel="noopener">ICML 2017上哪些论文值得关注</a></li></ol></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>解析word文档表格</title>
+    <link href="http://yoursite.com/2018/07/31/%E8%A7%A3%E6%9E%90word%E6%96%87%E6%A1%A3/"/>
+    <id>http://yoursite.com/2018/07/31/解析word文档/</id>
+    <published>2018-07-31T09:09:12.011Z</published>
+    <updated>2018-05-14T15:15:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><pre><code># -*- coding: utf-8 -*-# from __future__ import print_functionimport sysreload(sys)sys.setdefaultencoding(&apos;utf-8&apos;)import win32comfrom win32com.client import Dispatch, constantsw = win32com.client.Dispatch(&apos;Word.Application&apos;)w.Visible = 1w.Documents.Open( FileName = &apos;D:\muzi\\37.docx&apos;)  #路径不能存在中文doc = w.ActiveDocumentcount = doc.Tables.Count  #统计整个word文档有多少个表a = doc.Tables(1).rows.Count # 返回表格的行数b = doc.Tables(1).columns.Count # 返回表格的列数import collectionsContent = collections.OrderedDict()for num in range (count):    for i in range (doc.Tables(num+1).rows.Count):        key = re.sub(r&apos;\r\x07&apos;,&apos;&apos;,doc.Tables(num+1).Cell(Row= i+1,Column = 1).Range.Text) //正则化去除特殊符号        value = re.sub(r&apos;\r\07&apos;,&apos;&apos;,doc.Tables(num+1).Cell(Row=i+1,Column = 2).Range.Text)         Content[key] = value    filename = &apos;D:\muzi\m&apos;      import json    with open(filename+&apos;.json&apos;,&apos;a&apos;) as outfile:    //打开已存在的文件        json.dump(Content,outfile,ensure_ascii = False) //字典内容写入json文件中        outfile.write(&apos;\n&apos;)</code></pre>]]></content>
     
     <summary type="html">
     
