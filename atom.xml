@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-13T09:03:50.672Z</updated>
+  <updated>2019-04-19T12:57:53.997Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,73 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>开题之后的第一个阶段</title>
-    <link href="http://yoursite.com/2019/08/11/%E5%BC%80%E9%A2%98%E4%B9%8B%E5%90%8E%E7%9A%84%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
-    <id>http://yoursite.com/2019/08/11/开题之后的第一阶段/</id>
-    <published>2019-08-11T04:42:49.000Z</published>
-    <updated>2019-08-13T09:03:50.672Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>开题到现在也有两个月之久(2019.6.11-2019.8.11)，原计划是要参加创新工场举办的Deecamp夏令营，研究一个对抗样本的课题，给指导老师说明情况之后，建议自己还是把重心放在自己的课题上面，所以就没有如期参加，现在回头想想，也没有遗憾。记录一下这两个月的工作进展以及不足之处。<br><a id="more"></a></p><h3 id="课题进展"><a href="#课题进展" class="headerlink" title="课题进展"></a>课题进展</h3><p>深度学习作为现在主流的方法之一，但是其最大的诟病就是“black-box”，只给出用户最终结果，但是缺少了原因，着严重阻碍了以Deep-learning为基础的人工智能的发展。 </p><p>肯定之处：</p><ol><li><p>与指导老师讨论三次，推动课题的第一部分进行。（时间间隔：4周、6周、8周）</p></li><li><p>文献书写：参考书籍《Academic Phrasebank》，增强文献书写的逻辑性</p></li><li><p>课题补充：参考书籍《Interpretable Machine Learning 》， A guide for making black box models explainable</p></li><li><p>代码方面：对“解释器”Explainer开源代码的整理与实验。(注：所有的代码都是在pytorch框架下)</p></li></ol><p>1）  MASK 优化方法：<a href="https://github.com/jacobgil/pytorch-explain-black-box" target="_blank" rel="noopener">jacobgil/pytorch-explain-black-box</a></p><p>2）  根据网络激活值方法：<a href="https://github.com/kazuto1011/grad-cam-pytorch" target="_blank" rel="noopener">kazuto1011/grad-cam-pytorch</a> / <a href="https://github.com/1Konny/gradcam_plus_plus-pytorch" target="_blank" rel="noopener">Gradcam++</a></p><p>3）   依据梯度方法：<a href="https://github.com/yulongwang12/visual-attribution" target="_blank" rel="noopener">yulongwang12/visual-attribution</a> / <a href="https://github.com/kazuto1011/grad-cam-pytorch" target="_blank" rel="noopener">kazuto1011/grad-cam-pytorch</a> / <a href="https://github.com/utkuozbulak/pytorch-cnn-visualizations" target="_blank" rel="noopener">utkuozbulak/pytorch-cnn-visualizations</a></p><p>不足之处：实验整体进度慢。</p><h3 id="动力支撑"><a href="#动力支撑" class="headerlink" title="动力支撑"></a>动力支撑</h3><p>在课题研究的过程中，难免会出现疲惫与焦虑，这两个月给我动力的三大来源是：</p><p>1）实验室邀请的黄博士进行的科研内容分享与建议（参考：赛博智能公众号：新闻纪实|百度AI研究员黄家骥博士应邀报告ACL2019最新研究） </p><p>2）作为志愿者参与清华大学举办的线下交流分享活动“AI-Time”（详见本博客文章：Explainable Machine Learning）</p><p>3）(正在进行当中) 阅读吴军博士最新书籍《全球科技通史》，对于科学与技术有了一个全新的认识，对于自己的科研更有了敬畏之情。</p><h3 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h3><p>与她相处三个月了，有快乐时刻，有拌嘴时刻，这大概就是爱情吧。（承诺给她写的code一直搁置）</p><p>不足之处：由于时间有限，与她相处的时间多了，搁置了自己的健身计划</p><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>1）申请Deecamp之前，刷了一半的《数据结构》并没有坚持下去。</p><p>2）线上花钱报名的流利英语说，也没有坚持给搁置了。</p><p>3）Lihongyi 课程刷了一半也放弃了<a href="https://datawhalechina.github.io/leeml-notes/#/" target="_blank" rel="noopener">LeeML-Notes</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;开题到现在也有两个月之久(2019.6.11-2019.8.11)，原计划是要参加创新工场举办的Deecamp夏令营，研究一个对抗样本的课题，给指导老师说明情况之后，建议自己还是把重心放在自己的课题上面，所以就没有如期参加，现在回头想想，也没有遗憾。记录一下这两个月的工作进展以及不足之处。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="科研学术" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94%E5%AD%A6%E6%9C%AF/"/>
-    
-    
-      <category term="可解释性AI" scheme="http://yoursite.com/tags/%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7AI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>知识智能高峰论坛</title>
-    <link href="http://yoursite.com/2019/07/30/%E7%9F%A5%E8%AF%86%E6%99%BA%E8%83%BD%E9%AB%98%E5%B3%B0%E8%AE%BA%E5%9D%9B/"/>
-    <id>http://yoursite.com/2019/07/30/知识智能高峰论坛/</id>
-    <published>2019-07-30T14:57:45.000Z</published>
-    <updated>2019-07-30T16:22:51.330Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>2019年7月30日，清华大学（计算机系）与中国工程科技知识中心（知识智能联合研究中心）召开了知识智能高峰论坛。作为本次线上文字直播小助手，简要记录本次会议的主要内容。<br><a id="more"></a></p><h2 id="智群与智治"><a href="#智群与智治" class="headerlink" title="智群与智治"></a>智群与智治</h2><p>张军院士从中国迈向智慧社会谈起，阐述了在智能成为新的生产要素之后，与多智能系统相结合形成新的装备形态-智群与服务业态-智治。介绍了智群的概念，内涵以及实现智群的关键技术，最后介绍了基础智群、医疗智群、应急智群、立体交通智群、制造智群、政法智群和空天智群在未来智慧社会中的应用展望。<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/%E7%9F%A5%E8%AF%86%E6%99%BA%E8%83%BD/1-1.jpg" alt=""><br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/%E7%9F%A5%E8%AF%86%E6%99%BA%E8%83%BD/1-2.jpg" alt=""></p><h2 id="认知科学与脑科学"><a href="#认知科学与脑科学" class="headerlink" title="认知科学与脑科学"></a>认知科学与脑科学</h2><p>戴琼海院士讲述了认知科学的发展史以及自己的研究团队在脑成像方面的成果与进展。<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/%E7%9F%A5%E8%AF%86%E6%99%BA%E8%83%BD/3-1.jpg" alt=""></p><h2 id="数据驱动的计算教育学"><a href="#数据驱动的计算教育学" class="headerlink" title="数据驱动的计算教育学"></a>数据驱动的计算教育学</h2><p>华东师范大学副校长周傲英老师做了“第四范式对教育的影响”报告，提到科学研究的四类范式，如下所示：<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/%E7%9F%A5%E8%AF%86%E6%99%BA%E8%83%BD/4-1.jpg" alt=""><br>第四范式具有重大意义：<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/%E7%9F%A5%E8%AF%86%E6%99%BA%E8%83%BD/4-2.jpg" alt=""></p><h2 id="图与机器学习"><a href="#图与机器学习" class="headerlink" title="图与机器学习"></a>图与机器学习</h2><p>西北工业大学教授聂飞平老师讲述了图与机器学习之间的关系，其主要研究兴趣是机器学习理论和方法。主要阐述了图作为数学工具可以设计机器学习方法，并且也可以通过机器学习方法进行图分析。</p><h2 id="知识在人工智能的位置"><a href="#知识在人工智能的位置" class="headerlink" title="知识在人工智能的位置"></a>知识在人工智能的位置</h2><p>张钹院士阐述了知识的重要性，现在的知识可以分为：理性知识、感性知识、常识、自我知识。下一步的人工智能需要我们运用好以上四个知识和生数据（内容质量差数据）。<br>语义向量空间结合了特征向量与语义符号空间各自的优势<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/%E7%9F%A5%E8%AF%86%E6%99%BA%E8%83%BD/5-1.jpg" alt=""><br>根据知识与生数据各自的特点可以进行互补<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/%E7%9F%A5%E8%AF%86%E6%99%BA%E8%83%BD/5-2.jpg" alt=""></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>本次会议，充分领略了院士，教授，众多学者的演讲风格，院士一般传授概念与框架，娓娓道来；教授一般传授学术研究点，进行paper的讲述，平铺直述；学者一般进行项目的汇报，激情有活力。（本次会议最欣赏刘奕群老师的演讲风格）</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;2019年7月30日，清华大学（计算机系）与中国工程科技知识中心（知识智能联合研究中心）召开了知识智能高峰论坛。作为本次线上文字直播小助手，简要记录本次会议的主要内容。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="科学研究" scheme="http://yoursite.com/categories/%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6/"/>
-    
-    
-      <category term="学术论坛" scheme="http://yoursite.com/tags/%E5%AD%A6%E6%9C%AF%E8%AE%BA%E5%9D%9B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博士生涯第一阶段</title>
-    <link href="http://yoursite.com/2019/05/27/%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%B6%AF%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
-    <id>http://yoursite.com/2019/05/27/博士生涯第一阶段/</id>
-    <published>2019-05-27T08:13:27.000Z</published>
-    <updated>2019-08-11T06:25:16.919Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>所有的经历都是那么刻骨铭心</p><p>自己选择的路怎么也得给走完<br><a id="more"></a></p><h1 id="博士课题"><a href="#博士课题" class="headerlink" title="博士课题"></a>博士课题</h1><p>选题是一个即将独立自主要做研究的博士生必须要面临的一个问题，对于自己而言，同样面临这个问题。然而自己在选题与立题方面确实花了太多的精力，并且比同龄人多花费了一年时间。</p><p><center><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/PHD_ONE_STAGE/%E9%80%89%E9%A2%98.PNG" alt=""><sup>[1]</sup><br></center></p><h2 id="选题经历"><a href="#选题经历" class="headerlink" title="选题经历"></a>选题经历</h2><p>简单记录一下自己的选题经历</p><ul><li><p>2015.3-2015.6 本科毕设：基于深度置信网络的遥感图像飞机目标检测</p><blockquote><p>第一次接触深度学习概念，主要工作是阅读并调试 <a href="https://github.com/rasmusbergpalm/DeepLearnToolbox" target="_blank" rel="noopener">DeepLearnToolbox</a></p></blockquote></li><li><p>2015.9-2016.6 集中教学一年，主要学习机器学习、数据挖掘、深度学习的相关理论</p></li><li><p>2016.6-2016.12 自己的博士课题为可视化与可视分析，主要调研可视分析领域三大会议IEEE vis、Info vis、Pacific vis</p><blockquote><p>在此期间精读一篇文献：Towards Better Analysis of Deep Convolutional Neural Networks</p><p>Follow的研究组有：清华刘世霞、北大袁晓茹、香港科技大学屈华民、浙江大学陈为</p></blockquote></li><li><p>2016.12-2017.5 主要围绕着卷积神经网络可视分析系统做一些文献阅读与了解工作</p><blockquote><p>在此期间主要学习cs231n课程</p></blockquote></li><li><p>2017.5-2017.12 主要精读了三篇文章：LRP算法、Grad-cam算法、CAM算法</p><blockquote><p>在此期间主要follow的研究者有：MIT周博磊（现香港中文大学）、上交张拳石</p></blockquote></li><li><p>2017.12-2018.1 阅读香港科技大学Haipeng Zeng与MingYao两篇综述</p><blockquote><p><a href="http://vis.cse.ust.hk/groups/xai-vis/" target="_blank" rel="noopener">Explainable AI + VIS</a>: 第一次得知可解释性AI（XAI）概念</p></blockquote></li><li><p>2017.12-2018.3 主要涉猎模型压缩的paper，希望能够通过提出掉冗余的滤波器进行模型的解释以及压缩</p><blockquote><p>Interpreting Convolutional Neural Networks Through Compression</p><p>主要研究的code：<a href="https://github.com/jacobgil/pytorch-pruning" target="_blank" rel="noopener">jacobgil/pytorch-pruning</a></p></blockquote></li><li><p>2018.3-2018.5 主要进行前后端深度学习的可视分析尝试</p><blockquote><p>主要参考code：<a href="https://github.com/hareltake/ReactCNN/tree/master/reactcnn-backend" target="_blank" rel="noopener">hareltake/ReactCNN</a></p></blockquote></li><li><p>2018.5-2018.7 开始研究显著图（模型决策依据） </p><blockquote><p>主要阅读文献： CNN fixations: An unravelling approach to identify discriminative image regions</p><p>参加北大可视化暑期学校：进一步促进自己将要做可解释性AI的博士课题</p></blockquote></li><li><p>2018.8-2018.9 完成MEAN.ts（MongoDB, Express, AngularJs, Node, and Typescript）前后端项目练习</p></li><li><p>2018.9-2019.2 大量收集相关显著图研究文献</p></li><li><p>2019.3-2019.4 辅助完成光学遥感图像分类可解释性基金项目申请</p></li><li><p>2019.3-2019.6 完成自己的博士开题：面向卷积神经网络模型的视觉解释研究。主要框架如下图所示：<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/PHD_ONE_STAGE/%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7AI%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF.PNG" alt=""></p></li></ul><blockquote><p>In short, to complete Phd thesis we pursued the following steps: we searched the main conferences, journals and workshops in the area of computer vision, machine learning and visualization, such as: IEEE International Conference on Computer Vision (ICCV), IEEE Conference on Computer Vision and Pattern Recognition (CVPR), IEEE Visualization Conference(VIS). Additionally, we collect the literature through social media channels like Zhihu, Weibo, Wechat official account and so on. </p></blockquote><h2 id="写作能力"><a href="#写作能力" class="headerlink" title="写作能力"></a>写作能力</h2><ul><li><a href="https://www.zhihu.com/question/28122209/answer/682114219" target="_blank" rel="noopener">word报告书写</a></li><li>latex论文书写<h2 id="资料积累"><a href="#资料积累" class="headerlink" title="资料积累"></a>资料积累</h2></li><li><p><a href="https://github.com/muzi-8/Visual-analytics-and-Interpretability-in-Deep-Learning" target="_blank" rel="noopener">muzi-8/Visual-analytics-and-Interpretability-in-Deep-Learning</a></p><h1 id="文献阅读"><a href="#文献阅读" class="headerlink" title="文献阅读"></a>文献阅读</h1><h2 id="基本范式"><a href="#基本范式" class="headerlink" title="基本范式"></a>基本范式</h2><p>当明确自己要解决的问题之后，那么看文章也就有了相应的目的性，一般需要如下几个逻辑去解读一篇文献。</p></li><li><p>此文章属于哪个领域？</p></li><li><p>该文章想要解决什么问题？</p></li><li><p>为什么要解决这个问题？</p></li><li><p>使用了什么方法和模型？</p></li><li><p>为什么这个方法可以解决这个问题？</p></li><li><p>该文章的核心结论是什么？下一步可以怎么做？</p><h1 id="终极目标"><a href="#终极目标" class="headerlink" title="终极目标"></a>终极目标</h1><p><center><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/PHD_ONE_STAGE/%E7%91%9E%E8%8E%B1%E6%99%BA%E6%85%A7.PNG" alt=""></center><sup>[2]</sup></p><h1 id="Reference："><a href="#Reference：" class="headerlink" title="Reference："></a>Reference：</h1></li></ul><ol><li><a href="https://www.zhihu.com/question/322567627/answer/670948050" target="_blank" rel="noopener">请问作为一个即将入学的PhD学生，怎么去发掘或者说判断出一个非常有潜力的领域呢?</a></li><li><a href="https://realai.ai/" target="_blank" rel="noopener">RealAI：打造可理解的新一代人工智能</a></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;所有的经历都是那么刻骨铭心&lt;/p&gt;
-&lt;p&gt;自己选择的路怎么也得给走完&lt;br&gt;
-    
-    </summary>
-    
-      <category term="科研学术" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94%E5%AD%A6%E6%9C%AF/"/>
-    
-    
-      <category term="可解释性AI" scheme="http://yoursite.com/tags/%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7AI/"/>
-    
-  </entry>
   
   <entry>
     <title>Google TPU 线下分享交流会</title>
@@ -103,53 +36,6 @@
     
     
       <category term="Network Inference" scheme="http://yoursite.com/tags/Network-Inference/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>生日</title>
-    <link href="http://yoursite.com/2019/01/23/%E7%94%9F%E6%97%A5/"/>
-    <id>http://yoursite.com/2019/01/23/生日/</id>
-    <published>2019-01-23T05:51:39.000Z</published>
-    <updated>2019-09-17T01:05:23.725Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>2018年 太多的名人大师离我们而去…</p><p>在2019年1月23日，也是我26岁的生日这一天，台湾知名作家林清玄不幸离世。<br><a id="more"></a><br>借林清玄老师的语录送给正在逐梦的自己</p><ol><li><p>今天比昨天慈悲，今天比昨天智慧，今天比昨天快乐。这就是成功—《人间最美是清欢》</p></li><li><p>人不是向外奔走才是旅行，静静坐着思维也是旅行，凡是探索、追寻、触及那些不可知的情境，不论是风土的，或是心灵的，都是一种旅行 —《玄想》</p></li><li><p>谦卑的心是宛如野草小花的心，不取笑外面的世界，也不在意世界的嘲讽 —《心得菩提》</p></li><li><p>生命得历程就像是写在水上的字，顺流而下，想回头寻找的时候总是失去了痕迹 —《境明，千里皆明》</p></li><li><p>愿远行人都看见最美的风景，愿归来者终等到最美的风景 —《愿你，归来仍是少年》</p></li><li><p>虽然明天还会有新的太阳，但永远不会有今天的太阳了 —《和时间赛跑》</p></li><li><p>在穿过林间的时候，我觉得麻雀的死亡给我一些启示，我们虽然在尘网种生活，但永远不要失去想飞的心，不要忘记飞翔的姿势 —《在云上》</p></li><li><p>人生需要准备的，不是昂贵的茶，而是喝茶的心情 —《平常茶非常道》</p></li><li><p>有的心情你不会明白的，有时候过了五分钟，心情就完全不同了。 生命的很多事，你错过了一小时，很可能就错过了一生了。 </p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;2018年 太多的名人大师离我们而去…&lt;/p&gt;
-&lt;p&gt;在2019年1月23日，也是我26岁的生日这一天，台湾知名作家林清玄不幸离世。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>可视化项目过程完成记</title>
-    <link href="http://yoursite.com/2019/01/19/%E5%8F%AF%E8%A7%86%E5%8C%96%E9%A1%B9%E7%9B%AE%E8%BF%87%E7%A8%8B%E5%AE%8C%E6%88%90%E8%AE%B0/"/>
-    <id>http://yoursite.com/2019/01/19/可视化项目过程完成记/</id>
-    <published>2019-01-18T21:12:54.000Z</published>
-    <updated>2019-01-19T01:16:02.112Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/visualization/team.jpg" alt=""></p><h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>恰逢实验室年终总结与庆祝，可视化小组需要通过可视化技术展现实验室的发展历程。</p><h1 id="时间"><a href="#时间" class="headerlink" title="时间"></a>时间</h1><p>一个月<br><a id="more"></a></p><h1 id="任务分解"><a href="#任务分解" class="headerlink" title="任务分解"></a>任务分解</h1><ol><li>可视化技术实现</li><li>剧本编排与数据搜集</li><li>后期视频合成</li></ol><h1 id="具体实施"><a href="#具体实施" class="headerlink" title="具体实施"></a>具体实施</h1><p>自己和师弟师妹负责可视化技术实现部分，自己主要承担了“数字指标”、“词云展现”两部分具体工作</p><h2 id="开发历程"><a href="#开发历程" class="headerlink" title="开发历程"></a>开发历程</h2><h3 id="数字指标"><a href="#数字指标" class="headerlink" title="数字指标"></a>数字指标</h3><p>在这一部分，主要是想通过动态的统计图表展现各种指标的变化情况。<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/visualization/%E6%8C%87%E6%A0%87%E5%8A%A8%E6%80%81.PNG" alt=""><br>开发工具：echarts</p><p><a href="https://github.com/muzi-8/visualize_font/blob/master/%E4%BA%BA%E6%95%B0%E6%8C%87%E6%A0%87.html" target="_blank" rel="noopener">源代码：指标动态图</a></p><h4 id="开发过程"><a href="#开发过程" class="headerlink" title="开发过程"></a>开发过程</h4><p>由于第一次使用echarts，与师弟两个人花了一整天完成</p><ol><li><a href="https://echarts.baidu.com/examples/editor.html?c=dynamic-data2" target="_blank" rel="noopener">参考官方例字</a> ：目的分析源代码组织结构</li><li>修改x坐标数值：花费大量时间</li><li>显现MarkPoint标记</li><li>显现标记text文本：调试bug</li><li>同一坐标展示两条曲线</li><li>同一页面展示两个画布：（css控制）</li></ol><p>调试过程中的图如下：<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/visualization/%E6%8C%87%E6%A0%87%E5%8A%A8%E6%80%81-%E8%B0%83%E8%AF%95%E4%B8%AD.PNG" alt=""></p><p>调试过程代码</p><p>Note：整个调试过程，主要是参考官方API以及官方帮助文档介绍。</p><h3 id="数字指标（2）"><a href="#数字指标（2）" class="headerlink" title="数字指标（2）"></a>数字指标（2）</h3><p>由于刚开始需求不明确，自己写的一个版本：<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/visualization/%E5%8A%A8%E6%80%81%E6%8C%87%E6%A0%872.PNG" alt=""></p><p>开发工具 D3<br><a href="https://github.com/muzi-8/visualize_font/blob/master/d3_%E5%8A%A8%E6%80%81%E6%8C%87%E6%A0%87.html" target="_blank" rel="noopener">源代码：动态指标(2)</a></p><h4 id="开发过程-1"><a href="#开发过程-1" class="headerlink" title="开发过程"></a>开发过程</h4><p>时常：1天</p><ol><li>通过搜索引擎寻找相关案例代码</li><li>模块一：<a href="https://blog.csdn.net/KJBU2/article/details/53386038" target="_blank" rel="noopener">动态折线图</a></li><li>模块二：最简单的d3饼状图</li><li>模块三：动态条形图</li></ol><p>其中最耗时的是模块三与如何将三个模块布局在一个页面上，开发过程如下：</p><h5 id="搜索参考："><a href="#搜索参考：" class="headerlink" title="搜索参考："></a>搜索参考：</h5><p>1）<a href="https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js" target="_blank" rel="noopener">Jannchie：条形图经典项目 </a></p><p>2）<a href="https://github.com/TangliziGit/ColumnsAnimation" target="_blank" rel="noopener">动态条形图排名作品</a></p><p>3）<a href="https://zhuanlan.zhihu.com/p/47544097" target="_blank" rel="noopener">知乎：动态条形图示例</a></p><h5 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h5><p>最终利用上述第三个代码完成，期间还对比了条形图与柱状图代码的区别，本想着将动态条形图改为数值动态柱形图。由于工程量挺大，最终没能实现。（对比了条形图与柱形图代码差别，主要是明确画布的原点位置以及展示一个“柱子”需要的可视要素）</p><h5 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h5><p>由于自己并不熟悉css布局策略，自己采取的办法是认为修改画布width与height的值。（反复调整…）</p><h3 id="词云"><a href="#词云" class="headerlink" title="词云"></a>词云</h3><p>这一部分进行的比较顺利，通过调研，最终选取两种方案，js前端web与python实现。</p><h4 id="web版本"><a href="#web版本" class="headerlink" title="web版本"></a>web版本</h4><p>主要是寻找动态的web版本代码，最终通过搜索选取的是D3版本代码，效果如下：<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/visualization/web%E8%AF%8D%E4%BA%91.PNG" alt=""></p><p><a href="https://github.com/muzi-8/visualize_font/blob/master/d3wordcloud.html" target="_blank" rel="noopener">源代码：动态词云图</a></p><p>Note： 此代码来源于D3示例库中。</p><h4 id="python版本"><a href="#python版本" class="headerlink" title="python版本"></a>python版本</h4><p>效果如下：<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/visualization/wordcloud_2019_02.png" alt=""><br><a href="https://github.com/muzi-8/visualize_font/tree/master/python%E8%AF%8D%E4%BA%91" target="_blank" rel="noopener">源代码：静态词云图</a></p><p>Note：此代码参考:<br><a href="https://github.com/Honlan/DeepInterests" target="_blank" rel="noopener">Honlan：高端又一般的词云</a></p><h1 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h1><p>1 前期调研（充分）：echarts案例，D3案例，webgl案例（三位球效果）google earth studio（虚拟航拍效果，暂未开放），微博大V.<br>2 需求不明确，导致自己做的d3版本统计图没有用上。<br>3 错误地低估了动态图的可操作性，认为其简单易实现，但是满足自己的需求还是不容易的。<br>4 d3柱状图都是搜索别人的代码，然后修修改改；enchats折线图是以官网为原型，一步步debug实现。<br>5 此次只涉及到前端，并且所有数据，js代码都直接写入到html网页中。几乎没有用css样式<br>6 用到的工具有：sublime、atom、chrome浏览器<br>7 领导层面：整个项目的预估与推动（此次整个组员人员项目完成的很赶）</p><h1 id="提升"><a href="#提升" class="headerlink" title="提升"></a>提升</h1><p>1 页面布局 css<br>2 js代码逻辑能力，以及调试bug能力<br>3 vue框架<br>4 后端python算法</p><h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>在完成项目的当天，广告文案《啥是佩奇》贺岁片在网上爆红。<br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/visualization/%E5%B0%8F%E7%8C%AA%E4%BD%A9%E5%A5%87.PNG" alt=""></p><p>所有代码详见：<a href="https://github.com/muzi-8/visualize_font" target="_blank" rel="noopener">visualize_font</a></p><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ol><li><p><a href="http://www.popodv.com/" target="_blank" rel="noopener">可视化资源高度集成网站： PoPo, 陪你寻找数据之美</a></p></li><li><p><a href="https://zhuanlan.zhihu.com/p/38001672" target="_blank" rel="noopener">知乎：D3.js 学习之路 </a></p></li><li><p><a href="https://zhuanlan.zhihu.com/p/21897086" target="_blank" rel="noopener">实例教学：使用 D3.js 实现数据可视化</a></p></li><li><p><a href="http://ef.zhiweidata.com/#!/event/729a07ae51d9c9aa10008131/aggregation" target="_blank" rel="noopener">知微事见</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/visualization/team.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h1&gt;&lt;p&gt;恰逢实验室年终总结与庆祝，可视化小组需要通过可视化技术展现实验室的发展历程。&lt;/p&gt;
-&lt;h1 id=&quot;时间&quot;&gt;&lt;a href=&quot;#时间&quot; class=&quot;headerlink&quot; title=&quot;时间&quot;&gt;&lt;/a&gt;时间&lt;/h1&gt;&lt;p&gt;一个月&lt;br&gt;
-    
-    </summary>
-    
-      <category term="可视化" scheme="http://yoursite.com/categories/%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
-    
-    
-      <category term="coding" scheme="http://yoursite.com/tags/coding/"/>
     
   </entry>
   
@@ -176,28 +62,6 @@
   </entry>
   
   <entry>
-    <title>工程实践：Imagenet数据集</title>
-    <link href="http://yoursite.com/2018/09/25/%E6%B5%85%E8%81%8AImagenet%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
-    <id>http://yoursite.com/2018/09/25/浅聊Imagenet数据集/</id>
-    <published>2018-09-25T01:23:55.000Z</published>
-    <updated>2018-09-25T02:57:14.445Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>图像识别模式挑战赛(ImageNet Large Scale Visual Recognition Challenge)简称为ILSVRC，自2010年开始，成为计算机视觉领域图像分类、检测算法性能评估参考标准，使用的数据集是ImageNet Database的子集。<br><a id="more"></a></p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>训练集：ILSVRC2012_ img_train.tar</p><p>验证集：ILSVRC2012_ img_val.tar</p><p>主要是想要下载上述两个tar包文件，查看其tar包文件大小可使用命令：</p><pre><code>du -h *.tar</code></pre><p>下载过程推荐使用断点续传工具 aria2<sup>[1]</sup></p><h2 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h2><h3 id="训练集"><a href="#训练集" class="headerlink" title="训练集"></a>训练集</h3><p>训练集的所有图像数据都是位于各自类别下面的文件夹里面，总共1000个类别，也就包含1000个文件夹。各自文件夹是由对应的ID命名<br>创建目录命令</p><pre><code>mkdir train</code></pre><p>拷贝tar包至train目录中</p><pre><code>cp ILSVRC2012_ img_train.tar train/</code></pre><p>进入train目录中</p><pre><code>cd  train/</code></pre><p>显示此目录内容</p><pre><code>ls</code></pre><p>解压相应tar包</p><pre><code>tar -xvf ILSVRC2012_ img_train.tar 注： -x 从压缩的文件中提取文件-v 显示操作过程-f 指定压缩文件</code></pre><p>查看目录下面文件个数</p><pre><code>ls -1 | wc -l</code></pre><p>可以选择删除解压之前的tar包文件</p><pre><code>rm ILSVRC2012_ img_train.tar </code></pre><h3 id="验证集"><a href="#验证集" class="headerlink" title="验证集"></a>验证集</h3><p>总共50000张图像，是混乱放在一个目录下面的，需要使用脚本文件进行处理，最后形式应该与训练集目录一致，每一个文件夹下面存放相应需要识别的图像文件。</p><p>脚本文件可在<a href="https://github.com/pytorch/examples/tree/master/imagenet" target="_blank" rel="noopener">pytorch github</a>中找到，如下所示</p><p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-9-25/50774724.jpg" alt=""></center><br>查找当前路径下面的所有目录命令</p><pre><code>find . -type d</code></pre><h2 id="评估"><a href="#评估" class="headerlink" title="评估"></a>评估</h2><p>后续可采用tf或者pytorch框架下面的预训练模型对验证集进行测试，查看其TOP-1/TOP-5正确率是否与官网一致。</p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol><li><a href="https://www.jianshu.com/p/bb9490ea1c4d" target="_blank" rel="noopener">Aria2-不限速全平台下载利器</a></li><li><a href="https://www.bilibili.com/video/av20115403?from=search&amp;seid=1525466752797960325" target="_blank" rel="noopener">bilibili:ImageNet数据集的说明</a></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;图像识别模式挑战赛(ImageNet Large Scale Visual Recognition Challenge)简称为ILSVRC，自2010年开始，成为计算机视觉领域图像分类、检测算法性能评估参考标准，使用的数据集是ImageNet Database的子集。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="深度学习" scheme="http://yoursite.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="数据集" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
-    
-  </entry>
-  
-  <entry>
     <title>t-sne图布局与图节点关系预测</title>
     <link href="http://yoursite.com/2018/09/21/%E6%96%87%E7%8C%AE%E8%AE%B2%E8%A7%A32/"/>
     <id>http://yoursite.com/2018/09/21/文献讲解2/</id>
@@ -216,28 +80,6 @@
     
     
       <category term="图可视化" scheme="http://yoursite.com/tags/%E5%9B%BE%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>国产化工程项目</title>
-    <link href="http://yoursite.com/2018/09/18/%E5%9B%BD%E4%BA%A7%E5%8C%96%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE/"/>
-    <id>http://yoursite.com/2018/09/18/国产化工程项目/</id>
-    <published>2018-09-18T01:22:09.000Z</published>
-    <updated>2018-09-18T04:53:24.176Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>在自己的学生生涯中，参与实际项目的开发是必不可少的一个环节。在2016年进入实验室的时候，就被分配到了参与“国产化”项目当中，当时（2016年9-10月份）主要在小马哥(现已入职京东)的带领下一起进行<strong>工程插件</strong>的开发与学习。之后自己懵懵懂懂地开始带着师弟师妹一起进行工程开发，2018年3月份与2016级师妹一起参与过“数字地球”的<strong>插件开发</strong>,2018年8月份与2017级师弟师妹进行过国产化的<strong>平台适配</strong><br><a id="more"></a></p><h2 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h2><p>由于自己之前开发都是至今进行插件的编写与调试，并不会涉及到工程项目在各个平台的适配工作，故最近一直在折腾平台适配问题。</p><h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><p>国产化项目主要的一块要求就是实现“跨平台”。</p><p>国产化硬件平台有：</p><ul><li><p><a href="https://zh.wikipedia.org/wiki/%E9%A3%9E%E8%85%BE%E5%A4%84%E7%90%86%E5%99%A8" target="_blank" rel="noopener">飞腾系列</a> ：国防科大研制的芯片</p></li><li><p><a href="https://zh.wikipedia.org/wiki/%E9%BE%99%E8%8A%AF" target="_blank" rel="noopener">龙芯系列</a>：中国科学院计算技术研究所研制的芯片</p></li><li><p><a href="https://zh.wikipedia.org/wiki/%E7%94%B3%E5%A8%81%E5%A4%84%E7%90%86%E5%99%A8" target="_blank" rel="noopener">申威系列</a>：中国人民解放军总参谋部第五十六研究所（江南计算技术研究所）研制的芯片</p></li></ul><p>国产化操作系统有：</p><ul><li><p><a href="http://www.kylinos.cn/" target="_blank" rel="noopener">银河麒麟</a></p></li><li><p><a href="http://www.cs2c.com.cn/" target="_blank" rel="noopener">中标麒麟 </a></p></li></ul><h2 id="适配"><a href="#适配" class="headerlink" title="适配"></a>适配</h2><p>国产化机器的购置主要来源是<a href="http://www.wfdz.com.cn/" target="_blank" rel="noopener">扬州万方</a>，平台的适配是一项很考验计算机技术的基本功的工程工作。当自己亲自接手了此任务，在实际操作的工程中，主要遇到的问题有：</p><p>1）整个项目工程的流程框架 </p><p>2）内网如何快速传输文件，如何备份文件</p><p>3）工程编译、链接问题</p><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>自己在进行适配的过程中，遇到一些莫名其妙的问题，主要是靠万方单位的远程协助，虽然会有成就感，但大大降低了效率。今天万方单位的外协人员亲自过来，进行各个平台的适配与调试，自己再一旁观看，感觉老师傅就是厉害，linux平台下面的各种命令用得特别娴熟，并且能够准确地定位到问题出处，并且给出解决方案。对于实际的项目工程开发又有了新的感悟。</p><h2 id="linux命令"><a href="#linux命令" class="headerlink" title="linux命令"></a>linux命令</h2><h3 id="data-命令"><a href="#data-命令" class="headerlink" title="data 命令"></a>data 命令</h3><p>data -s ：设定系统时间<sup>[1]</sup></p><p>hwclock -w ：将系统时钟同步到硬件时钟<sup>[2]</sup></p><h3 id="tar-命令"><a href="#tar-命令" class="headerlink" title="tar 命令"></a>tar 命令</h3><p>通过ssh访问服务器，难免会用到压缩、解压缩、打包、解包问题。tar命令可以为Linux的文件和目录创建档案。利用tar命令，可以把一大堆的文件和目录全部打包成一个文件，这对于备份文件或者将几个文件组合成为一个文件以便于网络传输是非常有用的<sup>[3]</sup>。</p><h4 id="打包与压缩区别"><a href="#打包与压缩区别" class="headerlink" title="打包与压缩区别"></a>打包与压缩区别</h4><p>打包：是指将一大堆文件或目录变成一个总的文件；压缩则是将一个大的文件通过一些压缩算法变成一个小文件。linux中很多压缩程序只能针对一个文件进行压缩，所以进行压缩一大堆文件之前，首先将一大堆文件进行打包成一个包，即tar命令。然后再利用压缩程序进行压缩，比如gzip命令。</p><h4 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h4><pre><code>tar -cvf log.tar log2012.log    仅打包，不压缩！ tar -zcvf log.tar.gz log2012.log   打包后，以 gzip 压缩 tar -jcvf log.tar.bz2 log2012.log  打包后，以 bzip2 压缩 </code></pre><h3 id="mv-命令"><a href="#mv-命令" class="headerlink" title="mv 命令"></a>mv 命令</h3><p>mv命令的两个作用就是对文件或者目录重新命名，或者将文件移至另一个目录当中<sup>[4]</sup></p><h4 id="实例-1"><a href="#实例-1" class="headerlink" title="实例"></a>实例</h4><pre><code>mv ex3 new1 将文件名ex3改名为new1mv /usr/men/* .将目录/usr/men 中的所有文件移到当前目录中</code></pre><h3 id="find-命令"><a href="#find-命令" class="headerlink" title="find 命令"></a>find 命令</h3><p>find命令用来在指定目录下面查找文件<sup>[5]</sup>。</p><h4 id="实例-2"><a href="#实例-2" class="headerlink" title="实例"></a>实例</h4><pre><code>find . 列出当前目录及子目录下所有文件和文件夹find /home -name &quot;*.txt&quot; 在/home目录下面查找以.txt结尾的文件名。</code></pre><h3 id="dpkg-命令"><a href="#dpkg-命令" class="headerlink" title="dpkg 命令"></a>dpkg 命令</h3><p>dpkg命令是linux系统用来安装、创建和管理软件包的实用工具<sup>[6]</sup></p><h4 id="实例-3"><a href="#实例-3" class="headerlink" title="实例"></a>实例</h4><pre><code>dpkg -i package.deb 安装包dpkg -L package 列出与该包关联的文件dpkg -S keyword 搜索所属的包内容</code></pre><h3 id="rsync-命令"><a href="#rsync-命令" class="headerlink" title="rsync 命令"></a>rsync 命令</h3><p>一个远程数据同步工具，可通过LAN/WAN快速同步多台主机间的文件<sup>[7]</sup>。</p><h4 id="实例-4"><a href="#实例-4" class="headerlink" title="实例"></a>实例</h4><pre><code>语法：rsync [OPTION]... [USER@]HOST:SRC DEST含义：使用一个远程shell程序(如rsh、ssh)来实现将远程机器的内容拷贝到本地机器。当SRC地址路径包含单个冒号&quot;:&quot;分隔符时启动该模式。如：rsync -avz foo:src/bar /data</code></pre><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol><li><a href="https://www.kancloud.cn/louis1986/linuxcommand/499526" target="_blank" rel="noopener">data命令</a></li><li><a href="https://blog.csdn.net/Jerry_1126/article/details/54563845" target="_blank" rel="noopener">图解Linux命令之–hwclock命令</a></li><li><a href="http://man.linuxde.net/tar" target="_blank" rel="noopener">tar命令</a></li><li><a href="http://man.linuxde.net/mv" target="_blank" rel="noopener">mv命令</a></li><li><a href="http://man.linuxde.net/find" target="_blank" rel="noopener">find命令</a></li><li><a href="http://man.linuxde.net/dpkg" target="_blank" rel="noopener">dpkg命令</a></li><li><a href="http://man.linuxde.net/rsync" target="_blank" rel="noopener">rsync命令</a></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h2&gt;&lt;p&gt;在自己的学生生涯中，参与实际项目的开发是必不可少的一个环节。在2016年进入实验室的时候，就被分配到了参与“国产化”项目当中，当时（2016年9-10月份）主要在小马哥(现已入职京东)的带领下一起进行&lt;strong&gt;工程插件&lt;/strong&gt;的开发与学习。之后自己懵懵懂懂地开始带着师弟师妹一起进行工程开发，2018年3月份与2016级师妹一起参与过“数字地球”的&lt;strong&gt;插件开发&lt;/strong&gt;,2018年8月份与2017级师弟师妹进行过国产化的&lt;strong&gt;平台适配&lt;/strong&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="项目" scheme="http://yoursite.com/categories/%E9%A1%B9%E7%9B%AE/"/>
-    
-    
-      <category term="国产化" scheme="http://yoursite.com/tags/%E5%9B%BD%E4%BA%A7%E5%8C%96/"/>
     
   </entry>
   
@@ -335,28 +177,6 @@
   </entry>
   
   <entry>
-    <title>关于user-study的思考</title>
-    <link href="http://yoursite.com/2018/08/23/%E5%85%B3%E4%BA%8Euserstudy%E7%9A%84%E6%80%9D%E8%80%83/"/>
-    <id>http://yoursite.com/2018/08/23/关于userstudy的思考/</id>
-    <published>2018-08-23T08:45:58.000Z</published>
-    <updated>2018-08-23T14:46:39.705Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="题记"><a href="#题记" class="headerlink" title="题记"></a>题记</h2><p>当我2016年9月份进组进行自己的可视化与可视分析的研究的时候，王老师就针对“user study”这个问题进行指导与说明，只是当时太年轻，不太清楚这个概念的重要性，在最近一次组会上面，师弟讲述了“Towards Unambiguous Edge Bundling: Investigating Confluent Drawings for Network Visualization”文章的工作，此论文收录于2017VAST期刊上面，小组讨论再次涉及到UserStudy的概念，现对“用户调研”这一章节工作加以说明。<br><a id="more"></a></p><h2 id="user-study设计"><a href="#user-study设计" class="headerlink" title="user study设计"></a>user study设计</h2><p>这一部分简要分析Confluent Drawing论文中的用户调研这一部分是如何实现的？</p><h3 id="Readability-Study"><a href="#Readability-Study" class="headerlink" title="Readability Study"></a>Readability Study</h3><p>作者对自己的工作提出了一个问题:“Can users correctly perceive links in CDs?”用户能否准确地理解CDs中的边呢？遵循以下问题，作者自己做了一个可控的”用户调研”。</p><ul><li><p>Q1: 并非图理论的专家能否学会读懂CD去完成低可读性任务（low-level readability tasks）？</p></li><li><p>Q2：正如我们所了解到的，传统的边捆绑技术引入了歧义，针对任务（low-level readability tasks）我们能否定量化此错误呢？</p></li><li><p>Q3：这四种技术在性能上是否存在不同之处？</p></li><li><p>Q4：在Power Graph与Bundling Technique中用户的主观参数选择</p></li></ul><h4 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h4><p>作者采用了面向受试者的一个设计(within-subject desigh),即让每一个参与者操作执行如下所示四种方案，并且每种方案都是随机出现在被试者面前。让用户使用这四种技术完成“给出起点与终点找出最短路径”的任务。</p><p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-8-23/55302331.jpg" alt=""></center></p><h4 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h4><h5 id="定量分析"><a href="#定量分析" class="headerlink" title="定量分析"></a>定量分析</h5><p>作者从具体某种任务的正确率、针对不同复杂度的数据、完成的时间3个角度分别衡量了用户对于这4种技术的定量分析，结果如下图所示：</p><p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-8-23/17791912.jpg" alt=""></center></p><h5 id="用户使用主观反馈"><a href="#用户使用主观反馈" class="headerlink" title="用户使用主观反馈"></a>用户使用主观反馈</h5><p>作者让用户对这四种技术在四个方面分别进行0(very bad)-4(very good)打分(打分机制属于李克特量表)，四个方面分别为Overall（整体评价）、Learnability（学习的难度）、Cluter-free（图表达的清晰程度）、Confidence（答案的把握）<sup>[3]</sup>。结果如下：</p><p><center><img src="http://od2s78ez3.bkt.clouddn.com/18-8-23/88641731.jpg" alt=""></center></p><h6 id="李克特量表-Likert-scale"><a href="#李克特量表-Likert-scale" class="headerlink" title="李克特量表(Likert scale)"></a>李克特量表(Likert scale)</h6><p>是一种心理反应量表，常用于问卷中，是目前调查研究使用最广泛的量表。当受测者回答此类问卷的项目时，具体的指出自己对该项陈述的认同程度<sup>[1]</sup>。</p><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>粗略的对顶刊文章的用户调研进行了分析。</p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol><li><a href="https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%85%8B%E7%89%B9%E9%87%8F%E8%A1%A8" target="_blank" rel="noopener">李克特量表</a></li><li><a href="chrome-extension://ihgdgpjankaehldoaimdlekdidkjfghe/viewer.html#http://ialab.it.monash.edu/~dwyer/papers/confluentbundling.pdf" target="_blank" rel="noopener">原文：Towards Unambiguous Edge Bundling: Investigating Confluent Drawings for Network Visualization</a></li><li><a href="http://www.cad.zju.edu.cn/home/vagblog/?p=5185" target="_blank" rel="noopener">浙江大学可视分析小组:调研用Confluent Drawings来构造网络可视化</a></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;题记&quot;&gt;&lt;a href=&quot;#题记&quot; class=&quot;headerlink&quot; title=&quot;题记&quot;&gt;&lt;/a&gt;题记&lt;/h2&gt;&lt;p&gt;当我2016年9月份进组进行自己的可视化与可视分析的研究的时候，王老师就针对“user study”这个问题进行指导与说明，只是当时太年轻，不太清楚这个概念的重要性，在最近一次组会上面，师弟讲述了“Towards Unambiguous Edge Bundling: Investigating Confluent Drawings for Network Visualization”文章的工作，此论文收录于2017VAST期刊上面，小组讨论再次涉及到UserStudy的概念，现对“用户调研”这一章节工作加以说明。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="可视化" scheme="http://yoursite.com/categories/%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
-    
-    
-      <category term="用户评价" scheme="http://yoursite.com/tags/%E7%94%A8%E6%88%B7%E8%AF%84%E4%BB%B7/"/>
-    
-  </entry>
-  
-  <entry>
     <title>文献DeepTracker:Visualizing the Training Process of Convolutional Neural Networks解读Ⅰ</title>
     <link href="http://yoursite.com/2018/08/17/%E6%96%87%E7%8C%AEDeepTrackerVisualizing%20the%20Training%20Process%20of%20Convolutional%20Neural%20Networks%E8%A7%A3%E8%AF%BB%E2%85%A0/"/>
     <id>http://yoursite.com/2018/08/17/文献DeepTrackerVisualizing the Training Process of Convolutional Neural Networks解读Ⅰ/</id>
@@ -375,29 +195,6 @@
     
     
       <category term="可解释性AI" scheme="http://yoursite.com/tags/%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7AI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>浅谈AdminDemo项目遇到的Debug</title>
-    <link href="http://yoursite.com/2018/08/16/%E6%B5%85%E8%B0%88AdminDemo%E9%A1%B9%E7%9B%AE%E9%81%87%E5%88%B0%E7%9A%84Debug/"/>
-    <id>http://yoursite.com/2018/08/16/浅谈AdminDemo项目遇到的Debug/</id>
-    <published>2018-08-16T12:25:32.000Z</published>
-    <updated>2018-08-17T06:01:13.317Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>作为一个工程师，或者一个程序员，可能最讨厌遇到的问题就是：程序出现bug，而作为一个全栈工程师，尤其是前端界面一直不能出现自己想要的效果，此时更是产生焦虑，深深地怀疑“人生”，最糟糕的情况可能会将工程搁置一旁，挫败感增强。</p><p>自己7月末参加了北京大学的可视化暑期学校，在8月上旬借着高温假的时间自己学习了<a href="https://www.zaih.com/mentor/84779110/" target="_blank" rel="noopener">安晓辉老师</a>的<a href="https://edu.csdn.net/course/play/1425/22488" target="_blank" rel="noopener">全栈开发入门课程</a>(MEAN.js)，是一门手把手教学怎么完成一个全后端的工程项目线上课程。每一节过后都有一个实践的实例，最后集成一个大的工程项目:WEB管控系统，此项目开源代码托管于安晓辉老师的github的<a href="https://github.com/foruok/XAdmin" target="_blank" rel="noopener">xdmin</a>项目中。<br><a id="more"></a><br>自己在课程项目当中有两节课就陷入了调试debug过程当中，在实现AdminDemo的作业当中，代码也是跟着视频进行全程敲写的，但是最终运行的前端界面一直出现不了自己的想要结果，查找原因，最终调试查找，记录如下：</p><p>（注：以下两处都是自己在解决bug之后，重现bug，并以记录）</p><h2 id="Debug1：左侧条目一直不能成功显示"><a href="#Debug1：左侧条目一直不能成功显示" class="headerlink" title="Debug1：左侧条目一直不能成功显示"></a>Debug1：左侧条目一直不能成功显示</h2><p><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/10591553.jpg" alt=""></p><p><div align="center">BUG显示界面</div><br>出现上述情况原因如下：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/56627235.jpg" alt=""></p><p><div align="center">code工程界面</div><br>代码：</p><pre><code>$scope.menus =[];</code></pre><p>语句的分号使用了<strong>中文分号“；”</strong>，使得前端出现莫名其妙的问题，这个问题之前在使用百度开源的Echarts前端可视化工具也曾遇到过，如此一个小的中英文问题使得前端效果一直出现不了。最终显示界面如下所示：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/3148652.jpg" alt=""></p><p><div align="center">正常前端界面</div></p><h2 id="Debug2：左侧条目“手风琴折叠样式”不能成功显示"><a href="#Debug2：左侧条目“手风琴折叠样式”不能成功显示" class="headerlink" title="Debug2：左侧条目“手风琴折叠样式”不能成功显示"></a>Debug2：左侧条目“手风琴折叠样式”不能成功显示</h2><p>当使用手风琴折叠样式的前端效果，课程提到需要引入以下几个新的js类库：</p><ul><li><p>angular-1.4.3.min.js</p></li><li><p>angular-animate.js</p></li><li><p>ui-bootstrap-tpls-0.13.3.min.js</p></li></ul><p>正如作者提到下载UI组件的“ui-bootstrap-tpls-0.13.3.min.js”库使用github项目中的gh-pages分支<sup>[1]</sup><br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/22700203.jpg" alt=""><sup>[2]</sup></p><p>运行之后前端显示如下：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/71961703.jpg" alt=""></p><p><div align="center">BUG显示界面</div><br>debug信息如下：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/24318593.jpg" alt=""></p><p><div align="center">终端运行信息与浏览器调试信息</div><br>运行浏览器调试信息第一行显示如下：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/68736671.jpg" alt=""></p><p><div align="center">accordion-group.html信息</div><br>由于自己第一次接触ui-bootstrap组件的类库，当时并不清楚出现这个bug的原因所在，然后google此错误，大部分说在自己创建的js中没有使用’ui.bootstrap’,但是自己确实是按照视频当中的语句：</p><pre><code>angular.module(x-admin,[&apos;ui.bootstrap&apos;,&apos;ngAnimate&apos;])</code></pre><p>最后自己的解决方案是将<a href="https://github.com/foruok/XAdmin" target="_blank" rel="noopener">xdmin</a>项目的相关js库替换自己的js库文件，然后再次运行程序，前端界面图下：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/25667278.jpg" alt=""></p><p><div align="center">正常显示“手风琴折叠样式”界面</div><br>当看到前端界面能够如愿以偿的展示自己的想要结果，顿时感觉生活还是那么得美好！最终找到出现bug原因在于自己下载使用的“ui-bootstrap-tpls-0.13.3.min.js”库有问题：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/24082741.jpg" alt=""><br>正常的“ui-bootstrap-tpls-0.13.3.min.js”库如下所示：<br><img src="http://od2s78ez3.bkt.clouddn.com/18-8-16/54100499.jpg" alt=""><br>对比可以发现确实是少了一些代码片段，导致前端报错：<strong>Failed to load resource</strong>.当自己再次查找下载源得时候发现原始类库是有相应得代码片段，也不知道自己为什么下载的ui-bootstrap-tpls-0.13.3.min.js竟然少<strong>手风琴折叠样式</strong>代码。</p><h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p>作为全栈的一个初学者，上述两个bug错误可能是每一个入门者难免遇到的问题，遂记录下来，若能够对后入坑的同学起到帮助作用，甚是欣慰。深刻体会到前端界面不能如愿以偿的显示自己想要的结果，有可能就是自己的一个很小的错误，然后花费大量的时间去找此问题，过程是多么地令人揪心与烦躁。不妨在遇到bug问题，暂时解决不了可以先放放，比如去跑个步，回来再理清思路，可能就解决了。</p><p>Reference：</p><ol><li><a href="https://www.cnblogs.com/MuYunyun/p/6082359.html" target="_blank" rel="noopener">github的gh-pages分支展示自己的项目</a></li><li><a href="https://blog.csdn.net/foruok/article/details/48173377" target="_blank" rel="noopener">Node.js开发入门-引入UIbootstrap</a></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;作为一个工程师，或者一个程序员，可能最讨厌遇到的问题就是：程序出现bug，而作为一个全栈工程师，尤其是前端界面一直不能出现自己想要的效果，此时更是产生焦虑，深深地怀疑“人生”，最糟糕的情况可能会将工程搁置一旁，挫败感增强。&lt;/p&gt;
-&lt;p&gt;自己7月末参加了北京大学的可视化暑期学校，在8月上旬借着高温假的时间自己学习了&lt;a href=&quot;https://www.zaih.com/mentor/84779110/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;安晓辉老师&lt;/a&gt;的&lt;a href=&quot;https://edu.csdn.net/course/play/1425/22488&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;全栈开发入门课程&lt;/a&gt;(MEAN.js)，是一门手把手教学怎么完成一个全后端的工程项目线上课程。每一节过后都有一个实践的实例，最后集成一个大的工程项目:WEB管控系统，此项目开源代码托管于安晓辉老师的github的&lt;a href=&quot;https://github.com/foruok/XAdmin&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;xdmin&lt;/a&gt;项目中。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="可视化" scheme="http://yoursite.com/categories/%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
-    
-    
-      <category term="全栈" scheme="http://yoursite.com/tags/%E5%85%A8%E6%A0%88/"/>
     
   </entry>
   
@@ -427,27 +224,6 @@
   </entry>
   
   <entry>
-    <title>机器学习的可解译性</title>
-    <link href="http://yoursite.com/2018/07/31/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7/"/>
-    <id>http://yoursite.com/2018/07/31/机器学习的可解释性/</id>
-    <published>2018-07-31T09:09:12.022Z</published>
-    <updated>2017-08-31T01:30:38.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/2018/07/31/机器学习的可解释性/timg.jpg" title="Machine Learning"><blockquote><p>Interpretation is the process of giving<br>explanations<br>解译性指的是给出可解释的过程</p></blockquote><p>即三个问题</p><ol><li>为什么要给出解译性？</li><li>通过什么途径给出可解释性呢？</li><li>我们又如何去评价这是一种好的可解释方法？</li></ol><h5 id="可解释模型的分类（既不是互相排斥-mutually-exclusive-的分类，也不是文献的罗列-exhaustive-list-）"><a href="#可解释模型的分类（既不是互相排斥-mutually-exclusive-的分类，也不是文献的罗列-exhaustive-list-）" class="headerlink" title="可解释模型的分类（既不是互相排斥(mutually exclusive)的分类，也不是文献的罗列(exhaustive list)）"></a>可解释模型的分类（既不是互相排斥(mutually exclusive)的分类，也不是文献的罗列(exhaustive list)）</h5><p>方法：</p><ol><li><p>搭建模型之前</p><ul><li>数据探索的可视（KMeans KNN 等聚类算法）</li></ul></li><li><p>搭建模型过程当中</p><ul><li>基于规则/基于属性(特征)</li><li>基于实例</li><li>从稀疏角度</li><li>从单调角度（借助制定区间形式定义函数变化的趋势（user specified lattice))</li></ul></li><li><p>给定模型之后(比如深度学习)</p><ul><li>敏感性分析，基于梯度的方法（sensitivity analysis）此方法来自金融风险（自变量与因变量关系）领域</li><li>模型的替换</li><li>隐层、中间层的观察</li></ul><p>评价<br>从不同角度去评价！可参考原文</p><p>Reference：</p><ol><li><a href="https://link.zhihu.com/?target=http://people.csail.mit.edu/beenkim/icml_tutorial.html" target="_blank" rel="noopener">Tutorial on Interpretable Machine Learning by Been Kim</a></li><li><a href="https://www.zhihu.com/question/60374968" target="_blank" rel="noopener">ICML 2017上哪些论文值得关注</a></li></ol></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>解析word文档表格</title>
     <link href="http://yoursite.com/2018/07/31/%E8%A7%A3%E6%9E%90word%E6%96%87%E6%A1%A3/"/>
     <id>http://yoursite.com/2018/07/31/解析word文档/</id>
@@ -465,6 +241,93 @@
     
     </summary>
     
+    
+  </entry>
+  
+  <entry>
+    <title>opencv离线安装问题</title>
+    <link href="http://yoursite.com/2018/07/31/opencv%E5%AE%89%E8%A3%85%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2018/07/31/opencv安装问题/</id>
+    <published>2018-07-31T09:09:11.991Z</published>
+    <updated>2018-04-24T04:11:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="step-0"><a href="#step-0" class="headerlink" title="step 0"></a>step 0</h3><p>下载源文件 opencv-2.4.11.zip<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ unzip opencv-2.4.11.zip</span><br></pre></td></tr></table></figure></p><p>在解压路径下面进行编译<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cmake CMakeLists.txt -DWITH_CUDA=ON -DCUDA_ARCH_BIN=<span class="string">"3.2"</span> -DCUDA_ARCH_PTX=<span class="string">""</span> -DBUILD_TESTS=OFF -DBUILD_PERF_TESTS=OFF -DBUILD_NEW_PYTHON_SUPPORT=ON</span><br><span class="line"></span><br><span class="line">make -j4</span><br></pre></td></tr></table></figure></p><a id="more"></a><p>报错0：<br><img src="/2018/07/31/opencv安装问题/161227210742477.png"><br>opencv与cuda8.0不兼容导致，～/opencv/modules/cudalegacy/src/graphcuts.cpp文件内容：<br><img src="/2018/07/31/opencv安装问题/161227210742478.png"><br>OK！重新编译</p><h3 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h3><p>安装源文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ make install</span><br></pre></td></tr></table></figure></p><p>ok 安装成功！<br>opencv默认安装位置为“/usr/local”下lib、bin、include等目录</p><h3 id="step-2"><a href="#step-2" class="headerlink" title="step 2"></a>step 2</h3><p>使用 python import cv2<br>错误1：<br>没有此模块，需要将opencv安装的源文件下面编译生成的共享文件库cv2.so拷贝至使用的python 下面。<br>本人使用的python环境是 /home/muzi-18/anaconda2/lib/python2.7/site-packages<br>错误 2：<br>libstdc++so.6 version ‘GLIBCXX_3.4.21’not found<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cp /usr/lib/x86_64-linux-gnu/libstdc++.so.6  /home/muzi-18/anaconda2/lib/libstdc++.so.6</span><br></pre></td></tr></table></figure></p><p>ok!<br>python<br> import cv2<br>测试成功！</p><p>Reference：<a href="http://www.linuxidc.com/Linux/2016-12/138870.htm" target="_blank" rel="noopener">http://www.linuxidc.com/Linux/2016-12/138870.htm</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;step-0&quot;&gt;&lt;a href=&quot;#step-0&quot; class=&quot;headerlink&quot; title=&quot;step 0&quot;&gt;&lt;/a&gt;step 0&lt;/h3&gt;&lt;p&gt;下载源文件 opencv-2.4.11.zip&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ unzip opencv-2.4.11.zip&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;在解压路径下面进行编译&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;cmake CMakeLists.txt -DWITH_CUDA=ON -DCUDA_ARCH_BIN=&lt;span class=&quot;string&quot;&gt;&quot;3.2&quot;&lt;/span&gt; -DCUDA_ARCH_PTX=&lt;span class=&quot;string&quot;&gt;&quot;&quot;&lt;/span&gt; -DBUILD_TESTS=OFF -DBUILD_PERF_TESTS=OFF -DBUILD_NEW_PYTHON_SUPPORT=ON&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;make -j4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Software Install" scheme="http://yoursite.com/categories/Software-Install/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/07/31/Pytorch%E6%95%99%E7%A8%8B(%E4%B8%80)/"/>
+    <id>http://yoursite.com/2018/07/31/Pytorch教程(一)/</id>
+    <published>2018-07-31T09:09:11.975Z</published>
+    <updated>2017-10-18T21:01:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><h2 id="PYTORCH-系列教程（一）"><a href="#PYTORCH-系列教程（一）" class="headerlink" title="PYTORCH 系列教程（一）"></a>PYTORCH 系列教程（一）</h2><p>Author：muzi</p><p><title><center>201_torch_numpy</center></title><br><img src="http://od2s78ez3.bkt.clouddn.com/17-10-19/33138087.jpg" alt=""><br><img src="http://od2s78ez3.bkt.clouddn.com/17-10-19/36291573.jpg" alt=""></p><ol><li><p>将numpy数组转换为张量，或者张量转换为数组<br>(convert numpy to tensor or vise versa 反之亦然)</p><p> code<br> import torch<br> import numpy as np<br> np_data = np.arange(6).reshape((2, 3))<br> print np_data<br> torch_data = torch.from_numpy(np_data)<br> print torch_data<br> tensor2array = torch_data.numpy()<br> print tensor2array<br>结果：</p><p> [[0 1 2]<br>  [3 4 5]]</p><p>  0  1  2<br>  3  4  5<br> [torch.LongTensor of size 2x3]</p><p> [[0 1 2]<br>  [3 4 5]]</p></li><li><p>元素取绝对值</p><p> code<br> data = [-1, -2, 1, 2]<br> print data<br> tensor = torch.FloatTensor(data)<br> print tensor<br> print np.abs(data)<br> print torch.abs(tensor)<br>结果：</p><p> [-1, -2, 1, 2]</p><p> -1<br> -2<br>  1<br>  2<br> [torch.FloatTensor of size 4]</p><p> [1 2 1 2]</p><p>  1<br>  2<br>  1<br>  2<br> [torch.FloatTensor of size 4]</p></li><li><p>元素取sin值</p><p> code<br> print np.sin(data)<br> print torch.sin(tensor)<br>结果：</p><p> [-0.84147098 -0.90929743  0.84147098  0.90929743]</p><p> -0.8415<br> -0.9093<br>  0.8415<br>  0.9093<br> [torch.FloatTensor of size 4]</p></li><li><p>张量元素取sigmoid值</p><p> code<br> print tensor.sigmoid()<br>结果</p><p>  0.2689<br>  0.1192<br>  0.7311<br>  0.8808<br> [torch.FloatTensor of size 4]</p></li><li><p>张量元素取指数值</p><p> code<br> print tensor.exp()<br>结果：</p><p> 0.3679<br> 0.1353<br> 2.7183<br> 7.3891<br>  [torch.FloatTensor of size 4]</p></li><li><p>元素取平均值</p><p> code<br> print np.mean(data)<br> print torch.mean(tensor)<br>结果：</p><p> 0.0<br> 0.0<br>7.列表，张量的矩阵运算</p><p> data = [[1,2], [3,4]]<br> print data<br> print type(data)<br> tensor = torch.FloatTensor(data)<br> print np.matmul(data,data)<br> print type(np.matmul(data,data))<br> print torch.mm(tensor,tensor)<br>结果：</p><p> [[1, 2], [3, 4]]<br> <type 'list'=""></type></p><h1 id="数据类型是list，可以通过matmul计算list的矩阵运算。"><a href="#数据类型是list，可以通过matmul计算list的矩阵运算。" class="headerlink" title="数据类型是list，可以通过matmul计算list的矩阵运算。"></a>数据类型是list，可以通过matmul计算list的矩阵运算。</h1><p> [[ 7 10]<br>  [15 22]]<br> <type 'numpy.ndarray'=""><br>   7  10<br>  15  22<br> [torch.FloatTensor of size 2x2]</type></p></li><li><p>数组的矩阵乘法操作；张量的內积运算</p><p> code<br> data = np.array(data)<br> print data<br> print type(data) #数据类型是数组，可以通过dot操作计算矩阵运算<br> print data.dot(data)<br> tensor = torch.FloatTensor(data)<br> print tensor<br> #print tensor.dot(tensor) #不正确的操作，因为维度不匹配<br> data1 = [1,2,3,4]<br> print type(data1)<br> print type(data1)<br> tensor = torch.FloatTensor(data1)<br> print tensor<br> print tensor.dot(tensor) #正确的操作 进行內积运算<br>结果：</p><p> [[1 2]<br>  [3 4]]<br> <type 'numpy.ndarray'=""><br> [[ 7 10]<br>  [15 22]]</type></p><p>  1  2<br>  3  4<br> [torch.FloatTensor of size 2x2]</p><p> [1, 2, 3, 4]</p> <type 'list'=""><p>  1<br>  2<br>  3<br>  4<br> [torch.FloatTensor of size 4]</p><p> 30.0</p></type></li><li><p>张量对应元素相乘</p><p> data =[[1,2],[3,4]]<br> print data<br> print type(data)<br> data = np.array(data)<br> print data        # 数据类型：列表与数组区别<br> print type(data)<br> tensor = torch.FloatTensor(data)<br> print tensor.mm(tensor)<br> print tensor*tensor          # 张量元素的对应乘积<br> data1 = np.arange(1,5)<br> data2 = np.array([1,2,3,4])  # 两种方式 产生(n,)的数组<br> print data1<br> print data2<br> print type(data1)<br> print data1.shape<br> tensor_1D = torch.FloatTensor(data1)<br> tensor_1D_ = torch.from_numpy(data2)   #两种方式 将（n,）的数组转换为 1-D张量<br> print tensor_1D<br> print tensor_1D.dot(tensor_1D)         # 1-D张量类型数据的內积：对应元素相乘求和<br>结果：</p><p> [[1, 2], [3, 4]]<br> <type 'list'=""><br> [[1 2]<br>  [3 4]]<br> <type 'numpy.ndarray'="">    #列表与数组的区别</type></type></p><p>   7  10<br>  15  22<br> [torch.FloatTensor of size 2x2]   #张量矩阵乘法</p></li></ol><pre><code>  1   4  9  16[torch.FloatTensor of size 2x2]  #张量对应元素相乘[1 2 3 4][1 2 3 4]&lt;type &apos;numpy.ndarray&apos;&gt;(4,) 1 2 3 4[torch.FloatTensor of size 4]&lt;class &apos;torch.FloatTensor&apos;&gt;30.0</code></pre><p>Reference :<br><a href="https://github.com/MorvanZhou/PyTorch-Tutorial" target="_blank" rel="noopener">莫烦：pytorch教程</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/07/31/hello-world/"/>
+    <id>http://yoursite.com/2018/07/31/hello-world/</id>
+    <published>2018-07-31T08:25:38.829Z</published>
+    <updated>2018-07-31T08:25:38.829Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Generative Adversarial Networks</title>
+    <link href="http://yoursite.com/2016/11/27/2016-11-27-gans/"/>
+    <id>http://yoursite.com/2016/11/27/2016-11-27-gans/</id>
+    <published>2016-11-27T02:00:00.000Z</published>
+    <updated>2018-04-24T18:09:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="http://7xritj.com1.z0.glb.clouddn.com/public/16-11-27/13513902.jpg" alt=""><br><a id="more"></a></p><p>人工智能目前的核心目标应该是赋予机器自主理解我们所在世界的能力。对于人类来说，我们对这个世界所了解的知识可能很快就会忘记，比如我们所处的三维环境中，物体能够交互，移动，碰撞；什么动物会飞，什么动物吃草等等。这些巨大的并且不断扩大的信息现在是很容易被机器获取的，问题的关键是怎么设计模型和算法让机器更好的去分析和理解这些数据中所蕴含的宝藏。</p><p><code>Generative models</code>(生成模型)现在被认为是能够实现这一目标的最有前景的方法之一。<code>Generative models</code>通过输入一大堆特定领域的数据进行训练（比如图像，句子，声音等）来使得模型能够产生和输入数据相似的输出。这一直觉的背后可以由下面名言阐述。</p><blockquote><p>“What I cannot create, I do not understand.”  —Richard Feynman</p></blockquote><p>生成模型由一个参数数量比训练数据少的多神经网络构成，所以生成模型为了能够产生和训练数据相似的输出就会迫使自己去发现数据中内在的本质内容。训练<code>Generative models</code>的方法有几种，在这里我们主要阐述其中的<code>Adversarial Training</code>（对抗训练）方法。</p><h2 id="Adversarial-Training"><a href="#Adversarial-Training" class="headerlink" title="Adversarial Training"></a>Adversarial Training</h2><p>上文说过Adversarial Training是训练生成模型的一种方法。为了训练生成模型，Adversarial Training提出一种<code>Discriminative Model</code>(判别模型)来和生成模型产生对抗，下面来说说<code>Generative models</code> $G(z)$ 和 <code>Discriminative Model</code> $D(x)$ 是如何相互作用的。</p><ul><li>生成模型的目标是模仿输入训练数据, 通过输入一个随机噪声来产生和训练数据相似的样本；</li><li>判别模型的目标就是判断生成模型产生的样本和真实的输入样本之间的相似性。</li></ul><p>其中生成模型和判别模型合起来的框架被称为<code>GAN</code>网络。通过下图我们来理清判别模型和生成模型之间的输入输出关系：生成模型通过输入随机噪声 $z(z \sim p_z)$ 产生合成样本；而判别模型通过分别输入真实的训练数据和生成模型的训练数据来判断输入的数据是否真实。</p><center><br><img src="https://culurciello.github.io/assets/unsup/gan_simple.svg" alt=""><br></center><p>描述了<code>GAN</code>的网络结构，但它的优化目标是什么？怎么就可以通过训练使得生成模型能够产生和真实数据相似的输出？优化的目标其实很简单，简单来说就是：</p><ul><li>判别模型努力的想把真实的数据预测为<code>1</code>，把生成的数据预测为<code>0</code>；</li><li>而生成模型的奋斗目标则为‘我’要尽力的让判别模型对‘我’生成的数据预测为<code>1</code>，让判别模型分不清‘我’产生的数据和真实数据之间的区别，从而达到‘以假乱真’的效果。</li></ul><p>下面用形式化说明下如果训练GAN网络, 先定义一些参数：</p><table><thead><tr><th style="text-align:center">参数</th><th style="text-align:center">含义</th></tr></thead><tbody><tr><td style="text-align:center">$p_z$</td><td style="text-align:center">输入随机噪声 $z$ 的分布</td></tr><tr><td style="text-align:center">$p_{data}$</td><td style="text-align:center">未知的输入样本的数据分布</td></tr><tr><td style="text-align:center">$p_g$</td><td style="text-align:center">生成模型的输出样本的数据分布，GAN的目标就是要$p_g=p_{data}$</td></tr></tbody></table><p>训练判别模型 $D(x)$ 的目标：</p><ol><li>对每一个输入数据 $x \sim p_{data}$ 要使得 $D(x)$ 最大；</li><li>对每一个输入数据 $x \nsim p_{data}$ 要使得 $D(x)$ 最小。</li></ol><p>训练生成模型 $G(z)$ 的目标是来产生样本来欺骗判别模型 $D$, 因此目标为最大化 $D(G(z))$，也就是把生成模型的输出输入到判别模型，然后要让判别模型预测其为真实数据。同时，最大化 $D(G(z))$ 等同于最小化 $1-D(G(z))$，因为 $D$ 的输出是介于0到1之间的，真实数据努力预测为1，否则为0。</p><p>所以把生成模型和判别模型的训练目标结合起来，就得到了<code>GAN</code>的优化目标：</p><p>$$\min_G \max_D {\mathbb E}<em>{x\sim p</em>{\rm data}} \log D(x)+{\mathbb E}_{z\sim p_z}[\log (1-D(G(z)))] $$</p><p>总结一下上面的内容，GAN启发自博弈论中的二人零和博弈，在二人零和博弈中，两位博弈方的利益之和为零或一个常数，即一方有所得，另一方必有所失。GAN模型中的两位博弈方分别由生成模型和判别模型充当。生成模型G捕捉样本数据的分布，判别模型是一个二分类器，估计一个样本来自于训练数据（而非生成数据）的概率。G和D一般都是非线性映射函数，例如多层感知机、卷积神经网络等。生成模型的输入是一些服从某一简单分布（例如高斯分布）的随机噪声z，输出是与训练图像相同尺寸的生成图像。向判别模型D输入生成样本，对于D来说期望输出低概率（判断为生成样本），对于生成模型G来说要尽量欺骗D，使判别模型输出高概率（误判为真实样本），从而形成竞争与对抗。</p><h2 id="GAN实现"><a href="#GAN实现" class="headerlink" title="GAN实现"></a>GAN实现</h2><p>一个简单的一维数据GAN网络的tensorflow实现:<a href="https://github.com/ericjang/genadv_tutorial" target="_blank" rel="noopener">genadv_tutorial</a><br>其一维训练数据分布如下所示，是一个均值-1， $\sigma =1$ 的正态分布。</p><center><br><img src="http://7xritj.com1.z0.glb.clouddn.com/public/16-11-24/4360345.jpg" alt=""><br></center><p>我们结合代码和上面的理论内容来分析下GAN的具体实现，判别模型的优化目标为最大化下式，其中 $D_1(x)$ 表示判别真实数据, $D_2(G(z))$ 表示对生成的数据进行判别， 其中 $D_1$ 和 $D_2$ 是共享参数的， 也就是说是同一个判别模型。</p><p>$$\log(D_1(x))+\log(1-D_2(G(z)))$$</p><p>对应的python代码如下：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">batch=tf.Variable(<span class="number">0</span>)</span><br><span class="line">obj_d=tf.reduce_mean(tf.log(D1)+tf.log(<span class="number">1</span>-D2))</span><br><span class="line">opt_d=tf.train.GradientDescentOptimizer(<span class="number">0.01</span>)</span><br><span class="line">              .minimize(<span class="number">1</span>-obj_d,global_step=batch,var_list=theta_d)</span><br></pre></td></tr></table></figure></p><p>为了优化 $G$, 我们想要最大化 $D_2(x’)$(成功欺骗 $D$ )，因此 $G$ 的优化函数为：</p><p>$$\log(D_2(G(z)))$$</p><p>对应的python代码：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">batch=tf.Variable(<span class="number">0</span>)</span><br><span class="line">obj_g=tf.reduce_mean(tf.log(D2))</span><br><span class="line">opt_g=tf.train.GradientDescentOptimizer(<span class="number">0.01</span>)</span><br><span class="line">              .minimize(<span class="number">1</span>-obj_g,global_step=batch,var_list=theta_g)</span><br></pre></td></tr></table></figure><p>定义好优化目标后，下面就是训练的主要代码了：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Algorithm 1, GoodFellow et al. 2014</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(TRAIN_ITERS):</span><br><span class="line">    x= np.random.normal(mu,sigma,M) <span class="comment"># sample minibatch from p_data</span></span><br><span class="line">    z= np.random.random(M)  <span class="comment"># sample minibatch from noise prior</span></span><br><span class="line">    sess.run(opt_d, &#123;x_node: x, z_node: z&#125;) <span class="comment"># update discriminator D</span></span><br><span class="line">    z= np.random.random(M) <span class="comment"># sample noise prior</span></span><br><span class="line">    sess.run(opt_g, &#123;z_node: z&#125;) <span class="comment"># update generator G</span></span><br></pre></td></tr></table></figure></p><p>下面是实验的结果，左图是训练之间的数据，可以看到生成数据的分布和训练数据相差甚远；右图是训练后的数据分析，生成数据和训练数据的分布接近了很多，且此时判别模型的输出分布在0.5左右，说明生成模型顺利的欺骗到判别模型。</p><figure><br>    <img src="http://7xritj.com1.z0.glb.clouddn.com/public/16-11-29/64984825.jpg"><br><br></figure><h2 id="DCGAN"><a href="#DCGAN" class="headerlink" title="DCGAN"></a>DCGAN</h2><p>GAN的一个改进模型就是DCGAN。这个网络的生成模型的输入为一个100个符合均匀分布的随机数（通常被称为<code>code</code>），然后产生输出为64x64x3的输出图像(下图中 $G(z)$ ), 当<code>code</code>逐渐递增时，生成模型输出的图像也逐渐变化。下图中的生产模型主要由<a href="http://buptldy.github.io/2016/10/29/2016-10-29-deconv/" target="_blank" rel="noopener">反卷积层</a>构成, 判别模型就由简单的卷积层组成，最后输出一个判断输入图片是否为真实数据的概率 $P(x)$ 。</p><center><br><img src="http://7xritj.com1.z0.glb.clouddn.com/public/16-11-27/33141448.jpg"><br></center><p>下图为随着迭代次数，DCGAN产生图像的变化过程。</p><center><br><img src="https://openai.com/assets/research/generative-models/learning-gan-ffc4c09e6079283f334b2485ae663a6587d937a45ebc1d8aeac23a67889a3cf5.gif"><br></center><p>训练好网络之后，其中的生成模型和判别模型都有其他的作用。一个训练好的判别模型能够用来对数据提取特征然后进行分类任务。通过输入随机向量生成模型可以产生一些非常有意思的的图片，如下图所示，当输入空间平滑变化时，输出的图片也在平滑转变。</p><center><br><img src="http://7xritj.com1.z0.glb.clouddn.com/public/16-11-25/42718244.jpg"><br></center><p>还有一个非常有意思的属性就是如果对生产模型的输入向量做一些简单的数学运算，那么学习的特征输出也有同样的性质，如下图所示。</p><center><br><img src="https://fb-s-a-a.akamaihd.net/h-ak-xfp1/t39.2365-6/13438466_275356996149902_2140145659_n.jpg"><br></center><h2 id="GAN的训练及其改进"><a href="#GAN的训练及其改进" class="headerlink" title="GAN的训练及其改进"></a>GAN的训练及其改进</h2><p>上面使用GAN产生的图像虽然效果不错，但其实GAN网络的训练过程是非常不稳定的。<br>通常在实际训练GAN中所碰到的一个问题就是判别模型的收敛速度要比生成模型的收敛速度要快很多，通常的做法就是让生成模型多训练几次来赶上生成模型，但是存在的一个问题就是通常生成模型和判别模型的训练是相辅相成的，理想的状态是让生成模型和判别模型在每次的训练过程中同时变得更好。判别模型理想的minimum loss应该为0.5，这样才说明判别模型分不出是真实数据还是生成模型产生的数据。</p><h3 id="Improved-GANs"><a href="#Improved-GANs" class="headerlink" title="Improved GANs"></a>Improved GANs</h3><p><a href="https://arxiv.org/pdf/1606.03498v1.pdf" target="_blank" rel="noopener">Improved techniques for training GANs</a>这篇文章提出了很多改进GANs训练的方法，其中提出一个想法叫<code>Feature matching</code>，之前判别模型只判别输入数据是来自真实数据还是生成模型。现在为判别模型提出了一个新的目标函数来判别生成模型产生图像的统计信息是否和真实数据的相似。让 $f(x)$ 表示判别模型中间层的输出， 新的目标函数被定义为 $|| \mathbb{E}<em>{x \sim p</em>{data}}f(x)  -  \mathbb{E}_{z \sim p_z}f(G(z))||^2_2$, 其实就是要求真实图像和合成图像在判别模型中间层的距离要最小。这样可以防止生成模型在当前判别模型上过拟合。</p><h3 id="InfoGAN"><a href="#InfoGAN" class="headerlink" title="InfoGAN"></a>InfoGAN</h3><p>到这可能有些同学会想到，我要是想通过GAN产生我想要的特定属性的图片改怎么办？普通的GAN输入的是随机的噪声，输出也是与之对应的随机图片，我们并不能控制输出噪声和输出图片的对应关系。这样在训练的过程中也会倒置生成模型倾向于产生更容易欺骗判别模型的某一类特定图片，而不是更好的去学习训练数据的分布，这样对模型的训练肯定是不好的。InfoGAN的提出就是为了解决这一问题，通过对输入噪声添加一些类别信息以及控制图像特征(如mnist数字的角度和厚度)的隐含变量来使得生成模型的输入不在是随机噪声。虽然现在输入不再是随机噪声，但是生成模型可能会忽略这些输入的额外信息还是把输入当成和输出无关的噪声，所以需要定义一个生成模型输入输出的互信息，互信息越高，说明输入输出的关联越大。</p><p>下面三张图片展示了通过分别控制输入噪声的类别信息，数字角度信息，数字笔画厚度信息产生指定输出的图片，可以看出InfoGAN产生图片的效果还是很好的。</p><center><br><img src="http://7xritj.com1.z0.glb.clouddn.com/public/16-11-29/839516.jpg"><br><img src="http://7xritj.com1.z0.glb.clouddn.com/public/16-11-29/10937636.jpg"><br><img src="http://7xritj.com1.z0.glb.clouddn.com/public/16-11-29/2995738.jpg"><br></center><h3 id="其他应用"><a href="#其他应用" class="headerlink" title="其他应用"></a>其他应用</h3><p>GAN网络还有很多其他的有趣应用，比如下图所示的根据<code>一句话来产生对应的图片</code>，可能大家都有了解karpathy大神的<a href="https://github.com/karpathy/neuraltalk2" target="_blank" rel="noopener"><code>看图说话</code></a>, 但是GAN有能力把这个过程给反过来。</p><center><br><img src="http://7xritj.com1.z0.glb.clouddn.com/public/16-11-29/51572272.jpg"><br></center><p>还有下面这个“<a href="https://github.com/bamos/dcgan-completion.tensorflow" target="_blank" rel="noopener">图像补全</a>”, 根据图像剩余的信息来匹配最佳的补全内容。</p><center><br><img src="https://github.com/bamos/dcgan-completion.tensorflow/raw/master/completion.compressed.gif"><br></center><p>还有下面这个<a href="https://swarbrickjones.wordpress.com/2016/01/13/enhancing-images-using-deep-convolutional-generative-adversarial-networks-dcgans/" target="_blank" rel="noopener">图像增强</a>的例子，有点去马赛克的意思，效果还是挺不错的:-D。</p><center><br><img src="http://7xritj.com1.z0.glb.clouddn.com/public/16-11-29/71438836.jpg"><br></center><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>颜乐存说过，2016年深度学习领域最让他兴奋技术莫过于对抗学习。对抗学习确实是解决非监督学习的一个有效方法，而无监督学习一直都是人工智能领域研究者所孜孜追求的“终极目标”之一。</p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://arxiv.org/abs/1406.2661" target="_blank" rel="noopener">Generative Adversarial Networks</a></p><p><a href="https://arxiv.org/abs/1511.06434" target="_blank" rel="noopener">Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks</a></p><p><a href="https://arxiv.org/abs/1606.03498" target="_blank" rel="noopener">Improved Techniques for Training GANs</a></p><p><a href="https://arxiv.org/abs/1606.03657" target="_blank" rel="noopener">InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://7xritj.com1.z0.glb.clouddn.com/public/16-11-27/13513902.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Deep Learning" scheme="http://yoursite.com/tags/Deep-Learning/"/>
+    
+      <category term="Unsupervised Learning" scheme="http://yoursite.com/tags/Unsupervised-Learning/"/>
     
   </entry>
   
