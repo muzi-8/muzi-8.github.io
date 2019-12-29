@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-19T12:57:53.997Z</updated>
+  <updated>2019-01-18T19:56:13.471Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,29 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Google TPU 线下分享交流会</title>
-    <link href="http://yoursite.com/2019/04/19/Google%20Tpu%20%E7%BA%BF%E4%B8%8B%E5%88%86%E4%BA%AB%E4%BA%A4%E6%B5%81%E4%BC%9A/"/>
-    <id>http://yoursite.com/2019/04/19/Google Tpu 线下分享交流会/</id>
-    <published>2019-04-19T07:50:26.000Z</published>
-    <updated>2019-04-19T12:57:53.997Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>此时的实验室静悄悄，只能听见键盘的敲击声，而我内心确是汹涌澎湃，激动之情难以言表</p><p>上周五到这周五，整整一周的时间，基本上每天都是只休息5个小时，然后就高负荷“工作”，修改paper，做实验写代码跑代码，获得paper数据，做自己的开题PPT，写自己的开题报告，阅读最新文献，刷课（李宏毅机器学习2017、严蔚敏数据结构），每天早上第一个到实验室，凌晨最后一个离开实验室，仿佛又回到了自己本科二年级的状态，回到了自己中学二年级的状态。 虽然很累，但是却很充实。<br><a id="more"></a></p><h1 id="TPU分享交流"><a href="#TPU分享交流" class="headerlink" title="TPU分享交流"></a>TPU分享交流</h1><p>忙里偷闲，参加了线下TPU分享交流，实际上自己对于TPU之前一无所知，因为对于我们而言，无需太关注硬件设计，只要用好硬件资源即可。现对TPU做一简单的科普介绍</p><ul><li>TPU（tensor processing unit）专门为Google的深度学习框架tensorflow框架而设计。<h2 id="Google的AI芯片"><a href="#Google的AI芯片" class="headerlink" title="Google的AI芯片"></a>Google的AI芯片</h2></li><li><p>cpu 包括运算器（ALU，Arithmetic and Logic Unit）和控制器（CU,Control Unit）两大部件。CPU从程序计数器取到指令，通过指令总线将指令送至译码器，将转译后的指令交给时序发生器与操作控制器，然后运算器对数据进行计算，通过数据总线将数据存至数据缓存寄存器。CPU遵循的是冯诺依曼架构，核心就是：存储程序，顺序执行。但是不足之处在于效率不是很高，能否将多个处理器放在同一块芯片上呢？</p></li><li><p>GPU（Graphics Processing Unit）图形处理器，当前最顶级的CPU只有4核或者6核，模拟出8个或者12个处理线程来进行运算，但是普通级别的GPU就包含了成百上千个处理单元。虽然GPU是为了图像处理而生的，但是它还被用来进行科学计算、数值分析等任务，因此被认为是一种较通用的芯片。</p></li><li><p>FRGA（Field Programmable Gate Array）运用硬件描述语言描述逻辑电路，即一种可以编程的芯片。</p></li><li><p>TPU(Tensor processing unit)一种ASIC(专用集成电路)，一款专用机器学习算法的专用芯片。TPU的核心是脉动阵列，如下图所示：</p></li></ul><p><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/Google%20Tpu/%E8%84%89%E5%8A%A8%E9%98%B5%E5%88%97.PNG" alt=""></p><h2 id="分享成果"><a href="#分享成果" class="headerlink" title="分享成果"></a>分享成果</h2><p><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/Google%20Tpu/result.jpg" alt=""></p><p><center>项目成员</center><br><img src="https://hexo-1258540405.cos.ap-beijing.myqcloud.com/blog/Google%20Tpu/webwxgetmsgimg.jpg" alt=""></p><h2 id="实战分享"><a href="#实战分享" class="headerlink" title="实战分享"></a>实战分享</h2><ol><li><a href="https://bupt.github.io/tpu/blog/chat-about-tpu-1/" target="_blank" rel="noopener">闲话TPU</a></li><li><a href="https://docs.google.com/presentation/d/1-QjhxMxAG955i51BAihilcoLDtBhDDpZjgT4k4u05MQ/edit#slide=id.p" target="_blank" rel="noopener">段嘉铭：TPU for Beginners</a></li></ol><h2 id="分享感想"><a href="#分享感想" class="headerlink" title="分享感想"></a>分享感想</h2><ol><li>tensorflow编程自己应该也需要熟练，因为要使用TPU，必须要会TF，但是目前tf2.0并不支持TPU</li><li>自己应该尝试用一下TPU，涉及到colab（谷歌内部类 Jupyter Notebook 的交互式 Python 环境，属于云服务的一种）、GCP（Google Cloud Platform）使用等</li></ol><h2 id="意外收获"><a href="#意外收获" class="headerlink" title="意外收获"></a>意外收获</h2><p>认识了SIGAI公司的雷明先生，了解了彩云科技公司等，但是最让我兴奋与激动的是得知<a href="https://realai.ai/" target="_blank" rel="noopener">瑞莱智慧（RealAI）</a> ：是由自己一直关注的清华朱军团队创立的一个初创公司，目标在于打造可理解的新一代人工智能，与自己的博士课题完全契合。自己的心中终于有了一个意向公司，终于有了一个目标，唯有努力。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;此时的实验室静悄悄，只能听见键盘的敲击声，而我内心确是汹涌澎湃，激动之情难以言表&lt;/p&gt;
-&lt;p&gt;上周五到这周五，整整一周的时间，基本上每天都是只休息5个小时，然后就高负荷“工作”，修改paper，做实验写代码跑代码，获得paper数据，做自己的开题PPT，写自己的开题报告，阅读最新文献，刷课（李宏毅机器学习2017、严蔚敏数据结构），每天早上第一个到实验室，凌晨最后一个离开实验室，仿佛又回到了自己本科二年级的状态，回到了自己中学二年级的状态。 虽然很累，但是却很充实。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="硬件资源" scheme="http://yoursite.com/categories/%E7%A1%AC%E4%BB%B6%E8%B5%84%E6%BA%90/"/>
-    
-    
-      <category term="Network Inference" scheme="http://yoursite.com/tags/Network-Inference/"/>
-    
-  </entry>
   
   <entry>
     <title>解读文章:Visual Explanations from Deep Networks via Gradient-based Localization</title>
